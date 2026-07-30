@@ -1,0 +1,315 @@
+{
+  "topic": "pharmacology",
+  "title": "麻醉藥理學",
+  "intro": "麻醉藥理學在歷屆試題中約佔 55 題，是進階科的核心得分區。命題方向明顯偏向「臨床情境選藥」與「副作用／禁忌症辨識」：常見題型是給一段病人情境（腎衰竭、換肝、長期臥床、心臟移植後）問該用或該避免哪個藥，或以「下列何者錯誤」考各藥的特性細節。opioids（15 題）與肌肉鬆弛劑（12 題）兩子題合計佔近半數，務必優先熟讀。",
+  "sections": [
+    {
+      "subtopic": "inhalational",
+      "title": "吸入性麻醉藥",
+      "exam_focus": "MAC 的定義、單位與影響因素幾乎年年入題（109 年同一份考卷考了兩次）；另考過 desflurane 需加熱加壓揮發器的原理，以及吸入麻醉藥的循環影響機轉。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "MAC 的精確定義（考點核心）",
+          "content": "**MAC（Minimum Alveolar Concentration）＝ 在一大氣壓下，使 50% 病人對標準切皮刺激不產生「體動」反應的肺泡濃度**。三個關鍵字必須逐字記牢：\n1. **50%**，不是 95%；\n2. 終點是**體動（movement）**，與「消除疼痛感覺」或「疼痛反射」無關——考題曾用「沒有移動及疼痛反射」當陷阱選項；\n3. 單位是**體積百分比（%）**，不是 mmHg、ml/min 或 cmH2O。\n\n**MAC 不受影響的因素**：性別、麻醉持續時間（吸入麻醉藥不產生急性耐受性）、體重、手術種類。\n**MAC 會下降的因素**：年齡增加（40 歲後每 10 年約下降 6%）、低體溫、貧血、低血鈉、懷孕、合併使用 opioid 或 α2 促效劑、**急性**酒精中毒。\n**MAC 會上升的因素**：慢性酗酒、慢性 opioid 使用、發燒、高血鈉、交感神經興奮劑。"
+        },
+        {
+          "type": "table",
+          "heading": "常考物理性質與 MAC 值",
+          "columns": ["藥物", "MAC（成人，純氧）", "血氣分配係數", "沸點／20°C 蒸氣壓", "揮發器"],
+          "rows": [
+            ["Desflurane", "約 6.0%", "0.42（最低，誘導甦醒最快）", "22.8°C／約 669 mmHg", "Tec 6 加熱加壓型（39°C）"],
+            ["Sevoflurane", "約 2.0%", "0.65", "58.5°C／157 mmHg", "一般溫度補償可變旁路型"],
+            ["Isoflurane", "約 1.15%", "1.4", "48.5°C／240 mmHg", "一般可變旁路型"],
+            ["Halothane", "約 0.75%", "2.4（最高，甦醒最慢）", "50.2°C／243 mmHg", "一般可變旁路型"],
+            ["N2O", "約 104%（＞1 atm）", "0.46", "—", "流量計給氣"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "為什麼只有 desflurane 需要加熱加壓揮發器",
+          "content": "Desflurane 沸點僅 **22.8°C**，接近室溫；20°C 時飽和蒸氣壓已達約 **669 mmHg**（接近一大氣壓）。放在傳統可變旁路揮發器中，輸出濃度會隨室溫與蒸發降溫劇烈波動而無法控制。故使用 **Tec 6 型揮發器**：以電熱將藥槽維持在 **39°C**（此時蒸氣壓約 1500 mmHg，約 2 大氣壓），形成獨立的加壓純蒸氣源，再由電子閥依設定濃度注入新鮮氣流。其餘吸入麻醉藥沸點與蒸氣壓皆遠離室溫，一般揮發器即可。"
+        },
+        {
+          "type": "text",
+          "heading": "循環系統影響",
+          "content": "吸入性麻醉藥降低血壓的機轉是**抑制心肌收縮力 ＋ 擴張周邊血管（降低 SVR）**，兩者並存。臨床提醒：\n- 吸入麻醉藥**不是**理想的第一線術中降壓藥（降壓同時抑制心肌、無法精準調控）。\n- **Desflurane 快速增高濃度時會誘發交感神經激活，造成心跳與血壓上升，且與濃度變化速率相關**（並非「與濃度無關」）。\n- 老年病人對降壓作用**更敏感**，降壓效果與年齡有關。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {"a": "MAC", "b": "MAC95", "note": "MAC 是 50% 病人不體動；MAC95（約 1.2–1.3 MAC）才對應 95%。考題若問「MAC 的臨床定義」，1.3 MAC＝95% 屬衍生數值而非定義本身。"},
+            {"a": "急性酒精中毒", "b": "慢性酗酒", "note": "急性中毒有 CNS 抑制加成作用 → 麻醉藥**減量**；慢性酗酒產生交叉耐受 → 麻醉藥**增量**。"},
+            {"a": "血氣分配係數低（desflurane 0.42）", "b": "血氣分配係數高（halothane 2.4）", "note": "係數愈低＝血中溶解度愈低＝肺泡濃度上升愈快＝誘導與甦醒愈快。"}
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "109_advanced_Q50 四個選項都很像對的：命題者要的是「MAC 的**臨床定義**」，答案是「麻醉時間長短不影響 MAC」。把「疼痛反射」寫進定義（A）、把 1.3 MAC＝95%（C）當成定義，都是誘答。另外「MAC 會因性別而異」是常見錯誤敘述——**MAC 不因性別而異**。"
+        }
+      ],
+      "question_refs": ["109_advanced_Q2", "109_advanced_Q25", "109_advanced_Q39", "109_advanced_Q50", "109_general_Q17"]
+    },
+    {
+      "subtopic": "iv_anesthetics",
+      "title": "靜脈麻醉藥",
+      "exam_focus": "考題集中於各藥的「副作用與禁忌」對照（propofol 的乳劑配方、etomidate 抑制腎上腺、ketamine 分泌物多、dexmedetomidine 心搏過緩），以及恢復室延遲甦醒時「該給哪個拮抗劑」的情境判斷。",
+      "blocks": [
+        {
+          "type": "table",
+          "heading": "各藥核心特性與常考陷阱",
+          "columns": ["藥物", "必記特性", "常考錯誤敘述"],
+          "rows": [
+            ["Propofol", "脂肪乳劑（大豆油＋卵磷脂）；抑制上呼吸道反射強，**適合放置 LMA**；維持腦血管自主調節能力優於高濃度吸入麻醉藥；注射痛", "「含乳化劑故不易細菌生長」→ 錯，**易滋生細菌**；未稀釋開瓶後 12 小時內更換、已稀釋不超過 6 小時"],
+            ["Fospropofol", "propofol 的**水溶性前驅藥（prodrug）**，注射疼痛較少", "誤認為與 propofol 同為脂肪乳劑"],
+            ["Etomidate", "血流動力學最穩定；**抑制腎上腺皮質功能（11β-hydroxylase）**", "誤以為可長期輸注鎮靜"],
+            ["Ketamine", "**不明顯抑制呼吸**、支氣管擴張；**分泌物多**（需併用抗膽鹼藥）；增加 SVR 與後負荷", "誤以為會抑制呼吸"],
+            ["Thiopental（barbiturate）", "降低 CMRO2；**無止痛效果**（低劑量甚至痛覺過敏）；**無特異拮抗劑**", "「有很好的止痛效果」、「拮抗劑為 flumazenil」"],
+            ["Midazolam", "拮抗劑為 **flumazenil**；產生**順向性（anterograde）失憶**", "寫成 retrograde amnesia；寫成 naloxone 拮抗"],
+            ["Dexmedetomidine", "α2 促效劑；**呼吸抑制輕微，適合清醒插管**；消除半衰期約 2 小時；輕度降 CBF 但不降 ICP", "「顯著呼吸抑制」、「半衰期＞6 小時」、「可單獨取代 opioid 達強效鎮痛」、寫成 α2 **拮抗劑**"],
+            ["Remifentanil", "血漿酯酶水解，半衰期 3–5 分鐘，無活性代謝物，不受肝腎影響", "忽略其仍有呼吸抑制與胸壁僵硬風險"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "恢復室延遲甦醒：解毒劑怎麼選",
+          "content": "這是反覆出現的情境題型，解法固定為「回推術中給了什麼、看瞳孔、看半衰期」：\n- **瞳孔縮小 ＋ 呼吸變慢 ＋ 用過 morphine／alfentanil／fentanyl** → **naloxone**（尤其腎衰竭病人 morphine 的活性代謝物 M6G 會蓄積）。\n- **用過高劑量 midazolam（如 7 mg）、瞳孔無縮小** → **flumazenil**。\n- 判斷時要排除半衰期極短的藥：remifentanil（3–5 分鐘）與已代謝完的 propofol 通常不是元凶。\n- 若病人「可抬頭十秒」代表肌力已恢復，就**不是**殘餘肌鬆劑的問題，不選 neostigmine／sugammadex。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "**Propofol 最不適合的病人是對大豆、花生嚴重過敏者**（乳劑含大豆油與蛋卵磷脂，有交叉過敏疑慮）。腎功能不全（CKD stage 3）、肥胖、癲癇病人**都不是**propofol 的禁忌——癲癇病人使用 propofol 反而安全。另外注意「propofol 對上呼吸道反射的抑制比 thiopental **強**」，不是弱，這是它適合放 LMA 的原因。"
+        }
+      ],
+      "question_refs": ["109_advanced_Q31", "109_advanced_Q66", "110_advanced_Q51", "111_advanced_Q78", "112_advanced_Q46", "112_advanced_Q62", "114_advanced_Q31"]
+    },
+    {
+      "subtopic": "nmba",
+      "title": "肌肉鬆弛劑與拮抗劑",
+      "exam_focus": "12 題中有 6 題圍繞 succinylcholine 的禁忌與高血鉀風險，另有 sugammadex／neostigmine 的劑量與適用時機、TOF 監測部位，以及「哪些狀況會延長非去極化阻斷」。",
+      "blocks": [
+        {
+          "type": "table",
+          "heading": "拮抗劑劑量對照（112_advanced_Q55 直接命題）",
+          "columns": ["阻斷深度", "監測值", "建議用藥與劑量"],
+          "rows": [
+            ["淺（有殘餘）", "TOF ratio 0.4–0.9", "neostigmine 0.02 mg/kg"],
+            ["中度", "TOF count 2–3", "neostigmine 0.05 mg/kg；或 sugammadex 2 mg/kg"],
+            ["深度", "TOF count 0–1、PTC 1–2", "**不可用 neostigmine（有天花板效應）** → sugammadex 4 mg/kg"],
+            ["給 rocuronium 1.2 mg/kg 後約 3 分鐘須立即逆轉", "—", "sugammadex 16 mg/kg"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Succinylcholine：禁忌與副作用（最高頻考點）",
+          "content": "**副作用**：肌束顫動（fasciculation）→ 術後肌痛；**血鉀上升約 0.5 mEq/L**；**眼壓暫時上升約 6–12 mmHg，持續 5–10 分鐘**；心搏過緩甚至停止（小兒尤其，重複給藥時）；牙關緊閉（masseter spasm，惡性高熱警兆）；顱內壓短暫上升。\n\n**高血鉀風險升高的族群（乙醯膽鹼受體上調）**：燒傷、擠壓傷、脊髓損傷、**長期臥床廢用性萎縮**、amyotrophic lateral sclerosis（ALS）、Guillain–Barré syndrome、Duchenne 肌肉失養症。\n**例外**：**重症肌無力（MG）** 的病變在 nAChR 數目減少，反而對 succinylcholine 有**抵抗性**，較不易引起高血鉀（但需增加劑量）。\n\n**禁忌**：高血鉀、惡性高熱本人或家族史（絕對）、顱內高壓（相對）。**孕婦不是禁忌**——succinylcholine 為四級銨結構、高度離子化、幾乎不通過胎盤，且孕婦屬飽胃高風險需快速誘導，它正是產科全身麻醉 RSI 的標準用藥。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {"a": "去極化（succinylcholine）", "b": "非去極化（rocuronium 等）", "note": "去極化：有肌束顫動、**大劑量或持續使用會出現 phase II block**、neostigmine 無法逆轉（反而延長）。非去極化：無肌束顫動、可被抗膽鹼酯酶逆轉、**不會產生 phase II block**、作用被吸入麻醉藥增強。"},
+            {"a": "Atracurium", "b": "Cisatracurium", "note": "兩者皆走 Hofmann 消除（不依賴肝腎）。但 atracurium 會**釋放組織胺**（氣喘病人不利）且代謝物 **laudanosine 有誘發癲癇之虞**；cisatracurium 幾乎不釋組織胺，是**換肝／肝腎功能不全**的首選。"},
+            {"a": "Sugammadex 有效對象", "b": "無效對象", "note": "只包裹**胺基甾體類**：rocuronium、vecuronium 有效；**cisatracurium、atracurium、succinylcholine 無效**。"},
+            {"a": "高血鎂", "b": "低血鎂", "note": "**高**血鎂抑制運動神經末梢 Ca2+ 內流並降低終板對 ACh 的敏感性 → **延長**非去極化阻斷；**低血鎂不會延長**。這一題（111_advanced_Q45）錯很多人。"}
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "會延長非去極化阻斷的因素（整理）",
+          "content": "低體溫、呼吸性酸中毒、**高**血鎂、低血鈣、低血鉀、吸入性麻醉藥、胺基醣類（aminoglycoside）抗生素、鈣離子阻斷劑、dantrolene、局部麻醉藥、肝腎功能不全。"
+        },
+        {
+          "type": "text",
+          "heading": "TOF 監測部位：為什麼選內收拇肌",
+          "content": "橫膈膜、喉部內收肌、眼輪匝肌等中央肌群血流豐富，**起效快、恢復也快**且對肌鬆劑相對阻抗；周邊的 **內收拇肌（adductor pollicis）血流少、最敏感、恢復最慢**。正因為它最晚恢復，以它作 TOF 監測才是**最保守、最安全**的指標——內收拇肌 TOF ratio ≥ 0.9 時，橫膈與喉部早已完全恢復，可據以判定拔管安全。若改用眼輪匝肌會**高估**恢復程度。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "誤給肌鬆劑（如脊髓麻醉病人被誤打 rocuronium）時，**最不適當的處置是立刻打 neostigmine**：深度阻斷下 neostigmine 無效且可能引發心律不整。正確順序是面罩通氣、備插管、上神經肌肉監測、必要時給 sugammadex。另外 sugammadex **以原型經腎排除（＞80%）**，不是肝代謝，腎功能不全需謹慎。"
+        }
+      ],
+      "question_refs": ["109_advanced_Q8", "109_advanced_Q75", "109_advanced_Q79", "110_advanced_Q72", "111_advanced_Q45", "112_advanced_Q55", "113_general_Q73", "114_general_Q71"]
+    },
+    {
+      "subtopic": "local_anesthetics",
+      "title": "局部麻醉藥",
+      "exam_focus": "題數不多（3 題）但每題都是硬知識：ester 與 amide 的分類辨識、加腎上腺素的禁忌部位、以及 bupivacaine 心臟毒性最強的理由。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "分類：一個口訣解決",
+          "content": "局部麻醉藥為弱鹼性，由芳香環與胺基以**酯鍵（ester）**或**醯胺鍵（amide）**連結。\n**辨識法：藥名中「-caine」之前的字根裡有沒有第二個字母 i**。\n- **Amide 類（有兩個 i）**：l**i**docaine、mep**i**vacaine、bup**i**vacaine、rop**i**vacaine、pr**i**locaine、levobup**i**vacaine → 肝臟 CYP 代謝，過敏罕見。\n- **Ester 類（只有一個 i）**：**tetracaine**、procaine、chloroprocaine、cocaine、benzocaine → 血漿膽鹼酯酶水解，代謝物 PABA 較易過敏。"
+        },
+        {
+          "type": "table",
+          "heading": "常用藥物與最大單次劑量",
+          "columns": ["藥物", "類別", "最大劑量（不加腎上腺素）", "加腎上腺素後", "心臟毒性"],
+          "rows": [
+            ["Lidocaine", "amide", "約 4.5 mg/kg", "約 7 mg/kg", "低（CC/CNS ratio 約 7.1）"],
+            ["Bupivacaine", "amide", "約 2–2.5 mg/kg", "約 3 mg/kg", "**最高（CC/CNS ratio 約 2.0）**"],
+            ["Ropivacaine／Levobupivacaine", "amide（S-(−) 單一鏡像異構物）", "約 3 mg/kg", "—", "明顯低於外消旋 bupivacaine"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Bupivacaine 心臟毒性最強的機轉",
+          "content": "脂溶性最高，與心肌 Na+ 通道結合呈「**快進慢出（fast-in, slow-out）**」，舒張期解離不完全而蓄積，易誘發折返性心室心律不整。其 **CC/CNS ratio（心血管崩潰劑量／抽搐劑量）僅約 2.0**，代表中樞毒性前驅症狀一出現，心血管崩潰緊接而來；lidocaine 約 7.1，安全緩衝大得多。\n\n**LAST 的典型演進**：口周與舌頭麻木、金屬味、耳鳴、視覺障礙 → 躁動、抽搐、意識喪失 → 心律不整、心血管崩潰。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {"a": "可加腎上腺素", "b": "禁用腎上腺素", "note": "腋下阻斷、硬膜外、脊髓腔可加（監測血管內誤注、延長時效）。**靜脈區域阻斷（Bier's block）禁用**——止血帶放開時大量腎上腺素湧入循環會造成嚴重心血管毒性；末梢（手指、腳趾、陰莖、耳鼻）傳統上亦避免。"},
+            {"a": "是否超過最大劑量", "b": "藥物本身的心臟毒性", "note": "LAST 可在**未超過**建議上限時因血管內誤注或吸收過快而發生。111_advanced_Q25 的病人 50 mg bupivacaine ÷ 40 kg＝1.25 mg/kg，其實低於 2–2.5 mg/kg 上限，仍最可能出現心臟毒性——判別重點是**藥物毒性強度**，不是有沒有超量。"}
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "Tetracaine 名稱看起來像 amide，實為 **ester**，是選擇題最愛的誘答。用「兩個 i」口訣可穩定辨識。"
+        }
+      ],
+      "question_refs": ["109_advanced_Q27", "110_advanced_Q52", "111_advanced_Q25"]
+    },
+    {
+      "subtopic": "opioids",
+      "title": "鴉片類與止痛藥",
+      "exam_focus": "本子題 15 題為藥理學之最。反覆出現的是：opioid 的受體與副作用組合、特定藥物的代謝陷阱（meperidine、morphine、fentanyl、remifentanil），以及 NSAIDs／acetaminophen 的禁忌族群選擇題。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "受體與副作用（幾乎必考）",
+          "content": "**μ（Mu）受體**是主要作用受體，負責**鎮痛、呼吸抑制、欣快感、便秘、縮瞳、成癮**。考題常以「呼吸抑制透過哪個受體」直接命題，答案就是 μ。\n\n**副作用必背的「反方向」組合**（選項最愛寫反）：\n- **縮瞳（miosis）**，不是散瞳\n- **便秘**，不是腹瀉\n- **心搏過緩**，不是心搏過速（morphine 另有組織胺釋放）\n- 噁心嘔吐、瘙癢、尿滯留、呼吸抑制\n\n**呼吸抑制機轉**：抑制延腦呼吸中樞，使 CO2 反應曲線右移、**低氧驅動（hypoxic drive）下降**、呼吸暫停閾值（apneic threshold）**上升**、PaCO2 上升。"
+        },
+        {
+          "type": "table",
+          "heading": "各 opioid 的關鍵差異",
+          "columns": ["藥物", "必記重點", "高危族群"],
+          "rows": [
+            ["Morphine", "活性代謝物 **M6G 經腎排除**，腎衰竭時蓄積 → 延遲呼吸抑制", "腎衰竭需減量／改藥"],
+            ["Meperidine（Demerol）", "代謝物 **normeperidine** 具神經興奮性 → 震顫、肌陣攣、**癲癇**；成癮性高", "老年、腎功能不全禁長期使用"],
+            ["Fentanyl", "脂溶性高，可 IV／**經皮貼片**／口腔黏膜給藥；IV 效價 **morphine : fentanyl ≈ 100 : 1**（morphine 10 mg ≈ fentanyl 100 mcg）", "貼片需 **12–17 小時**才達穩定血中濃度，不可用於急性疼痛立即止痛"],
+            ["Remifentanil", "**血漿酯酶水解，半衰期 3–5 分鐘**，無活性代謝物，不受肝腎功能影響；門診手術首選", "仍有呼吸抑制與胸壁僵硬"],
+            ["Alfentanil", "起效快、作用短，但仍會蓄積；過量表現與其他 opioid 相同", "老年、劑量偏高時延遲甦醒"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "非鴉片類止痛藥對照",
+          "items": [
+            {"a": "傳統 NSAIDs", "b": "Celecoxib（COX-2 選擇性）", "note": "傳統 NSAIDs 同時抑制 COX-1 與 COX-2，抑制 COX-1 才是傷胃、抑制血小板的來源；celecoxib 選擇性抑 COX-2，**胃腸道出血較少**，但**長期使用增加心血管事件風險**（非降低）。"},
+            {"a": "NSAIDs", "b": "Acetaminophen", "note": "NSAIDs 有抗發炎作用但**會掩蓋發炎徵象、抑制血小板、影響腎血流**；acetaminophen **無抗發炎作用、不影響血小板、與雷氏症候群無關**，是胃炎、血小板低下、出血傾向病人的退燒首選。"},
+            {"a": "肥胖病人 opioid 劑量基準", "b": "常見錯誤", "note": "應依 **LBW（淨體重）／IBW** 計算而非總體重（TBW），以免過量。（惟 fentanyl、sufentanil 的分布容積隨總體重增加，臨床上另有以 TBW 校正輸注的作法。）"}
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "NSAIDs 的禁忌族群（選「最適合使用」的題型）",
+          "content": "**相對禁忌／高風險**：胃潰瘍（COX-1 抑制傷胃黏膜）、慢性腎病（腎血流依賴前列腺素）、出血傾向或血小板低下（抑制血小板）、氣喘（aspirin-exacerbated respiratory disease）、心衰竭。\n**不是禁忌**：憂鬱症、糖尿病等與上述機轉無關的疾病——考題就是用「憂鬱症」當正解。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "「Fentanyl 貼片使用後立即產生藥效，可停止原止痛藥」是錯的（需 12–17 小時）。「長期使用不會出現戒斷症候群」也是錯的。另外 NSAIDs 雖無天花板效應的說法常被拿來混淆，但**無法取代重度癌痛的強效 opioid**。"
+        }
+      ],
+      "question_refs": ["109_advanced_Q13", "109_general_Q32", "110_advanced_Q3", "110_advanced_Q68", "111_advanced_Q4", "111_advanced_Q31", "112_advanced_Q4", "113_advanced_Q32"]
+    },
+    {
+      "subtopic": "adjuncts",
+      "title": "輔助用藥",
+      "exam_focus": "命題分散但有跡可循：升壓劑的機轉選擇（心臟移植去神經、心因性休克、產科脊麻低血壓）、抗膽鹼藥的禁忌、利尿劑作用部位，以及 dexmedetomidine 與止吐藥。",
+      "blocks": [
+        {
+          "type": "table",
+          "heading": "升壓／強心藥的臨床選擇（考過三種情境）",
+          "columns": ["情境", "首選", "理由與陷阱"],
+          "rows": [
+            ["**心臟移植後**病人術中心跳變慢", "**Isoproterenol**（或 epinephrine）", "移植心臟為**去神經狀態**，atropine、glycopyrrolate 靠阻斷迷走神經作用，**完全無效**；必須用直接作用於心臟 β 受體的藥"],
+            ["產婦**脊髓麻醉後低血壓**", "**Ephedrine**（傳統第一線）", "α＋β 作用，升壓同時維持胎盤血流。近年證據支持 phenylephrine 對胎兒 pH 影響更小，但考題選項未列時仍選 ephedrine"],
+            ["心衰竭合併低血壓（需增加心輸出量）", "dobutamine、dopamine、norepinephrine", "**Vasopressin 無法有效增加心輸出量**——它是純血管收縮劑，只升 SVR、無正性肌力作用"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "抗膽鹼藥與 Buscopan 的禁忌",
+          "content": "Buscopan（hyoscine butylbromide）屬抗膽鹼藥，禁忌症包括：**青光眼**（升高眼壓）、**攝護腺肥大**（排尿困難）、**腸阻塞／麻痺性腸阻塞**、重症肌無力、心跳過速。**紅斑性狼瘡不是禁忌症**（考題正解）。\n\n**Atropine vs Glycopyrrolate**：glycopyrrolate 為四級銨，不通過血腦障壁，較少中樞副作用；atropine 為三級胺，可通過血腦障壁，老年人可能出現譫妄。兩者對**去神經心臟皆無效**。"
+        },
+        {
+          "type": "table",
+          "heading": "利尿劑作用部位（109_advanced_Q47 直接命題）",
+          "columns": ["藥物", "作用部位／機轉", "考點"],
+          "rows": [
+            ["Thiazide", "抑制**遠端腎小管**對 Na+、Cl− 再吸收", "治療本態性高血壓；低血鉀、低血鈉"],
+            ["Loop（furosemide）", "抑制**亨利氏環**升枝對 Na+、Cl− 再吸收", "強效；**低血鉀**（術中要注意）"],
+            ["Spironolactone", "阻斷 **aldosterone** 對腎小管的作用", "保鉀 → 高血鉀風險"],
+            ["Mannitol", "滲透性利尿；經腎絲球過濾後**不被腎小管再吸收**，維持管腔滲透壓帶走水分", "「經腎小管再吸收」是錯誤敘述；用於降低 ICP"],
+            ["Acetazolamide（Diamox）", "**碳酸酐酶抑制劑**，減少 CO2 水合與碳酸水解 → 減少房水分泌", "造成**代謝性酸中毒**（非鹼中毒）、低血鈉低血鉀；**無法製成眼藥水**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "止吐藥與其他",
+          "content": "**PONV 常用藥**：ondansetron（5-HT3 拮抗）、droperidol（注意 QT 延長）、metoclopramide（D2 拮抗，促進胃排空）、dexamethasone。**Pancuronium 是肌肉鬆弛劑，與止吐完全無關**（考題以此作為「不適合」的正解）。\n\n**Metoclopramide**：阻斷中樞 D2 受體，可能引起**錐體外症狀**（急性肌張力不全、靜坐不能、類巴金森），年輕人與高劑量風險較高，可用 diphenhydramine 處理。\n**H2 受體拮抗劑（尤其 cimetidine）**：可通過血腦障壁，在老年人或肝腎功能不全者引起**混亂、譫妄、幻覺**。\n**Dexmedetomidine**：高選擇性 **α2 促效劑**，具鎮靜、抗焦慮、適度鎮痛，**呼吸抑制輕微故適用於清醒插管**；消除半衰期約 2 小時；常見低血壓與心搏過緩。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "「制酸劑會使**吸入性**麻醉藥吸收變慢」是錯的——制酸劑影響的是**口服**藥物的溶離與吸收，吸入麻醉藥經肺泡吸收，與胃腸道無關。另外 omeprazole 是 CYP2C19 強抑制劑、對 CYP3A4 亦有弱抑制，而 **midazolam 主要由 CYP3A4 代謝**，因此「omeprazole 不會與 midazolam 有交互作用」這種絕對敘述不成立。"
+        }
+      ],
+      "question_refs": ["109_advanced_Q59", "109_advanced_Q68", "110_advanced_Q56", "110_general_Q63", "111_advanced_Q49", "112_general_Q74", "113_advanced_Q22", "114_advanced_Q28"]
+    },
+    {
+      "subtopic": "pharm_principles",
+      "title": "藥理學原理與交互作用",
+      "exam_focus": "考過輸注速率換算、TCI 藥動模型配對、肥胖病人的給藥體重基準（曾出疑義題全給分），以及慢性物質濫用對麻醉需求的影響。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "輸注速率計算（標準解法）",
+          "content": "**題型**：200 mg dopamine 稀釋成 250 mL，60 kg 病人需 5 mcg/kg/min，速率為何？\n**四步驟**：\n1. 換算濃度：200 mg ÷ 250 mL ＝ 0.8 mg/mL ＝ **800 mcg/mL**\n2. 算每分鐘需求量：5 mcg/kg/min × 60 kg ＝ **300 mcg/min**\n3. 換成體積：300 ÷ 800 ＝ **0.375 mL/min**\n4. 換成小時：0.375 × 60 ＝ **22.5 ≈ 22 mL/hr**\n\n**公式化**：速率(mL/hr) ＝ 劑量(mcg/kg/min) × 體重(kg) × 60 ÷ 濃度(mcg/mL)。計算題務必先統一單位（mg↔mcg、min↔hr）再代入。"
+        },
+        {
+          "type": "table",
+          "heading": "肥胖病人給藥的體重基準（高頻易錯）",
+          "columns": ["體重基準", "適用藥物", "備註"],
+          "rows": [
+            ["**LBW（淨體重）**", "propofol **誘導**劑量、remifentanil、morphine（多數 opioid bolus）", "誘導期初期分布容積與心輸出量、瘦體組織相關性高"],
+            ["**IBW（理想體重）**", "rocuronium、vecuronium", "依 LBW/TBW 給藥會使作用時間顯著延長、術後殘餘阻斷風險增加"],
+            ["**TBW（實際總體重）**", "succinylcholine（1–1.5 mg/kg TBW）、propofol **維持輸注**、cisatracurium、atracurium", "肥胖者血漿 pseudocholinesterase 活性與細胞外液量隨總體重上升，succinylcholine 依 LBW 給藥常導致插管條件不足"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "TCI 藥動模型配對",
+          "columns": ["藥物", "常用模型"],
+          "rows": [
+            ["Propofol", "Marsh model、Schneider model"],
+            ["Remifentanil", "Minto model"],
+            ["Alfentanil", "Scott model"],
+            ["Dexmedetomidine", "**無標準 TCI 模型**（考題以此為錯誤敘述）"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "慢性物質濫用對麻醉需求的影響",
+          "items": [
+            {"a": "麻醉需求**增加**", "b": "麻醉需求**減少**", "note": "慢性使用 **opioid、酒精、大麻** → 產生耐受性，需求增加；慢性 **安非他命（amphetamine）** 濫用 → 神經末梢 catecholamine 儲備**耗竭**，術中麻醉藥需求**明顯減少**，且對間接作用升壓劑（如 ephedrine）反應不佳，應改用直接作用者。"},
+            {"a": "急性中毒", "b": "慢性濫用", "note": "**急性**酒精或 opioid 中毒有加成作用 → 減量；**慢性**則因耐受性 → 增量。方向完全相反，務必看清題幹寫的是急性還是慢性。"}
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "112_advanced_Q63「肥胖給藥」一題疑義後 A、C、D 三選項均給分，僅 B（propofol 誘導用 LBW）為確定正確敘述。準備時請直接背上表三欄；不要死記「肌鬆劑一律用 LBW」這種簡化說法。"
+        }
+      ],
+      "question_refs": ["109_advanced_Q78", "112_advanced_Q50", "112_advanced_Q63", "113_advanced_Q54"]
+    }
+  ]
+}

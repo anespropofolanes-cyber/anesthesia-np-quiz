@@ -1,0 +1,24 @@
+{
+  "name": "麻醉專科護理師題庫",
+  "short_name": "麻醉題庫",
+  "description": "衛生福利部麻醉專科護理師甄審歷屆試題 109–114 年共 960 題，依臨床學習邏輯分類，附重點觀念與個人筆記。",
+  "lang": "zh-Hant",
+  "dir": "ltr",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf9f6",
+  "theme_color": "#f2dbe1",
+  "categories": ["education", "medical"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "主題學習", "url": "./#topics" },
+    { "name": "錯題本", "url": "./#wrong" },
+    { "name": "搜尋", "url": "./#search" }
+  ]
+}

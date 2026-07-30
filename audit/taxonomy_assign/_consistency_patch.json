@@ -1,0 +1,117 @@
+{
+  "109_advanced_Q49": {
+    "topic": "crisis",
+    "subtopic": "or_fire",
+    "reason": "氣道火災之立即處置（關閉氧氣、移除氣管內管）。判準3：手術室火災含氣道火災一律歸 crisis/or_fire，不放在耳鼻喉眼牙科下。原 specialty_surgery/ent_eye_dental"
+  },
+  "109_general_Q52": {
+    "topic": "crisis",
+    "subtopic": "or_fire",
+    "reason": "火災安全三角（火源／易燃物／助燃劑）辨識。判準3。原 specialty_surgery/ent_eye_dental"
+  },
+  "110_advanced_Q79": {
+    "topic": "crisis",
+    "subtopic": "or_fire",
+    "reason": "雷射氣道手術之火災預防（降 FiO2、金屬管、cuff 充水）。判準3。原 specialty_surgery/ent_eye_dental"
+  },
+  "111_general_Q74": {
+    "topic": "crisis",
+    "subtopic": "or_fire",
+    "reason": "雷射手術防護（煙霧感染風險、護目鏡、視網膜傷害），對應 or_fire 子題註記之『雷射手術防護』。原 specialty_surgery/ent_eye_dental"
+  },
+  "112_advanced_Q56": {
+    "topic": "crisis",
+    "subtopic": "or_fire",
+    "reason": "氣道腫瘤雷射燒灼之著火預防與著火後處置。判準3。原 specialty_surgery/ent_eye_dental"
+  },
+  "114_general_Q75": {
+    "topic": "crisis",
+    "subtopic": "or_fire",
+    "reason": "術中呼吸道著火之風險三要素評估。判準3。原 specialty_surgery/ent_eye_dental"
+  },
+  "111_advanced_Q35": {
+    "topic": "specialty_surgery",
+    "subtopic": "vascular",
+    "reason": "EVAR（血管內腹主動脈修復術）之麻醉考量，對應新增之血管手術子題。原 specialty_surgery/cardiothoracic"
+  },
+  "113_advanced_Q79": {
+    "topic": "specialty_surgery",
+    "subtopic": "vascular",
+    "reason": "胸主動脈瘤修補、主動脈夾鉗鬆開之低血壓預防，屬 vascular 子題註記之『夾鉗與再灌流』。原 specialty_surgery/cardiothoracic"
+  },
+  "109_advanced_Q9": {
+    "topic": "ga_care",
+    "subtopic": "eras",
+    "reason": "ERAS 周術期處置（鼻胃管、TAP block、輸液、禁食），判準12：ERAS 題統一歸 ga_care/eras。原 specialty_surgery/general_abdominal"
+  },
+  "110_advanced_Q27": {
+    "topic": "ga_care",
+    "subtopic": "eras",
+    "reason": "ERAS 概念（術前碳水化合物、腸道準備、多模式止痛、鼻胃管），判準12。原 specialty_surgery/general_abdominal"
+  },
+  "111_advanced_Q32": {
+    "topic": "ga_care",
+    "subtopic": "eras",
+    "reason": "ERAS 各要素橫跨術前術中術後，判準12。原 ga_care/maintenance"
+  },
+  "112_advanced_Q47": {
+    "topic": "ga_care",
+    "subtopic": "eras",
+    "reason": "ERAS 各要素（術前鎮靜、早期活動、非鴉片止痛、限制輸液），判準12。原 specialty_surgery/general_abdominal"
+  },
+  "113_advanced_Q70": {
+    "topic": "ga_care",
+    "subtopic": "eras",
+    "reason": "ERAS 各要素，非單純禁食規範，判準12。原 preop/fasting_premed"
+  },
+  "113_general_Q67": {
+    "topic": "ga_care",
+    "subtopic": "eras",
+    "reason": "ERAS 療程整體（縮短 NPO、早期進食活動、輸液選擇、成效），判準12。原 preop/fasting_premed"
+  },
+  "114_advanced_Q67": {
+    "topic": "ga_care",
+    "subtopic": "eras",
+    "reason": "ERAS 麻醉照護要素（短效藥、精準水分、減少鴉片），判準12。原 ga_care/maintenance"
+  },
+  "112_general_Q40": {
+    "topic": "professional_practice",
+    "subtopic": "patient_safety",
+    "reason": "手部衛生屬通論科病安／感染管制範疇；crisis/infection_sepsis 保留給敗血症之臨床處置。原 crisis/infection_sepsis"
+  },
+  "114_advanced_Q68": {
+    "topic": "clinical_medicine",
+    "subtopic": "infectious_dz",
+    "reason": "正解考 cefazolin 抗菌譜，屬抗生素知識；出自進階麻醉卷，歸通論科病安類不對位。手部衛生等純感控題才歸 patient_safety"
+  },
+  "109_general_Q7": {
+    "topic": "professional_practice",
+    "subtopic": "medical_law",
+    "reason": "考醫療法對同意書『關係人』範圍之具體規定，屬法條條文層次；判準4：法條具體規定→medical_law，倫理面／知情同意精神→ethics_autonomy。原 professional_practice/ethics_autonomy"
+  },
+  "110_advanced_Q50": {
+    "topic": "crisis",
+    "subtopic": "toxicity",
+    "reason": "與 109_advanced_Q28『局部麻醉劑全身毒性反應與治療』為同型題，該題已歸 crisis/toxicity；判準2：LAST 的辨識與急救處置→crisis/toxicity。原 pharmacology/local_anesthetics"
+  },
+  "109_general_Q72": {
+    "topic": "clinical_medicine",
+    "subtopic": "cardiopulmonary_dz",
+    "reason": "心電圖呈 ST 段抬高之急性冠心症『處置』題（非心律判讀），判準7：處置題不歸 ecg_reading；與同型之 114_advanced_Q21（12 導程 STEMI 處置，歸 clinical_medicine/cardiopulmonary_dz）統一。原 monitoring/ecg_reading"
+  },
+  "114_general_Q67": {
+    "topic": "clinical_medicine",
+    "subtopic": "gi_hepatic",
+    "reason": "題幹無手術情境，考的是胃食道逆流的疾病相關因子；判準10：完整疾病知識以內容主體為準歸 clinical_medicine。原 preop/comorbidity"
+  },
+  "114_advanced_Q48": {
+    "topic": "preop",
+    "subtopic": "comorbidity",
+    "reason": "植入式心律去顫器（CIED）之周術期處置，與同型之 111_general_Q48（節律器病人術前處置，歸 preop/comorbidity）統一；CIED 屬裝置之術前評估與準備而非重大共病。原 special_patient/comorbid_patient"
+  },
+  "109_advanced_Q32": {
+    "topic": "ga_care",
+    "subtopic": "induction",
+    "reason": "血流動力學不穩定病人的誘導用藥選擇，與 111_advanced_Q27、113_advanced_Q36 同型；RSI 選藥與誘導技術不可分，三題統一歸 induction"
+  }
+}

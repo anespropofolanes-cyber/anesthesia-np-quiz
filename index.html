@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>麻醉專科護理師題庫</title>
+<meta name="description" content="衛生福利部麻醉專科護理師甄審歷屆試題（109–114 年，960 題），依臨床學習邏輯分類，附重點觀念與個人筆記。">
+<meta name="theme-color" content="#f2dbe1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#221e1c" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="麻醉題庫">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&family=Noto+Serif+TC:wght@500;700&display=swap">
+<link rel="stylesheet" href="css/app.css?v=20260731c">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <button class="brand" onclick="go('home')" aria-label="回首頁">
+      <img class="logo" src="assets/logo.png" alt=""><span>麻醉專科護理師題庫</span>
+    </button>
+    <div class="fontctl">
+      <button class="iconbtn" id="btn-font-down" onclick="stepFont(-1)" title="縮小字體" aria-label="縮小字體">A−</button>
+      <span class="fontlv" id="font-level" aria-live="polite">中</span>
+      <button class="iconbtn" id="btn-font-up" onclick="stepFont(1)" title="放大字體" aria-label="放大字體">A+</button>
+    </div>
+    <button class="iconbtn" id="btn-theme" onclick="cycleTheme()" title="淺色／深色">◐</button>
+    <button class="iconbtn" onclick="go('search')" title="搜尋" aria-label="搜尋">⌕</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ══ 首頁 ══ -->
+  <section id="s-home" class="screen on">
+    <div id="resume-slot"></div>
+
+    <h1 class="page">要練哪一種？</h1>
+    <p class="lede">109–114 年共 960 題，全部與衛生福利部官方標準答案卡逐題核對過。</p>
+
+    <div class="modes">
+      <button class="mode pinkish" onclick="go('years')">
+        <span class="t">歷屆試題</span>
+        <span class="d">依年份與科目整卷練習，可用練習模式即時看解析，或模擬考試最後計分。</span>
+        <span class="n">12 卷 · 每卷 80 題</span>
+      </button>
+      <button class="mode tealish" onclick="go('topics')">
+        <span class="t">主題學習</span>
+        <span class="d">依臨床邏輯分成 13 大類，先讀重點觀念再練該主題的跨年度考題。</span>
+        <span class="n">13 大類 · 87 子題</span>
+      </button>
+    </div>
+
+    <div class="sect-label">我的紀錄</div>
+    <div class="quicklinks">
+      <button class="quick" onclick="go('wrong')">錯題本 <span class="badge" id="n-wrong">0</span></button>
+      <button class="quick" onclick="go('marks')">書籤 <span class="badge" id="n-mark">0</span></button>
+      <button class="quick" onclick="go('notes')">筆記 <span class="badge" id="n-note">0</span></button>
+      <button class="quick" onclick="go('data')">備份與匯出</button>
+    </div>
+  </section>
+
+  <!-- ══ 歷屆試題：選卷 ══ -->
+  <section id="s-years" class="screen">
+    <h1 class="page">歷屆試題</h1>
+    <p class="lede">選一卷開始。同一卷可重複練習，進度會自動保存。</p>
+    <div class="card">
+      <div class="field"><label>年份</label><div class="chips" id="pick-year"></div></div>
+      <div class="field"><label>科目</label><div class="chips" id="pick-subject"></div></div>
+      <div class="field"><label>主題篩選（不選＝全部）</label><div class="chips" id="pick-topic"></div></div>
+      <div class="field"><label>難度（不選＝全部）</label><div class="chips" id="pick-diff"></div></div>
+      <div class="field">
+        <label>模式</label>
+        <div class="chips" id="pick-mode">
+          <button class="chip on" data-v="practice" onclick="setMode('practice')">練習：作答後立即看解析</button>
+          <button class="chip" data-v="exam" onclick="setMode('exam')">模擬考試：全部答完才計分</button>
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:0">
+        <label>出題順序</label>
+        <div class="chips">
+          <button class="chip on" id="chip-order" onclick="toggleShuffle()">依題號</button>
+        </div>
+      </div>
+    </div>
+    <p class="hint" id="year-count"></p>
+    <button class="btn primary wide" onclick="startYear()">開始練習</button>
+  </section>
+
+  <!-- ══ 主題總覽 ══ -->
+  <section id="s-topics" class="screen">
+    <h1 class="page">主題學習</h1>
+    <p class="lede">依臨床學習邏輯重新分類。進度條顯示你在該主題答對過的比例。</p>
+    <div id="topic-list"></div>
+  </section>
+
+  <!-- ══ 單一主題 ══ -->
+  <section id="s-topic" class="screen">
+    <button class="btn sm" onclick="go('topics')" style="margin-bottom:14px">← 所有主題</button>
+    <div id="topic-detail"></div>
+  </section>
+
+  <!-- ══ 答題 ══ -->
+  <section id="s-quiz" class="screen">
+    <div id="quiz-head"></div>
+    <div id="quiz-body"></div>
+    <div class="navrow">
+      <button class="btn" id="btn-prev" onclick="move(-1)">上一題</button>
+      <button class="btn" id="btn-next" onclick="move(1)">下一題</button>
+    </div>
+    <div style="margin-top:10px">
+      <button class="btn wide" id="btn-finish" onclick="finish()">完成作答</button>
+    </div>
+  </section>
+
+  <!-- ══ 結果 ══ -->
+  <section id="s-result" class="screen">
+    <div id="result-body"></div>
+  </section>
+
+  <!-- ══ 錯題／書籤／筆記 ══ -->
+  <section id="s-wrong" class="screen">
+    <h1 class="page">錯題本</h1>
+    <p class="lede">答錯的題目會自動收進來。答對兩次後可以移除，或手動清掉。</p>
+    <div class="btnrow" style="margin-bottom:16px">
+      <button class="btn sm" onclick="clearWrong()">清除全部</button>
+      <button class="btn sm" onclick="practiceList('wrong')">練習這些題</button>
+    </div>
+    <div id="wrong-list"></div>
+  </section>
+
+  <section id="s-marks" class="screen">
+    <h1 class="page">書籤</h1>
+    <p class="lede">標記起來待複習的題目。</p>
+    <div class="btnrow" style="margin-bottom:16px">
+      <button class="btn sm" onclick="practiceList('mark')">練習這些題</button>
+    </div>
+    <div id="mark-list"></div>
+  </section>
+
+  <section id="s-notes" class="screen">
+    <h1 class="page">我的筆記</h1>
+    <p class="lede">你在各題寫下的筆記。筆記只存在這台裝置的瀏覽器裡，記得定期匯出備份。</p>
+    <div id="note-list"></div>
+  </section>
+
+  <!-- ══ 搜尋 ══ -->
+  <section id="s-search" class="screen">
+    <h1 class="page">搜尋</h1>
+    <div class="search">
+      <input id="q" type="search" placeholder="輸入關鍵字，例如 sugammadex、惡性高熱、Aldrete" oninput="doSearch()" autocomplete="off">
+    </div>
+    <div id="search-result"></div>
+  </section>
+
+  <!-- ══ 資料 ══ -->
+  <section id="s-data" class="screen">
+    <h1 class="page">備份與匯出</h1>
+    <p class="lede">你的作答紀錄、錯題、書籤與筆記都只存在這台裝置的瀏覽器中，不會上傳到任何地方。換裝置或清除瀏覽器資料前請先匯出。</p>
+    <div class="card">
+      <h2>匯出</h2>
+      <p class="hint" style="margin-top:0">下載一個 JSON 檔，包含錯題本、書籤、筆記與各題作答紀錄。</p>
+      <button class="btn primary" onclick="exportData()">下載備份檔</button>
+    </div>
+    <div class="card">
+      <h2>匯入</h2>
+      <p class="hint" style="margin-top:0">選擇先前匯出的備份檔。匯入會與現有資料合併，不會覆蓋掉你現在的筆記。</p>
+      <input type="file" id="importfile" accept="application/json" onchange="importData(this)">
+    </div>
+    <div class="card">
+      <h2>離線使用</h2>
+      <p class="hint" style="margin-top:0">題目、解析與教材在你第一次開啟後就會自動存在裝置上，之後沒有網路也能作答。<strong>圖片題的圖檔約 13 MB，預設不會自動下載</strong>，以免耗用行動網路。若你想在完全離線的情況下也看得到圖，可以在有 Wi-Fi 時先下載。</p>
+      <div class="btnrow">
+        <button class="btn primary" id="btn-dl-img" onclick="cacheImages()">下載圖檔以供離線使用</button>
+      </div>
+      <p class="hint" id="dl-status"></p>
+    </div>
+    <div class="card">
+      <h2>清除</h2>
+      <p class="hint" style="margin-top:0">刪除這台裝置上的所有紀錄。此動作無法復原。</p>
+      <button class="btn" onclick="wipeAll()">清除所有紀錄</button>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">
+  <p>題目與答案依衛生福利部歷年公告；解析為自行整理，僅供學習參考。</p>
+  <p id="build-info"></p>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="x" aria-label="關閉">×</button>
+  <img id="lightbox-img" alt="">
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="js/store.js?v=20260731c"></script>
+<script src="js/data.js?v=20260731c"></script>
+<script src="js/quiz.js?v=20260731c"></script>
+<script src="js/views.js?v=20260731c"></script>
+<script src="js/app.js?v=20260731c"></script>
+</body>
+</html>

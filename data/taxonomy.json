@@ -1,0 +1,586 @@
+{
+  "_meta": {
+    "version": "1.5",
+    "created": "2026-07-30",
+    "description": "麻醉專科護理師題庫主題分類架構。兩層：topic（大類）→ subtopic（子題）。依臨床學習邏輯設計，取代舊有 40+ 個混雜的 category 欄位（舊值保留於 legacy_category）。",
+    "design_notes": [
+      "舊分類最大問題：anesthetic_mgmt 一類獨佔 199 題（實為各專科手術與共病麻醉的集合），另有一長串僅 1-2 題的分類。",
+      "通論科（480 題）有大量非麻醉的一般內外科臨床知識與護理專業內容，故架構需同時涵蓋『麻醉專業』與『護理專業』兩大區塊。",
+      "每題指派恰好一個 topic 與一個 subtopic；跨主題的題目取其『最主要的學習重點』歸類。",
+      "1.1（使用者裁決 2026-07-30）：原「特殊族群與專科手術麻醉」12 子題過大，拆為「特殊病人族群麻醉」（病人特性）與「各專科手術麻醉」（術式特性）兩大類，並補上「重大共病病人麻醉」「一般外科與腹腔鏡手術」「骨科手術麻醉」三個子題。疼痛管理維持與區域麻醉合併；心電圖判讀維持置於監測類下。",
+      "1.2：補上 crisis/or_fire（手術室火災與環境安全），並新增 boundary_rules 記錄跨類邊界的一致性判準，供後續歸類與覆核依循。",
+      "1.4：歸類過程中發現三個缺口，補上 specialty_surgery/vascular（血管手術，如 EVAR）與 ga_care/eras（ERAS 周術期策略），並補兩條邊界判準。"
+    ],
+    "boundary_rules": [
+      "單肺通氣：純通氣策略／設定 → ga_care/maintenance；置於開胸手術情境者 → specialty_surgery/cardiothoracic",
+      "局部麻醉藥：藥物特性、最大劑量、加腎上腺素等用藥原則 → pharmacology/local_anesthetics；LAST 的辨識與急救處置 → crisis/toxicity",
+      "手術室火災（含氣道火災）一律 → crisis/or_fire，不放在耳鼻喉眼牙科下",
+      "法規條文的具體規定（醫療法、護理人員法、器官移植條例等）→ professional_practice/medical_law；倫理原則、知情同意的倫理面、病人自主權利法之精神 → professional_practice/ethics_autonomy",
+      "藥物輸注速率／劑量換算計算題 → pharmacology/pharm_principles；該藥本身的適應症與作用 → 對應藥物子題",
+      "術前才會做的評估（含移植、換肝等特殊手術的術前評估）→ preop；術中處置才 → specialty_surgery",
+      "心電圖『這是什麼心律』→ monitoring/ecg_reading；『該怎麼處置』→ crisis/acls",
+      "特定族群的專屬危急狀況（羊水栓塞、子癇前症、惡性高熱等）：問『臨床表現／辨識／急救處置』→ crisis 對應子題；問『該族群的麻醉考量』→ special_patient 對應子題",
+      "問『該用哪個藥、該藥的特性或劑量』→ pharmacology 對應子題；問『這個階段該做什麼評估或處置』→ 情境類（preop／ga_care／crisis 等）",
+      "情境 vs 內容取捨：以**內容主體**為準。完整的疾病鑑別診斷或疾病知識即使包在術後／術前情境中，仍歸 clinical_medicine；只有當重點是『麻醉照護該怎麼做』時才歸麻醉類",
+      "ERAS／周術期整體照護策略題（橫跨術前術中術後、無單一落點者）統一歸 ga_care/eras",
+      "老年病人的氣道處置題歸 special_patient/geriatric（airway 底下無老年子題，且讀者複習老年麻醉時會期待看到）",
+      "脊椎手術麻醉歸 specialty_surgery/neurosurgery；但 **POVL（術後視覺喪失）** 作為體位傷害的概念題一律歸 ga_care/positioning，使該概念集中",
+      "ERAS 題歸 ga_care/eras；但若該題有明確的單一專科落點（如剖腹產 ERAS），仍歸該專科",
+      "誘導期的選藥題（含 RSI 方案）歸 ga_care/induction，不歸 pharmacology——選藥與誘導技術不可分",
+      "感染管制：手部衛生、無菌技術等純感控概念 → professional_practice/patient_safety；抗生素選擇與抗菌譜 → clinical_medicine/infectious_dz；敗血症臨床處置 → crisis/infection_sepsis"
+    ]
+  },
+  "sections": [
+    {
+      "id": "anesthesia",
+      "name": "麻醉專業",
+      "note": "進階專科護理為主"
+    },
+    {
+      "id": "nursing",
+      "name": "護理專業",
+      "note": "專科護理通論為主"
+    }
+  ],
+  "topics": [
+    {
+      "id": "pharmacology",
+      "section": "anesthesia",
+      "name": "麻醉藥理學",
+      "summary": "麻醉相關藥物的藥效學、藥動學、劑量與交互作用",
+      "subtopics": [
+        {
+          "id": "inhalational",
+          "name": "吸入性麻醉藥",
+          "note": "MAC、血氣分配係數、各藥特性、揮發器"
+        },
+        {
+          "id": "iv_anesthetics",
+          "name": "靜脈麻醉藥",
+          "note": "propofol、etomidate、ketamine、barbiturate、benzodiazepine"
+        },
+        {
+          "id": "nmba",
+          "name": "肌肉鬆弛劑與拮抗劑",
+          "note": "去極化／非去極化、neostigmine、sugammadex"
+        },
+        {
+          "id": "local_anesthetics",
+          "name": "局部麻醉藥",
+          "note": "分類、最大劑量、毒性、LAST"
+        },
+        {
+          "id": "opioids",
+          "name": "鴉片類與止痛藥",
+          "note": "opioid、NSAIDs、acetaminophen、輔助止痛藥"
+        },
+        {
+          "id": "adjuncts",
+          "name": "輔助用藥",
+          "note": "止吐、升壓與強心、抗膽鹼、dexmedetomidine、類固醇"
+        },
+        {
+          "id": "pharm_principles",
+          "name": "藥理學原理與交互作用",
+          "note": "代謝途徑、CYP、劑量計算基準（TBW/IBW/LBW）"
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "section": "anesthesia",
+      "name": "麻醉相關生理與解剖",
+      "summary": "支撐麻醉判斷的基礎生理、解剖與病理生理",
+      "subtopics": [
+        {
+          "id": "respiratory",
+          "name": "呼吸生理",
+          "note": "肺容積、V/Q、氧合與換氣、氧解離曲線"
+        },
+        {
+          "id": "cardiovascular",
+          "name": "循環生理",
+          "note": "心輸出量、前後負荷、冠狀循環、血壓調節"
+        },
+        {
+          "id": "neuro",
+          "name": "神經生理與解剖",
+          "note": "腦血流、顱內壓、脊髓與神經叢解剖"
+        },
+        {
+          "id": "renal_fluid",
+          "name": "腎臟、體液與電解質",
+          "note": "酸鹼平衡、鈉鉀鈣異常、腎功能"
+        },
+        {
+          "id": "endocrine_metabolic",
+          "name": "內分泌與代謝",
+          "note": "血糖、甲狀腺、腎上腺、體溫調節"
+        },
+        {
+          "id": "hematology",
+          "name": "血液與凝血",
+          "note": "凝血機轉、TEG、血液製劑生理"
+        }
+      ]
+    },
+    {
+      "id": "preop",
+      "section": "anesthesia",
+      "name": "術前評估與準備",
+      "summary": "麻醉前的風險評估、檢查判讀與術前處置",
+      "subtopics": [
+        {
+          "id": "risk_assessment",
+          "name": "麻醉風險評估",
+          "note": "ASA 分級、RCRI、METs、術後肺部併發症風險"
+        },
+        {
+          "id": "airway_eval",
+          "name": "困難氣道評估",
+          "note": "Mallampati、甲頦距離、開口度、頸椎活動度"
+        },
+        {
+          "id": "comorbidity",
+          "name": "共病評估與處置",
+          "note": "心血管、呼吸、內分泌、肝腎疾病之術前考量"
+        },
+        {
+          "id": "fasting_premed",
+          "name": "禁食規範與術前用藥",
+          "note": "NPO 指引、抗凝血藥停用、術前給藥"
+        },
+        {
+          "id": "osa_obesity",
+          "name": "OSA 與肥胖評估",
+          "note": "STOP-BANG、頸圍、AHI"
+        }
+      ]
+    },
+    {
+      "id": "airway",
+      "section": "anesthesia",
+      "name": "氣道管理",
+      "summary": "氣道器材、插管技術與困難氣道處置",
+      "subtopics": [
+        {
+          "id": "devices",
+          "name": "氣道器材",
+          "note": "喉頭鏡、上聲門氣道、氣管內管、雙腔管"
+        },
+        {
+          "id": "intubation",
+          "name": "插管技術與確認",
+          "note": "快速誘導、影像喉頭鏡、纖維支氣管鏡、位置確認"
+        },
+        {
+          "id": "difficult_airway",
+          "name": "困難氣道處置",
+          "note": "困難氣道演算法、環甲膜切開"
+        },
+        {
+          "id": "extubation",
+          "name": "拔管與氣道併發症",
+          "note": "拔管時機與條件、喉痙攣、負壓性肺水腫"
+        },
+        {
+          "id": "pediatric_airway",
+          "name": "小兒氣道特性",
+          "note": "解剖差異、管徑選擇、去飽和速度"
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "section": "anesthesia",
+      "name": "監測與麻醉設備",
+      "summary": "術中生理監測、波形判讀與麻醉機器",
+      "subtopics": [
+        {
+          "id": "hemodynamic",
+          "name": "血流動力學監測",
+          "note": "動脈導管、CVP、肺動脈導管、心輸出量、波形判讀"
+        },
+        {
+          "id": "respiratory_mon",
+          "name": "呼吸與氣體監測",
+          "note": "capnography 波形、脈搏血氧、氣道壓力"
+        },
+        {
+          "id": "nmt_depth",
+          "name": "神經肌肉與麻醉深度監測",
+          "note": "TOF、PTC、BIS"
+        },
+        {
+          "id": "temperature",
+          "name": "體溫監測與保溫",
+          "note": "低體溫預防、測量部位"
+        },
+        {
+          "id": "equipment",
+          "name": "麻醉機與設備",
+          "note": "呼吸迴路、鈉石灰、氣體鋼瓶、機器檢查、警報"
+        },
+        {
+          "id": "ecg_reading",
+          "name": "心電圖判讀",
+          "note": "心律不整辨識、缺血性變化、電解質異常之心電圖表現"
+        }
+      ]
+    },
+    {
+      "id": "ga_care",
+      "section": "anesthesia",
+      "name": "全身麻醉照護",
+      "summary": "誘導、維持、體位、輸液輸血到甦醒與恢復室照護",
+      "subtopics": [
+        {
+          "id": "induction",
+          "name": "麻醉誘導",
+          "note": "誘導方式、預氧合、快速誘導"
+        },
+        {
+          "id": "maintenance",
+          "name": "麻醉維持與通氣策略",
+          "note": "麻醉深度調控、機械通氣設定、單肺通氣"
+        },
+        {
+          "id": "positioning",
+          "name": "手術體位與傷害預防",
+          "note": "各體位生理影響、神經壓迫、腔室症候群"
+        },
+        {
+          "id": "fluid_transfusion",
+          "name": "輸液與輸血",
+          "note": "輸液選擇、失血估算、血品、大量輸血併發症"
+        },
+        {
+          "id": "emergence",
+          "name": "甦醒與拔管期",
+          "note": "甦醒延遲、殘餘肌鬆、躁動"
+        },
+        {
+          "id": "pacu",
+          "name": "恢復室照護",
+          "note": "Aldrete score、出室標準、PONV、發抖、術後低血氧"
+        },
+        {
+          "id": "eras",
+          "name": "加速術後康復（ERAS）",
+          "note": "ERAS 各要素、術前碳水化合物、多模式止痛、早期進食與活動、周術期整體策略"
+        }
+      ]
+    },
+    {
+      "id": "regional_pain",
+      "section": "anesthesia",
+      "name": "區域麻醉與疼痛管理",
+      "summary": "各式區域麻醉技術與急慢性疼痛處置",
+      "subtopics": [
+        {
+          "id": "neuraxial",
+          "name": "脊椎與硬脊膜外麻醉",
+          "note": "適應症、麻醉高度、技術、藥物選擇"
+        },
+        {
+          "id": "peripheral_block",
+          "name": "周邊神經阻斷",
+          "note": "上下肢神經叢阻斷、超音波導引"
+        },
+        {
+          "id": "regional_complication",
+          "name": "區域麻醉併發症",
+          "note": "PDPH、血腫、神經損傷、全脊髓麻醉"
+        },
+        {
+          "id": "acute_pain",
+          "name": "急性術後疼痛",
+          "note": "多模式止痛、PCA、疼痛評估工具"
+        },
+        {
+          "id": "chronic_cancer_pain",
+          "name": "慢性與癌症疼痛",
+          "note": "疼痛階梯、輔助止痛藥、鴉片類輪替"
+        }
+      ]
+    },
+    {
+      "id": "special_patient",
+      "section": "anesthesia",
+      "name": "特殊病人族群麻醉",
+      "summary": "依病人本身的生理特性或狀態而需調整的麻醉考量",
+      "subtopics": [
+        {
+          "id": "obstetric",
+          "name": "產科麻醉",
+          "note": "生理變化、剖腹產麻醉、子癇前症、羊水栓塞"
+        },
+        {
+          "id": "pediatric",
+          "name": "小兒麻醉",
+          "note": "生理差異、輸液計算、新生兒麻醉"
+        },
+        {
+          "id": "geriatric",
+          "name": "老年麻醉",
+          "note": "器官功能老化、藥物調整、術後認知功能障礙"
+        },
+        {
+          "id": "obesity",
+          "name": "肥胖病人麻醉",
+          "note": "呼吸生理、給藥基準、體位"
+        },
+        {
+          "id": "trauma_emergency",
+          "name": "創傷與急症麻醉",
+          "note": "創傷評估、脊髓損傷、燒傷、飽胃"
+        },
+        {
+          "id": "comorbid_patient",
+          "name": "重大共病病人麻醉",
+          "note": "心衰竭、COPD、氣喘、腎衰竭、肝硬化、神經肌肉疾病病人之麻醉"
+        }
+      ]
+    },
+    {
+      "id": "specialty_surgery",
+      "section": "anesthesia",
+      "name": "各專科手術麻醉",
+      "summary": "依手術科別與術式特性而需調整的麻醉考量",
+      "subtopics": [
+        {
+          "id": "cardiothoracic",
+          "name": "心臟與胸腔手術麻醉",
+          "note": "體外循環、單肺通氣、開胸手術"
+        },
+        {
+          "id": "neurosurgery",
+          "name": "神經外科麻醉",
+          "note": "顱內壓控制、坐姿手術、空氣栓塞"
+        },
+        {
+          "id": "transplant_hepatobiliary",
+          "name": "移植與肝膽手術麻醉",
+          "note": "肝移植、腎移植、肝切除"
+        },
+        {
+          "id": "urology_ob_gyn",
+          "name": "泌尿與婦科手術麻醉",
+          "note": "TURP syndrome、腹腔鏡、截石位"
+        },
+        {
+          "id": "ent_eye_dental",
+          "name": "耳鼻喉、眼科與牙科麻醉",
+          "note": "共用氣道、眼心反射、扁桃腺與鼻竇手術、牙科鎮靜"
+        },
+        {
+          "id": "endocrine_surgery",
+          "name": "內分泌手術麻醉",
+          "note": "甲狀腺、嗜鉻細胞瘤、腎上腺"
+        },
+        {
+          "id": "sedation_outside_or",
+          "name": "手術室外麻醉與鎮靜",
+          "note": "內視鏡檢查鎮靜、影像檢查麻醉"
+        },
+        {
+          "id": "general_abdominal",
+          "name": "一般外科與腹腔鏡手術",
+          "note": "腹腔鏡生理影響、腸道手術、氣腹相關問題"
+        },
+        {
+          "id": "orthopedic",
+          "name": "骨科手術麻醉",
+          "note": "止血帶、骨水泥、脂肪栓塞、關節置換"
+        },
+        {
+          "id": "vascular",
+          "name": "血管手術麻醉",
+          "note": "主動脈瘤與 EVAR、頸動脈內膜切除、周邊血管重建、夾鉗與再灌流"
+        }
+      ]
+    },
+    {
+      "id": "crisis",
+      "section": "anesthesia",
+      "name": "危機處理與併發症",
+      "summary": "術中術後危急狀況的辨識與處置",
+      "subtopics": [
+        {
+          "id": "acls",
+          "name": "心肺復甦與 ACLS",
+          "note": "可電擊／不可電擊節律、藥物、去顫能量"
+        },
+        {
+          "id": "malignant_hyperthermia",
+          "name": "惡性高熱",
+          "note": "誘發因子、臨床表現、dantrolene"
+        },
+        {
+          "id": "anaphylaxis",
+          "name": "過敏與輸血反應",
+          "note": "過敏性休克、TRALI、TACO、溶血反應"
+        },
+        {
+          "id": "hemorrhage_shock",
+          "name": "大出血與休克",
+          "note": "失血分級、大量輸血流程、凝血病變"
+        },
+        {
+          "id": "embolism",
+          "name": "栓塞",
+          "note": "肺栓塞、脂肪栓塞、空氣栓塞、羊水栓塞"
+        },
+        {
+          "id": "resp_crisis",
+          "name": "呼吸危機",
+          "note": "低血氧、支氣管痙攣、氣胸、吸入性肺炎"
+        },
+        {
+          "id": "toxicity",
+          "name": "藥物毒性與特殊中毒",
+          "note": "LAST、一氧化碳中毒、局部麻醉藥過量"
+        },
+        {
+          "id": "infection_sepsis",
+          "name": "感染與敗血症",
+          "note": "敗血症處置、感染管制"
+        },
+        {
+          "id": "or_fire",
+          "name": "手術室火災與環境安全",
+          "note": "火災三角、氣道火災處置（ASA 演算法）、雷射手術防護、電燒安全"
+        }
+      ]
+    },
+    {
+      "id": "clinical_medicine",
+      "section": "nursing",
+      "name": "一般臨床醫學與照護",
+      "summary": "非麻醉專屬的內外科疾病知識與臨床判讀（通論科重點）",
+      "subtopics": [
+        {
+          "id": "cardiopulmonary_dz",
+          "name": "心肺疾病",
+          "note": "心衰竭、瓣膜疾病、COPD、氣喘、肺炎"
+        },
+        {
+          "id": "gi_hepatic",
+          "name": "腸胃與肝膽疾病",
+          "note": "消化性潰瘍、發炎性腸道疾病、肝硬化"
+        },
+        {
+          "id": "endocrine_renal_dz",
+          "name": "內分泌與腎臟疾病",
+          "note": "糖尿病、甲狀腺疾病、腎衰竭、代謝症候群"
+        },
+        {
+          "id": "neuro_dz",
+          "name": "神經疾病",
+          "note": "腦中風、腦膜炎、癲癇、重症肌無力"
+        },
+        {
+          "id": "infectious_dz",
+          "name": "感染症與傳染病",
+          "note": "法定傳染病、抗生素、發燒鑑別"
+        },
+        {
+          "id": "oncology_hematology",
+          "name": "腫瘤與血液疾病",
+          "note": "腫瘤標記、化療副作用、貧血、血小板疾病"
+        },
+        {
+          "id": "critical_care",
+          "name": "重症照護",
+          "note": "呼吸器、休克、多重器官衰竭、鎮靜"
+        },
+        {
+          "id": "geriatric_palliative",
+          "name": "老年與安寧緩和照護",
+          "note": "老年症候群、失智、末期照護、整體痛"
+        },
+        {
+          "id": "lab_imaging",
+          "name": "檢驗與影像判讀",
+          "note": "常見檢驗值判讀、X 光與影像基礎"
+        }
+      ]
+    },
+    {
+      "id": "health_promotion",
+      "section": "nursing",
+      "name": "健康促進與病人教育",
+      "summary": "預防醫學、健康促進與衛教設計",
+      "subtopics": [
+        {
+          "id": "prevention_screening",
+          "name": "預防醫學與篩檢",
+          "note": "疫苗接種、癌症篩檢、health screening"
+        },
+        {
+          "id": "chronic_disease_mgmt",
+          "name": "慢性病管理",
+          "note": "血壓血糖血脂控制目標、生活型態調整、運動處方"
+        },
+        {
+          "id": "patient_education",
+          "name": "病人教育與教學設計",
+          "note": "衛教步驟、教學策略、評量方式、學習理論"
+        },
+        {
+          "id": "growth_development",
+          "name": "生長發育與各年齡層照護",
+          "note": "發展評估、兒童與孕產婦健康"
+        }
+      ]
+    },
+    {
+      "id": "professional_practice",
+      "section": "nursing",
+      "name": "專業實務、倫理與法規",
+      "summary": "專科護理師的執業規範、倫理法律、溝通與品質管理",
+      "subtopics": [
+        {
+          "id": "np_regulation",
+          "name": "專科護理師執業法規",
+          "note": "醫師監督下執行醫療業務辦法、預立醫療流程、業務範圍"
+        },
+        {
+          "id": "medical_law",
+          "name": "醫事法規",
+          "note": "醫療法、護理人員法、人體器官移植條例、傳染病防治法"
+        },
+        {
+          "id": "ethics_autonomy",
+          "name": "醫療倫理與病人自主",
+          "note": "四大倫理原則、知情同意、病人自主權利法、安寧條例、DNR"
+        },
+        {
+          "id": "communication",
+          "name": "溝通與團隊合作",
+          "note": "ISBAR、醫病溝通、跨團隊合作、醫療決策共享"
+        },
+        {
+          "id": "patient_safety",
+          "name": "病人安全與品質管理",
+          "note": "RCA、病安目標、品質指標、PDCA、統計工具"
+        },
+        {
+          "id": "evidence_based",
+          "name": "實證護理與研究",
+          "note": "PICO、證據等級、臨床指引評讀（AGREE）、研究倫理"
+        },
+        {
+          "id": "nursing_admin",
+          "name": "護理行政與管理",
+          "note": "領導、排班、人力、成本、變革管理"
+        },
+        {
+          "id": "professional_dev",
+          "name": "專業發展與角色",
+          "note": "專科護理師角色功能、繼續教育、生涯發展"
+        }
+      ]
+    }
+  ]
+}

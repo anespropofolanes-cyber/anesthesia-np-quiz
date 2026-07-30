@@ -1,0 +1,642 @@
+{
+  "113_advanced_Q1": {
+    "topic": "clinical_medicine",
+    "subtopic": "infectious_dz"
+  },
+  "113_advanced_Q2": {
+    "topic": "monitoring",
+    "subtopic": "ecg_reading"
+  },
+  "113_advanced_Q3": {
+    "topic": "physiology",
+    "subtopic": "renal_fluid"
+  },
+  "113_advanced_Q4": {
+    "topic": "clinical_medicine",
+    "subtopic": "infectious_dz"
+  },
+  "113_advanced_Q5": {
+    "topic": "physiology",
+    "subtopic": "endocrine_metabolic"
+  },
+  "113_advanced_Q6": {
+    "topic": "pharmacology",
+    "subtopic": "opioids"
+  },
+  "113_advanced_Q7": {
+    "topic": "clinical_medicine",
+    "subtopic": "neuro_dz"
+  },
+  "113_advanced_Q8": {
+    "topic": "physiology",
+    "subtopic": "renal_fluid"
+  },
+  "113_advanced_Q9": {
+    "topic": "clinical_medicine",
+    "subtopic": "endocrine_renal_dz"
+  },
+  "113_advanced_Q10": {
+    "topic": "pharmacology",
+    "subtopic": "opioids"
+  },
+  "113_advanced_Q11": {
+    "topic": "clinical_medicine",
+    "subtopic": "geriatric_palliative"
+  },
+  "113_advanced_Q12": {
+    "topic": "regional_pain",
+    "subtopic": "chronic_cancer_pain"
+  },
+  "113_advanced_Q13": {
+    "topic": "clinical_medicine",
+    "subtopic": "lab_imaging"
+  },
+  "113_advanced_Q14": {
+    "topic": "clinical_medicine",
+    "subtopic": "gi_hepatic"
+  },
+  "113_advanced_Q15": {
+    "topic": "clinical_medicine",
+    "subtopic": "lab_imaging"
+  },
+  "113_advanced_Q16": {
+    "topic": "monitoring",
+    "subtopic": "ecg_reading"
+  },
+  "113_advanced_Q17": {
+    "topic": "clinical_medicine",
+    "subtopic": "endocrine_renal_dz"
+  },
+  "113_advanced_Q18": {
+    "topic": "clinical_medicine",
+    "subtopic": "lab_imaging"
+  },
+  "113_advanced_Q19": {
+    "topic": "crisis",
+    "subtopic": "acls"
+  },
+  "113_advanced_Q20": {
+    "topic": "special_patient",
+    "subtopic": "trauma_emergency"
+  },
+  "113_advanced_Q21": {
+    "topic": "crisis",
+    "subtopic": "hemorrhage_shock"
+  },
+  "113_advanced_Q22": {
+    "topic": "pharmacology",
+    "subtopic": "adjuncts"
+  },
+  "113_advanced_Q23": {
+    "topic": "crisis",
+    "subtopic": "embolism"
+  },
+  "113_advanced_Q24": {
+    "topic": "crisis",
+    "subtopic": "toxicity"
+  },
+  "113_advanced_Q25": {
+    "topic": "regional_pain",
+    "subtopic": "peripheral_block"
+  },
+  "113_advanced_Q26": {
+    "topic": "physiology",
+    "subtopic": "hematology"
+  },
+  "113_advanced_Q27": {
+    "topic": "special_patient",
+    "subtopic": "comorbid_patient"
+  },
+  "113_advanced_Q28": {
+    "topic": "specialty_surgery",
+    "subtopic": "cardiothoracic"
+  },
+  "113_advanced_Q29": {
+    "topic": "specialty_surgery",
+    "subtopic": "neurosurgery"
+  },
+  "113_advanced_Q30": {
+    "topic": "specialty_surgery",
+    "subtopic": "sedation_outside_or"
+  },
+  "113_advanced_Q31": {
+    "topic": "crisis",
+    "subtopic": "embolism"
+  },
+  "113_advanced_Q32": {
+    "topic": "pharmacology",
+    "subtopic": "opioids"
+  },
+  "113_advanced_Q33": {
+    "topic": "regional_pain",
+    "subtopic": "neuraxial"
+  },
+  "113_advanced_Q34": {
+    "topic": "specialty_surgery",
+    "subtopic": "general_abdominal"
+  },
+  "113_advanced_Q35": {
+    "topic": "crisis",
+    "subtopic": "resp_crisis"
+  },
+  "113_advanced_Q36": {
+    "topic": "ga_care",
+    "subtopic": "induction"
+  },
+  "113_advanced_Q37": {
+    "topic": "airway",
+    "subtopic": "extubation"
+  },
+  "113_advanced_Q38": {
+    "topic": "specialty_surgery",
+    "subtopic": "transplant_hepatobiliary"
+  },
+  "113_advanced_Q39": {
+    "topic": "crisis",
+    "subtopic": "anaphylaxis"
+  },
+  "113_advanced_Q40": {
+    "topic": "specialty_surgery",
+    "subtopic": "cardiothoracic"
+  },
+  "113_advanced_Q41": {
+    "topic": "specialty_surgery",
+    "subtopic": "ent_eye_dental"
+  },
+  "113_advanced_Q42": {
+    "topic": "specialty_surgery",
+    "subtopic": "ent_eye_dental"
+  },
+  "113_advanced_Q43": {
+    "topic": "airway",
+    "subtopic": "extubation"
+  },
+  "113_advanced_Q44": {
+    "topic": "airway",
+    "subtopic": "intubation"
+  },
+  "113_advanced_Q45": {
+    "topic": "ga_care",
+    "subtopic": "positioning"
+  },
+  "113_advanced_Q46": {
+    "topic": "airway",
+    "subtopic": "extubation"
+  },
+  "113_advanced_Q47": {
+    "topic": "crisis",
+    "subtopic": "embolism"
+  },
+  "113_advanced_Q48": {
+    "topic": "regional_pain",
+    "subtopic": "peripheral_block"
+  },
+  "113_advanced_Q49": {
+    "topic": "preop",
+    "subtopic": "comorbidity"
+  },
+  "113_advanced_Q50": {
+    "topic": "pharmacology",
+    "subtopic": "nmba"
+  },
+  "113_advanced_Q51": {
+    "topic": "ga_care",
+    "subtopic": "positioning"
+  },
+  "113_advanced_Q52": {
+    "topic": "specialty_surgery",
+    "subtopic": "neurosurgery"
+  },
+  "113_advanced_Q53": {
+    "topic": "physiology",
+    "subtopic": "renal_fluid"
+  },
+  "113_advanced_Q54": {
+    "topic": "pharmacology",
+    "subtopic": "pharm_principles"
+  },
+  "113_advanced_Q55": {
+    "topic": "specialty_surgery",
+    "subtopic": "orthopedic"
+  },
+  "113_advanced_Q56": {
+    "topic": "specialty_surgery",
+    "subtopic": "urology_ob_gyn"
+  },
+  "113_advanced_Q57": {
+    "topic": "special_patient",
+    "subtopic": "obstetric"
+  },
+  "113_advanced_Q58": {
+    "topic": "special_patient",
+    "subtopic": "obstetric"
+  },
+  "113_advanced_Q59": {
+    "topic": "special_patient",
+    "subtopic": "pediatric"
+  },
+  "113_advanced_Q60": {
+    "topic": "airway",
+    "subtopic": "pediatric_airway"
+  },
+  "113_advanced_Q61": {
+    "topic": "special_patient",
+    "subtopic": "pediatric"
+  },
+  "113_advanced_Q62": {
+    "topic": "special_patient",
+    "subtopic": "geriatric"
+  },
+  "113_advanced_Q63": {
+    "topic": "special_patient",
+    "subtopic": "geriatric"
+  },
+  "113_advanced_Q64": {
+    "topic": "special_patient",
+    "subtopic": "comorbid_patient"
+  },
+  "113_advanced_Q65": {
+    "topic": "special_patient",
+    "subtopic": "obesity"
+  },
+  "113_advanced_Q66": {
+    "topic": "preop",
+    "subtopic": "osa_obesity"
+  },
+  "113_advanced_Q67": {
+    "topic": "specialty_surgery",
+    "subtopic": "general_abdominal"
+  },
+  "113_advanced_Q68": {
+    "topic": "ga_care",
+    "subtopic": "pacu"
+  },
+  "113_advanced_Q69": {
+    "topic": "monitoring",
+    "subtopic": "temperature"
+  },
+  "113_advanced_Q70": {
+    "topic": "preop",
+    "subtopic": "fasting_premed"
+  },
+  "113_advanced_Q71": {
+    "topic": "special_patient",
+    "subtopic": "pediatric"
+  },
+  "113_advanced_Q72": {
+    "topic": "crisis",
+    "subtopic": "anaphylaxis"
+  },
+  "113_advanced_Q73": {
+    "topic": "ga_care",
+    "subtopic": "maintenance"
+  },
+  "113_advanced_Q74": {
+    "topic": "specialty_surgery",
+    "subtopic": "transplant_hepatobiliary"
+  },
+  "113_advanced_Q75": {
+    "topic": "specialty_surgery",
+    "subtopic": "transplant_hepatobiliary"
+  },
+  "113_advanced_Q76": {
+    "topic": "specialty_surgery",
+    "subtopic": "transplant_hepatobiliary"
+  },
+  "113_advanced_Q77": {
+    "topic": "specialty_surgery",
+    "subtopic": "cardiothoracic"
+  },
+  "113_advanced_Q78": {
+    "topic": "specialty_surgery",
+    "subtopic": "cardiothoracic"
+  },
+  "113_advanced_Q79": {
+    "topic": "specialty_surgery",
+    "subtopic": "cardiothoracic"
+  },
+  "113_advanced_Q80": {
+    "topic": "specialty_surgery",
+    "subtopic": "cardiothoracic"
+  },
+  "113_general_Q1": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  },
+  "113_general_Q2": {
+    "topic": "professional_practice",
+    "subtopic": "evidence_based"
+  },
+  "113_general_Q3": {
+    "topic": "health_promotion",
+    "subtopic": "patient_education"
+  },
+  "113_general_Q4": {
+    "topic": "professional_practice",
+    "subtopic": "professional_dev"
+  },
+  "113_general_Q5": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  },
+  "113_general_Q6": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  },
+  "113_general_Q7": {
+    "topic": "professional_practice",
+    "subtopic": "communication"
+  },
+  "113_general_Q8": {
+    "topic": "professional_practice",
+    "subtopic": "communication"
+  },
+  "113_general_Q9": {
+    "topic": "clinical_medicine",
+    "subtopic": "geriatric_palliative"
+  },
+  "113_general_Q10": {
+    "topic": "professional_practice",
+    "subtopic": "communication"
+  },
+  "113_general_Q11": {
+    "topic": "professional_practice",
+    "subtopic": "communication"
+  },
+  "113_general_Q12": {
+    "topic": "professional_practice",
+    "subtopic": "communication"
+  },
+  "113_general_Q13": {
+    "topic": "professional_practice",
+    "subtopic": "communication"
+  },
+  "113_general_Q14": {
+    "topic": "professional_practice",
+    "subtopic": "ethics_autonomy"
+  },
+  "113_general_Q15": {
+    "topic": "professional_practice",
+    "subtopic": "communication"
+  },
+  "113_general_Q16": {
+    "topic": "professional_practice",
+    "subtopic": "professional_dev"
+  },
+  "113_general_Q17": {
+    "topic": "professional_practice",
+    "subtopic": "professional_dev"
+  },
+  "113_general_Q18": {
+    "topic": "professional_practice",
+    "subtopic": "ethics_autonomy"
+  },
+  "113_general_Q19": {
+    "topic": "professional_practice",
+    "subtopic": "medical_law"
+  },
+  "113_general_Q20": {
+    "topic": "professional_practice",
+    "subtopic": "medical_law"
+  },
+  "113_general_Q21": {
+    "topic": "professional_practice",
+    "subtopic": "ethics_autonomy"
+  },
+  "113_general_Q22": {
+    "topic": "professional_practice",
+    "subtopic": "ethics_autonomy"
+  },
+  "113_general_Q23": {
+    "topic": "professional_practice",
+    "subtopic": "ethics_autonomy"
+  },
+  "113_general_Q24": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  },
+  "113_general_Q25": {
+    "topic": "professional_practice",
+    "subtopic": "medical_law"
+  },
+  "113_general_Q26": {
+    "topic": "professional_practice",
+    "subtopic": "ethics_autonomy"
+  },
+  "113_general_Q27": {
+    "topic": "professional_practice",
+    "subtopic": "ethics_autonomy"
+  },
+  "113_general_Q28": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  },
+  "113_general_Q29": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  },
+  "113_general_Q30": {
+    "topic": "professional_practice",
+    "subtopic": "evidence_based"
+  },
+  "113_general_Q31": {
+    "topic": "health_promotion",
+    "subtopic": "prevention_screening"
+  },
+  "113_general_Q32": {
+    "topic": "professional_practice",
+    "subtopic": "evidence_based"
+  },
+  "113_general_Q33": {
+    "topic": "health_promotion",
+    "subtopic": "prevention_screening"
+  },
+  "113_general_Q34": {
+    "topic": "health_promotion",
+    "subtopic": "patient_education"
+  },
+  "113_general_Q35": {
+    "topic": "professional_practice",
+    "subtopic": "patient_safety"
+  },
+  "113_general_Q36": {
+    "topic": "professional_practice",
+    "subtopic": "medical_law"
+  },
+  "113_general_Q37": {
+    "topic": "health_promotion",
+    "subtopic": "prevention_screening"
+  },
+  "113_general_Q38": {
+    "topic": "clinical_medicine",
+    "subtopic": "endocrine_renal_dz"
+  },
+  "113_general_Q39": {
+    "topic": "professional_practice",
+    "subtopic": "evidence_based"
+  },
+  "113_general_Q40": {
+    "topic": "professional_practice",
+    "subtopic": "evidence_based"
+  },
+  "113_general_Q41": {
+    "topic": "professional_practice",
+    "subtopic": "evidence_based"
+  },
+  "113_general_Q42": {
+    "topic": "professional_practice",
+    "subtopic": "patient_safety"
+  },
+  "113_general_Q43": {
+    "topic": "professional_practice",
+    "subtopic": "patient_safety"
+  },
+  "113_general_Q44": {
+    "topic": "professional_practice",
+    "subtopic": "patient_safety"
+  },
+  "113_general_Q45": {
+    "topic": "professional_practice",
+    "subtopic": "patient_safety"
+  },
+  "113_general_Q46": {
+    "topic": "professional_practice",
+    "subtopic": "patient_safety"
+  },
+  "113_general_Q47": {
+    "topic": "physiology",
+    "subtopic": "cardiovascular"
+  },
+  "113_general_Q48": {
+    "topic": "physiology",
+    "subtopic": "cardiovascular"
+  },
+  "113_general_Q49": {
+    "topic": "preop",
+    "subtopic": "risk_assessment"
+  },
+  "113_general_Q50": {
+    "topic": "specialty_surgery",
+    "subtopic": "cardiothoracic"
+  },
+  "113_general_Q51": {
+    "topic": "crisis",
+    "subtopic": "hemorrhage_shock"
+  },
+  "113_general_Q52": {
+    "topic": "ga_care",
+    "subtopic": "maintenance"
+  },
+  "113_general_Q53": {
+    "topic": "ga_care",
+    "subtopic": "maintenance"
+  },
+  "113_general_Q54": {
+    "topic": "physiology",
+    "subtopic": "respiratory"
+  },
+  "113_general_Q55": {
+    "topic": "physiology",
+    "subtopic": "respiratory"
+  },
+  "113_general_Q56": {
+    "topic": "regional_pain",
+    "subtopic": "neuraxial"
+  },
+  "113_general_Q57": {
+    "topic": "ga_care",
+    "subtopic": "fluid_transfusion"
+  },
+  "113_general_Q58": {
+    "topic": "pharmacology",
+    "subtopic": "opioids"
+  },
+  "113_general_Q59": {
+    "topic": "physiology",
+    "subtopic": "cardiovascular"
+  },
+  "113_general_Q60": {
+    "topic": "monitoring",
+    "subtopic": "nmt_depth"
+  },
+  "113_general_Q61": {
+    "topic": "regional_pain",
+    "subtopic": "neuraxial"
+  },
+  "113_general_Q62": {
+    "topic": "ga_care",
+    "subtopic": "pacu"
+  },
+  "113_general_Q63": {
+    "topic": "preop",
+    "subtopic": "osa_obesity"
+  },
+  "113_general_Q64": {
+    "topic": "regional_pain",
+    "subtopic": "acute_pain"
+  },
+  "113_general_Q65": {
+    "topic": "specialty_surgery",
+    "subtopic": "general_abdominal"
+  },
+  "113_general_Q66": {
+    "topic": "physiology",
+    "subtopic": "renal_fluid"
+  },
+  "113_general_Q67": {
+    "topic": "preop",
+    "subtopic": "fasting_premed"
+  },
+  "113_general_Q68": {
+    "topic": "physiology",
+    "subtopic": "respiratory"
+  },
+  "113_general_Q69": {
+    "topic": "physiology",
+    "subtopic": "respiratory"
+  },
+  "113_general_Q70": {
+    "topic": "preop",
+    "subtopic": "airway_eval"
+  },
+  "113_general_Q71": {
+    "topic": "preop",
+    "subtopic": "airway_eval"
+  },
+  "113_general_Q72": {
+    "topic": "specialty_surgery",
+    "subtopic": "ent_eye_dental"
+  },
+  "113_general_Q73": {
+    "topic": "pharmacology",
+    "subtopic": "nmba"
+  },
+  "113_general_Q74": {
+    "topic": "pharmacology",
+    "subtopic": "nmba"
+  },
+  "113_general_Q75": {
+    "topic": "crisis",
+    "subtopic": "toxicity"
+  },
+  "113_general_Q76": {
+    "topic": "regional_pain",
+    "subtopic": "neuraxial"
+  },
+  "113_general_Q77": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  },
+  "113_general_Q78": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  },
+  "113_general_Q79": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  },
+  "113_general_Q80": {
+    "topic": "professional_practice",
+    "subtopic": "np_regulation"
+  }
+}

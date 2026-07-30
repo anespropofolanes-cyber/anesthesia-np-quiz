@@ -1,0 +1,1386 @@
+{
+  "meta": {
+    "year": 109,
+    "role": "nurse",
+    "subject": "general",
+    "subject_name": "專科護理通論",
+    "total": 80,
+    "score_per_question": 1.25
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "65歲女性預行人工膝關節置換術，術前麻醉訪視發現病人有下列何種情況，應立即延遲手術，做進一步內科評估？",
+      "options": {
+        "A": "糖尿病併高血脂",
+        "B": "穩定型心絞痛",
+        "C": "第三度房室傳導阻斷",
+        "D": "血壓160/90 mmHg"
+      },
+      "answer": "C",
+      "explanation": "第三度（完全性）房室傳導阻斷（complete heart block）是需要永久性心臟節律器的嚴重心律不整，未處理前進行手術麻醉風險極高，應延遲手術。穩定型心絞痛、輕度高血壓、糖尿病高血脂等不需立即延遲。",
+      "difficulty": "medium",
+      "source": "109_general_Q1",
+      "legacy_category": "clinical_assessment",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 2,
+      "question": "對於進行麻醉衛教說明前，先確認個案之教育知識、背景、經驗及認知能力、需求、接收資訊之適切性及家屬等因素，此乃教學過程中之何項步驟？",
+      "options": {
+        "A": "評估(Assessment)",
+        "B": "計畫(Plan)",
+        "C": "執行(Do)",
+        "D": "評價(Evaluation)"
+      },
+      "answer": "A",
+      "explanation": "ADPIE 護理程序：評估（Assessment）→ 診斷 → 計畫 → 執行 → 評價。在衛教前確認病人的背景、知識、需求屬於「評估」階段。",
+      "difficulty": "easy",
+      "source": "109_general_Q2",
+      "legacy_category": "general_nursing",
+      "topic": "health_promotion",
+      "subtopic": "patient_education"
+    },
+    {
+      "id": 3,
+      "question": "下列何種教學方式可以快速地針對單位內數十位護理人員傳遞大量訊息？",
+      "options": {
+        "A": "指導者監督下直接照護病人",
+        "B": "舉辦特定主題的系列演講",
+        "C": "小組討論",
+        "D": "模擬訓練"
+      },
+      "answer": "B",
+      "explanation": "演講（lecture）是大規模知識傳遞最有效率的方式，可同時對數十至數百人傳遞標準化訊息。小組討論和模擬訓練效果佳但人數受限；直接照護指導為一對一。",
+      "difficulty": "easy",
+      "source": "109_general_Q3",
+      "legacy_category": "general_nursing",
+      "topic": "health_promotion",
+      "subtopic": "patient_education"
+    },
+    {
+      "id": 4,
+      "question": "手術前檢測β-hCG是因為病人可能有何種情況？",
+      "options": {
+        "A": "控制不良的糖尿病",
+        "B": "近日內暴露於肝炎病毒",
+        "C": "近日內有使用毛地黃",
+        "D": "懷孕"
+      },
+      "answer": "D",
+      "explanation": "β-hCG（人類絨毛膜促性腺激素）是懷孕的標記物，育齡女性術前常規檢測以確認是否懷孕，避免麻醉藥物對胎兒的潛在危害。",
+      "difficulty": "easy",
+      "source": "109_general_Q4",
+      "legacy_category": "clinical_assessment",
+      "topic": "preop",
+      "subtopic": "risk_assessment"
+    },
+    {
+      "id": 5,
+      "question": "運用ISBAR為交班溝通工具，其定義何者為非：",
+      "options": {
+        "A": "S(Situation)：病人問題與狀況",
+        "B": "B(Background)：與狀況相關的背景資訊",
+        "C": "A(Assistant)：病人需要的協助",
+        "D": "R(Recommendation)：可改善狀況的方法"
+      },
+      "answer": "C",
+      "explanation": "ISBAR：I=Identify（身份確認）、S=Situation（現況）、B=Background（背景）、A=Assessment（評估），R=Recommendation（建議）。A 代表 Assessment（評估）而非 Assistant（協助）。",
+      "difficulty": "easy",
+      "source": "109_general_Q5",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "communication"
+    },
+    {
+      "id": 6,
+      "question": "依據「專科護理師於醫師監督下執行醫療業務辦法」，麻醉科專科護理師可執行以下何種導管置入？",
+      "options": {
+        "A": "周邊動脈導管",
+        "B": "中心靜脈導管",
+        "C": "肺動脈導管",
+        "D": "硬膜外導管"
+      },
+      "answer": "A",
+      "explanation": "依據台灣法規，麻醉科專科護理師在醫師監督下可執行周邊動脈導管置入等特定技術操作。中心靜脈、肺動脈及硬膜外導管通常由醫師執行。",
+      "difficulty": "medium",
+      "source": "109_general_Q6",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "np_regulation"
+    },
+    {
+      "id": 7,
+      "question": "麻醉同意書應由病人親自簽名，但病人因故無法為同意之表示時，得由關係人簽名。所謂「關係人」不包括：",
+      "options": {
+        "A": "外科主治醫師",
+        "B": "警察",
+        "C": "肇事駕駛",
+        "D": "同性伴侶"
+      },
+      "answer": "A",
+      "explanation": "依醫療法，代理同意的關係人順序：法定代理人、配偶、親屬、關係人（如警察、社工）。外科主治醫師本身是手術執行者，存在利益衝突，不得擔任關係人代為簽署同意書。",
+      "difficulty": "medium",
+      "source": "109_general_Q7",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "medical_law"
+    },
+    {
+      "id": 8,
+      "question": "在健康照護上，構成臨床照護三角，何者為非？",
+      "options": {
+        "A": "病人安全",
+        "B": "改善結果",
+        "C": "病人滿意度",
+        "D": "教學研究"
+      },
+      "answer": "D",
+      "explanation": "臨床照護三角（Clinical Care Triangle）由病人安全（Patient Safety）、改善結果（Improved Outcomes）、病人滿意度（Patient Satisfaction）構成。教學研究不是三角的構成要素。",
+      "difficulty": "easy",
+      "source": "109_general_Q8",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 9,
+      "question": "以下何者不是病人自控式止痛 (patient controlled analgesia, PCA)機器的設定項目：",
+      "options": {
+        "A": "起始劑量 (loading dose)",
+        "B": "自控劑量 (bolus dose)",
+        "C": "鎖定間隔時間 (lockout interval)",
+        "D": "病人使用的給予/需求次數 (bolus/demand)"
+      },
+      "answer": "D",
+      "explanation": "PCA 設定項目包含：起始劑量、自控劑量（bolus dose）、鎖定間隔時間、持續輸注速率（basal rate）、每小時最大劑量限制。病人使用的給予/需求比值（demands/deliveries）是記錄資料，不是預先設定項目。",
+      "difficulty": "easy",
+      "source": "109_general_Q9",
+      "legacy_category": "general_nursing",
+      "topic": "regional_pain",
+      "subtopic": "acute_pain"
+    },
+    {
+      "id": 10,
+      "question": "主動脈狹窄的病人，術前評估事項何者為是？",
+      "options": {
+        "A": "嚴重主動脈狹窄為主動脈壓力差大於20 mmHg 或瓣膜開口小於2 cm2",
+        "B": "心搏出量減少導致右心室肥厚，不可給予過多輸液",
+        "C": "臨床上可能沒有症狀，但有時會有突然昏厥的情況",
+        "D": "臨床上心絞痛的症狀較少見"
+      },
+      "answer": "C",
+      "explanation": "主動脈瓣狹窄：嚴重定義為壓差 > 40 mmHg 或瓣膜面積 < 1 cm²；導致左心室肥厚（非右心室）；三大症狀：心絞痛、暈厥（昏厥）、心衰竭，可無症狀期長達多年後突然發病。",
+      "difficulty": "easy",
+      "source": "109_general_Q10",
+      "legacy_category": "general_nursing",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 11,
+      "question": "高血鉀症病人的處置下列何者為非？",
+      "options": {
+        "A": "使用氯化鈣(CaCl2)",
+        "B": "使用NaHCO3",
+        "C": "使用胰島素",
+        "D": "減低換氣速率"
+      },
+      "answer": "D",
+      "explanation": "高血鉀處置：CaCl₂（穩定心肌）、NaHCO₃（鹼化促K⁺進入細胞）、Insulin+glucose（促K⁺進入細胞）、沙丁胺醇、透析、離子交換樹脂。應增加換氣（過度換氣造成鹼中毒促K⁺內移），減低換氣會加重高血鉀。",
+      "difficulty": "medium",
+      "source": "109_general_Q11",
+      "legacy_category": "physiology",
+      "topic": "physiology",
+      "subtopic": "renal_fluid"
+    },
+    {
+      "id": 12,
+      "question": "心肌缺氧導致的心絞痛可能出現下列何種心電圖變化？",
+      "options": {
+        "A": "P波變平甚至消失",
+        "B": "QT間段延長",
+        "C": "PR間段縮短",
+        "D": "ST-T改變"
+      },
+      "answer": "D",
+      "explanation": "心肌缺血最典型的 ECG 表現為 ST 段壓低（subendocardial ischemia）或 ST 段上升（transmural ischemia/STEMI）及 T 波改變。P 波消失見於心房顫動；QT 延長見於低血鉀/藥物；PR 縮短見於預激症候群。",
+      "difficulty": "easy",
+      "source": "109_general_Q12",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "ecg_reading"
+    },
+    {
+      "id": 13,
+      "question": "下列何者不是術後噁心嘔吐(PONV)的危險因子？",
+      "options": {
+        "A": "吸菸者",
+        "B": "暈動症病史",
+        "C": "女性",
+        "D": "腹腔鏡手術"
+      },
+      "answer": "A",
+      "explanation": "PONV 危險因子（Apfel score）：女性、非吸菸者、暈動症/PONV 病史、術後鴉片類藥物使用。吸菸者反而 PONV 風險較低（保護因子）。腹腔鏡手術是手術相關危險因子。",
+      "difficulty": "easy",
+      "source": "109_general_Q13",
+      "legacy_category": "general_nursing",
+      "topic": "ga_care",
+      "subtopic": "pacu"
+    },
+    {
+      "id": 14,
+      "question": "有關麻醉專科護理師的角色功能，下列敘述何者不適合由其單獨執行？",
+      "options": {
+        "A": "針對某一急診危急病患，立即跟家屬說明麻醉緊急處置及後續醫療處置",
+        "B": "針對使用PCA的病患給予相關諮詢衛教與指導",
+        "C": "使用品管工具持續性的監測臨床狀況，用以提升照護品質",
+        "D": "與麻醉醫師是橫向合作關係，共同提供連續性及整合性的護理與醫療照護"
+      },
+      "answer": "A",
+      "explanation": "向家屬說明緊急麻醉處置及後續醫療決策屬於醫師職責，專科護理師在醫師監督下協助，不得單獨向家屬說明醫療處置決定，避免逾越執業範疇。",
+      "difficulty": "medium",
+      "source": "109_general_Q14",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "professional_dev"
+    },
+    {
+      "id": 15,
+      "question": "下列何者不是困難插管的理學檢查特徵？",
+      "options": {
+        "A": "張口受限",
+        "B": "頷退縮(receding jaw)",
+        "C": "門牙突出",
+        "D": "沒有牙齒"
+      },
+      "answer": "D",
+      "explanation": "困難插管預測指標：Mallampati 分級高、張口受限（< 3 cm）、頷退縮（小下巴/micrognathia）、門牙突出（buck teeth）、頸部活動受限、甲頦距離短等。沒有牙齒不是困難插管的預測因子（反而可能更好看到聲門）。",
+      "difficulty": "easy",
+      "source": "109_general_Q15",
+      "legacy_category": "general_nursing",
+      "topic": "preop",
+      "subtopic": "airway_eval"
+    },
+    {
+      "id": 16,
+      "question": "45歲陳先生膽囊結石發炎，接受腹腔鏡膽囊切除，沾黏嚴重手術時間較長，術後在恢復室抱怨右上腹有悶痛、絞痛、轉移痛，但是很難界定在哪個區域，請問這種痛是屬於？",
+      "options": {
+        "A": "神經病變痛(neuropathic pain)",
+        "B": "肌筋膜疼痛(myofascial pain)",
+        "C": "內臟型疼痛(visceral pain)",
+        "D": "神經篏入性症候群(nerve entrapment syndrome)"
+      },
+      "answer": "C",
+      "explanation": "內臟型疼痛（visceral pain）特徵：位置不明確、悶痛/絞痛、常有轉移痛（如膽囊痛轉移至右肩）、伴隨自律神經症狀（噁心嘔吐）。體壁型疼痛（somatic pain）則定位清楚且尖銳。",
+      "difficulty": "easy",
+      "source": "109_general_Q16",
+      "legacy_category": "clinical_assessment",
+      "topic": "regional_pain",
+      "subtopic": "acute_pain"
+    },
+    {
+      "id": 17,
+      "question": "何種吸入性麻醉劑的揮發器(vaporizer)使用時需要加熱加壓？",
+      "options": {
+        "A": "Halothane",
+        "B": "Isoflurane",
+        "C": "Sevoflurane",
+        "D": "Desflurane"
+      },
+      "answer": "D",
+      "explanation": "Desflurane 沸點僅約 22.8°C、20°C 時飽和蒸氣壓已高達約 669 mmHg（接近一大氣壓），放在傳統可變旁路揮發器中，輸出濃度會隨室溫與蒸發降溫劇烈波動而無法控制。故需使用 Tec 6 型加熱加壓揮發器：以電熱把藥槽維持在 39°C，此時 desflurane 蒸氣壓約 1500 mmHg（≈2 大氣壓絕對壓），形成一個獨立的加壓純蒸氣源，再由電子控制的可變電阻閥把蒸氣依設定濃度注入新鮮氣流。其餘藥物沸點與蒸氣壓皆遠離室溫（halothane 沸點 50.2°C／蒸氣壓 243 mmHg，isoflurane 48.5°C／240 mmHg，sevoflurane 58.5°C／157 mmHg），使用一般溫度補償式可變旁路揮發器即可。",
+      "difficulty": "easy",
+      "source": "109_general_Q17",
+      "review_note": "2026-07-30 解析審查修訂：原解析寫 Tec 6 維持「1.5 atm」有誤，正確為 39°C 下蒸氣壓約 1500 mmHg（≈2 atm 絕對壓）；並修正沸點與補充其他藥物蒸氣壓對照。",
+      "legacy_category": "pharmacology",
+      "topic": "pharmacology",
+      "subtopic": "inhalational"
+    },
+    {
+      "id": 18,
+      "question": "台灣現行手術室中各種醫療氣體，有其代表的顏色，黃色是代表？",
+      "options": {
+        "A": "氧氣",
+        "B": "笑氣",
+        "C": "空氣",
+        "D": "二氧化碳"
+      },
+      "answer": "C",
+      "explanation": "台灣手術室醫療氣體顏色：氧氣=綠色、笑氣=藍色、空氣=黃色、二氧化碳=灰色、氮氣=黑色、負壓=白色。各國標準可能不同，台灣以此為準。",
+      "difficulty": "easy",
+      "source": "109_general_Q18",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 19,
+      "question": "對於二氧化碳吸收劑使用的安全建議何者為非？",
+      "options": {
+        "A": "機器不使用時關閉所有氣體流量",
+        "B": "吸收劑變色就應更換",
+        "C": "雙罐系統每次更換一罐即可",
+        "D": "小型吸收劑罐應更常更換"
+      },
+      "answer": "C",
+      "explanation": "雙罐（two-canister）系統應兩罐同時更換，若只換一罐，殘餘的舊罐可能混入再生的舊吸收劑（指示劑顏色回退），造成誤判。吸收劑變色時即應更換。",
+      "difficulty": "medium",
+      "source": "109_general_Q19",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 20,
+      "question": "下列何者監測器無法協助偵測食道插管？",
+      "options": {
+        "A": "脈搏血氧機",
+        "B": "潮氣末二氧化碳監測器",
+        "C": "聽診器",
+        "D": "體溫計"
+      },
+      "answer": "D",
+      "explanation": "食道插管偵測：EtCO₂（無波形=未插入氣管）最可靠；聽診器（胃部聽到氣過水聲）；SpO₂ 下降（但有延遲）。體溫計無法協助偵測插管位置。",
+      "difficulty": "easy",
+      "source": "109_general_Q20",
+      "legacy_category": "monitoring",
+      "topic": "airway",
+      "subtopic": "intubation"
+    },
+    {
+      "id": 21,
+      "question": "以下有關喉頭鏡之準備與使用提醒，何者正確？",
+      "options": {
+        "A": "彎曲型葉片(Macintosh)前端有活動關節可以觸發彎曲",
+        "B": "直型葉片（Miller）向前至舌根和會厭軟骨咽面之間以利插管",
+        "C": "麻醉醫師插管時，可適時提醒喉頭鏡上提時應避免施壓於牙齒和牙齦",
+        "D": "Macintosh葉片於成人多為2或3號，Miller葉片於成人多為3或4號"
+      },
+      "answer": "C",
+      "explanation": "插管時施力應向前上方提起（非槓桿式以牙齒為支點），避免損傷牙齒牙齦。Miller（直型）葉片置於會厭軟骨下方直接挑起（非放在舌谷）；Macintosh 成人常用 3 號，Miller 成人常用 2 號。",
+      "difficulty": "medium",
+      "source": "109_general_Q21",
+      "legacy_category": "airway",
+      "topic": "airway",
+      "subtopic": "devices"
+    },
+    {
+      "id": 22,
+      "question": "以下血品成分的敘述，何者正確？",
+      "options": {
+        "A": "新鮮冷凍血漿(Fresh Frozen Plasma)比冷凍沉澱品(Cryoprecipitate)含有更多的纖維質蛋白原(fibrinogen)",
+        "B": "血小板(Platelets)須以4℃保存，因此細菌生長率較低",
+        "C": "新鮮冷凍血漿(Fresh Frozen Plasma)內含血小板與所有凝血因子",
+        "D": "術中失血時，輸紅血球濃縮液(Packed Red Blood Cells)可增加血液攜氧能力"
+      },
+      "answer": "D",
+      "explanation": "PRBC 確實可增加血液攜氧能力（增加 Hb 濃度）。FFP 含所有凝血因子但不含血小板；Cryoprecipitate 纖維蛋白原含量高於 FFP；血小板應保存於 20–24°C（室溫搖動），細菌生長率反而較 4°C 高。",
+      "difficulty": "easy",
+      "source": "109_general_Q22",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "ga_care",
+      "subtopic": "fluid_transfusion"
+    },
+    {
+      "id": 23,
+      "question": "70歲男性病人，長期服用warfarin，預計接受常規疝氣手術，手術前未停用藥物，病人的驗血報告最有可能呈現下列何項結果？",
+      "options": {
+        "A": "血小板(Pl)低下",
+        "B": "凝血酶原時間(PT)異常",
+        "C": "部份凝血酶原時間(aPTT)異常",
+        "D": "凝血時間(CT)過低"
+      },
+      "answer": "B",
+      "explanation": "Warfarin 抑制維生素K依賴凝血因子（II, VII, IX, X），主要延長 PT/INR（外因性凝血路徑）。aPTT 延長見於 Heparin、VIII/IX因子缺乏；血小板數量不受影響。",
+      "difficulty": "easy",
+      "source": "109_general_Q23",
+      "legacy_category": "clinical_assessment",
+      "topic": "physiology",
+      "subtopic": "hematology"
+    },
+    {
+      "id": 24,
+      "question": "關於術後肺部併發症(postoperative pulmonary complications, POPCs)，下列敘述何者正確？",
+      "options": {
+        "A": "相關危險因子：老年(>60歲)、第一型及第二型糖尿病",
+        "B": "吸菸史、惡性腫瘤及慢性阻塞性肺疾病(COPD)與POPCs的風險成反比",
+        "C": "只有低血清白蛋白(hypoalbuminemia；< 3.0 g/dL)是顯示POPCs準確的實驗室指標",
+        "D": "手術相關危險因子包括區域麻醉"
+      },
+      "answer": "C",
+      "explanation": "低白蛋白血症（< 3 g/dL）是 POPCs 最有力的實驗室預測指標，反映營養狀態差。老年、COPD、吸菸、惡性腫瘤均是危險因子（非反比）；區域麻醉反而降低 POPCs 風險。",
+      "difficulty": "medium",
+      "source": "109_general_Q24",
+      "legacy_category": "clinical_assessment",
+      "topic": "preop",
+      "subtopic": "risk_assessment"
+    },
+    {
+      "id": 25,
+      "question": "關於術後認知功能障礙(postoperative cognitive dysfunction, POCD)，下列敘述何者正確？",
+      "options": {
+        "A": "僅進行術後的心理測驗就能診斷POCD",
+        "B": "危險因子包括教育程度高及術前有中風病史",
+        "C": "目前臨床數據顯示，麻醉方式對POCD的發生率並沒有顯著差異",
+        "D": "老年人發生持續性POCD的比率相當於年輕人和中年人"
+      },
+      "answer": "C",
+      "explanation": "目前研究顯示全身麻醉與區域麻醉在 POCD 發生率上無顯著差異。POCD 診斷需術前基準測驗對照（非僅術後）；低教育程度和術前中風是危險因子；老年人持續性 POCD 比率高於年輕人。",
+      "difficulty": "medium",
+      "source": "109_general_Q25",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "special_patient",
+      "subtopic": "geriatric"
+    },
+    {
+      "id": 26,
+      "question": "在手術麻醉前，麻醉醫護人員儘量以病人所能瞭解之方式，解釋本次手術涉及之麻醉問題及相關資訊，並徵得病人的同意。這樣的做法最能代表以下何種倫理原則？",
+      "options": {
+        "A": "不傷害原則",
+        "B": "公平正義原則",
+        "C": "行善施益原則",
+        "D": "尊重自主原則"
+      },
+      "answer": "D",
+      "explanation": "尊重自主原則（Autonomy）：知情同意（informed consent）是其核心體現，確保病人在充分了解資訊後自主決定是否接受治療。四大倫理原則：自主、不傷害、行善、公平正義。",
+      "difficulty": "easy",
+      "source": "109_general_Q26",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "ethics_autonomy"
+    },
+    {
+      "id": 27,
+      "question": "手術須接受全身麻醉的病人，對於呼吸系統之評估何者為非？",
+      "options": {
+        "A": "全身麻醉會使功能殘氣量(functional residual capacity)下降，易發生肺擴張不全",
+        "B": "Desflurane會刺激氣道引起咳嗽，不是氣道敏感病人的最佳選擇",
+        "C": "喉鳴(stridor)可能是下呼吸道狹窄的症狀",
+        "D": "喘鳴(wheezing)可能是阻塞性氣道疾病的症狀"
+      },
+      "answer": "C",
+      "explanation": "Stridor（喘鳴/喉鳴）是上呼吸道阻塞（如聲門下狹窄、喉頭水腫、異物）的典型聲音，而非下呼吸道。Wheezing（哮鳴）才是下呼吸道阻塞（如氣喘、COPD）的典型聲音。",
+      "difficulty": "easy",
+      "source": "109_general_Q27",
+      "legacy_category": "airway",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 28,
+      "question": "關於喉罩(laryngeal mask airway, LMA)的使用時機，下列何項情況最適當？",
+      "options": {
+        "A": "嚴重胎兒窘迫需進行緊急剖腹產的孕婦",
+        "B": "插管失敗且困難面罩通氣的病人",
+        "C": "病態肥胖要進行腹腔鏡胃繞道術的病人",
+        "D": "腸阻塞要進行剖腹探查的病人"
+      },
+      "answer": "B",
+      "explanation": "LMA 在困難插管且困難面罩通氣（CICV）時是救命的呼吸道輔助工具。禁忌或不適合：胃內容物反流風險高（孕婦、腸阻塞）、需要高氣道壓（肥胖腹腔鏡）。",
+      "difficulty": "medium",
+      "source": "109_general_Q28",
+      "legacy_category": "airway",
+      "topic": "airway",
+      "subtopic": "devices"
+    },
+    {
+      "id": 29,
+      "question": "有關潮氣末二氧化碳(EtCO2)監測儀器的數值影響因素，下列敘述何者為非？",
+      "options": {
+        "A": "惡性高熱造成數值下降",
+        "B": "給予重碳酸鈉造成數值上升",
+        "C": "低心輸出量造成數值下降",
+        "D": "換氣不足造成數值上升"
+      },
+      "answer": "A",
+      "explanation": "惡性高熱（MH）代謝急劇增加，CO₂ 產生大幅升高，EtCO₂ 急速上升（是 MH 最早最敏感的指標）。NaHCO₃ 分解釋放 CO₂ 使 EtCO₂ 上升；低心輸出量使肺灌流減少，EtCO₂ 下降；換氣不足使 CO₂ 排出減少，EtCO₂ 上升。",
+      "difficulty": "medium",
+      "source": "109_general_Q29",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "respiratory_mon"
+    },
+    {
+      "id": 30,
+      "question": "下列對於呼吸道的評估何者為非？",
+      "options": {
+        "A": "頸部軟組織損傷可能會影響上呼吸道解剖構造扭曲改變，造成呼吸道阻塞",
+        "B": "頭頸部做過放射線治療的病人，可能會造成纖維化，導致氣道處置及插管困難",
+        "C": "頭部受傷造成顱底骨折的病人，可嘗試鼻插管做呼吸道的處置",
+        "D": "甲狀腺腫大的病人，甲狀腺結節可能造成呼吸道外部壓迫或氣管偏離"
+      },
+      "answer": "C",
+      "explanation": "顱底骨折（basilar skull fracture）是鼻插管的絕對禁忌，因為鼻胃管或鼻插管可能誤入顱腔。應選擇口腔插管或緊急氣切。",
+      "difficulty": "medium",
+      "source": "109_general_Q30",
+      "legacy_category": "airway",
+      "topic": "preop",
+      "subtopic": "airway_eval"
+    },
+    {
+      "id": 31,
+      "question": "關於頸部根治手術，下列敘述何者為非？",
+      "options": {
+        "A": "若有吸菸喝酒、營養不良病史者，術前評估應注意心、肺、肝、腎等功能",
+        "B": "此類病人最常見的問題是困難氣道處理，應準備影像輔助工具",
+        "C": "術前是否進行放射線治療，並不會影響麻醉計畫與準備物品",
+        "D": "頸部手術發生心律不整(心搏過緩)，常與頸動脈竇的刺激有關"
+      },
+      "answer": "C",
+      "explanation": "放射線治療後頸部纖維化、皮膚攣縮、氣道變形，顯著增加困難插管風險，必然影響麻醉計畫（需準備清醒纖維支鏡插管等）。術前放射線治療史是重要的麻醉評估項目。",
+      "difficulty": "medium",
+      "source": "109_general_Q31",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "specialty_surgery",
+      "subtopic": "ent_eye_dental"
+    },
+    {
+      "id": 32,
+      "question": "下列何者鴉片類藥物(Opioids)會因高劑量使用時，其活性代謝產物會累積而導致中樞神經興奮和癲癇發作？",
+      "options": {
+        "A": "Meperidine",
+        "B": "Morphine",
+        "C": "Hydromorphone",
+        "D": "Fentanyl"
+      },
+      "answer": "A",
+      "explanation": "Meperidine（Pethidine）代謝為 Normeperidine，具有神經興奮性，大劑量或腎功能不全時累積可導致焦慮、震顫、肌肉陣攣、癲癇發作。老年人及腎功能不全者禁用於長期止痛。",
+      "difficulty": "medium",
+      "source": "109_general_Q32",
+      "legacy_category": "pharmacology",
+      "topic": "pharmacology",
+      "subtopic": "opioids"
+    },
+    {
+      "id": 33,
+      "question": "下列何者為術後疼痛對生理所造成的不良影響？",
+      "options": {
+        "A": "免疫功能降低",
+        "B": "低血糖",
+        "C": "低凝血症",
+        "D": "頻尿"
+      },
+      "answer": "A",
+      "explanation": "術後疼痛引發交感神經及應激反應，造成：高血糖（非低血糖）、高凝血狀態（非低凝血）、免疫功能降低（增加感染風險）、心肺負擔增加、尿滯留（非頻尿）。",
+      "difficulty": "easy",
+      "source": "109_general_Q33",
+      "legacy_category": "physiology",
+      "topic": "regional_pain",
+      "subtopic": "acute_pain"
+    },
+    {
+      "id": 34,
+      "question": "關於甲狀腺機能亢進(thyrotoxicosis)病人的麻醉前評估，下列敘述何者正確？",
+      "options": {
+        "A": "術前甲狀腺機能高於正常值，但心率每分鐘低於120次，仍可進行常規手術",
+        "B": "術中應持續使用抗甲狀腺藥物、治療性藥物碘及β-受體阻斷劑",
+        "C": "進行緊急手術前不需給予降心率藥物調整心率",
+        "D": "選用全身麻醉比區域麻醉更適合甲狀腺機能亢進病人"
+      },
+      "answer": "B",
+      "explanation": "甲亢病人術前應使用抗甲狀腺藥物（PTU/Methimazole）、碘劑（術前 10 天）、β-blocker 控制心率，術中繼續使用。常規手術應在甲狀腺功能恢復正常後進行（心率 < 90 bpm）。",
+      "difficulty": "medium",
+      "source": "109_general_Q34",
+      "legacy_category": "clinical_assessment",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 35,
+      "question": "圍術期，心電圖突然出現心房顫動(Atrial fibrillation)，下列何者正確？",
+      "options": {
+        "A": "呼叫醫師，備妥第一線治療用藥毛地黃(digitalis)",
+        "B": "合併血壓穩定，可優先考慮同步心臟電擊(cardioversion)",
+        "C": "合併血壓不穩定，可考慮非同步心臟電擊(defibrillation)",
+        "D": "若需Amiodarone治療，需靜脈注射超過10分鐘"
+      },
+      "answer": "D",
+      "explanation": "Amiodarone 靜脈負荷劑量應緩慢給予（> 10 分鐘，通常 10–20 分鐘），快速給予會造成嚴重低血壓。血壓穩定的 AF 優先藥物控制心率；血壓不穩定需同步電擊（非非同步，非同步是 VF）。",
+      "difficulty": "easy",
+      "source": "109_general_Q35",
+      "legacy_category": "general_nursing",
+      "topic": "crisis",
+      "subtopic": "acls"
+    },
+    {
+      "id": 36,
+      "question": "動脈血液氣體分析結果：pH 7.30, PaO2 106 mmHg, PaCO2 32 mmHg, HCO3¯ 16 mEq/L, Na+ 138 mEq/L, K+ 3.5 mEq/L，此結果判讀為何？",
+      "options": {
+        "A": "呼吸性酸中毒 (respiratory acidosis)",
+        "B": "呼吸性鹼中毒 (respiratory alkalosis)",
+        "C": "代謝性酸中毒 (metabolic acidosis)",
+        "D": "代謝性鹼中毒 (metabolic alkalosis)"
+      },
+      "answer": "C",
+      "explanation": "判讀：pH 7.30（酸中毒）→ PaCO₂ 32（偏低，非原因）→ HCO₃⁻ 16（偏低，是原因）→ 代謝性酸中毒。PaCO₂ 下降是對代謝性酸中毒的代償性過度換氣（Kussmaul breathing）。",
+      "difficulty": "medium",
+      "source": "109_general_Q36",
+      "legacy_category": "physiology",
+      "topic": "physiology",
+      "subtopic": "renal_fluid"
+    },
+    {
+      "id": 37,
+      "question": "接受肺葉切除手術病人，建議至少應在手術前多久停止抽菸？",
+      "options": {
+        "A": "2小時前",
+        "B": "4-6小時",
+        "C": "8-10小時",
+        "D": "12-24小時"
+      },
+      "answer": "D",
+      "explanation": "停菸 12–24 小時：CO 半衰期約 4–6 小時，12 小時後 COHb 恢復正常，氧合改善。理想停菸時間為 4–8 週（纖毛功能恢復、痰液減少、肺功能改善）。但即使術前 24 小時停菸仍有益。",
+      "difficulty": "easy",
+      "source": "109_general_Q37",
+      "legacy_category": "clinical_assessment",
+      "topic": "preop",
+      "subtopic": "risk_assessment"
+    },
+    {
+      "id": 38,
+      "question": "關於準備麻醉機的標準安全檢核步驟，以下何者正確？",
+      "options": {
+        "A": "開啟麻醉機前，先確認氧氣管路是黃色，空氣是紫色",
+        "B": "雖然已經使用中央氣體管路系統，但仍需檢查備用氧氣小鋼瓶的壓力，是否有達到750 psi",
+        "C": "麻醉機開機後，必須先通過一次低壓漏氣檢查，並校正氧氣濃度監視器，因為這是麻醉機檢測中最容易影響病人安全的部分",
+        "D": "必須完成一次呼吸系統的正壓漏氣檢查，將環狀麻醉系統的出口堵住，在壓力表達到20 cmH2O壓力下，觀察十秒鐘"
+      },
+      "answer": "C",
+      "explanation": "C 正確：低壓系統指「流量控制閥下游 → 流量計 → 揮發器 → 共同氣體出口」這一段，是麻醉機最容易漏氣的部位（揮發器接頭與 O-ring、流量計玻璃管裂痕）；此處漏氣會使新鮮氣體與麻醉藥流失，導致缺氧或麻醉過淺（術中知覺），而氧氣濃度監視器是唯一能偵測到流量控制閥下游氣體組成異常的監測，因此低壓漏氣測試與氧氣分析儀校正是開機檢核中最攸關病人安全的步驟。A 錯：我國沿用美規色標，氧氣為綠色、空氣為黃色、笑氣為藍色，並無紫色管路。B 錯：E 型氧氣鋼瓶滿瓶壓力約 1900–2200 psi（約 660 L）；750 psi 已消耗到僅剩約三分之一，屬於應更換的下限，不是合格的檢查標準。D 錯：呼吸系統正壓漏氣測試是關閉 APL 閥、堵住 Y 型接頭後充氣至「30 cmH₂O」，觀察至少 10 秒鐘壓力不下降，不是 20 cmH₂O。",
+      "difficulty": "medium",
+      "source": "109_general_Q38",
+      "review_note": "2026-07-30 解析審查修訂：原解析把低壓系統誤述為「揮發器下游至呼吸回路」，正確為流量控制閥下游至共同氣體出口；並補正選項 D 之正壓漏氣測試壓力為 30 cmH₂O（非 20）。",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 39,
+      "question": "根據Aldrete recovery score病人可以離開恢復室的評分項目，不包括下列何者？",
+      "options": {
+        "A": "疼痛評估",
+        "B": "呼吸型態",
+        "C": "活動能力",
+        "D": "意識狀況"
+      },
+      "answer": "A",
+      "explanation": "Aldrete score（改良版）評估五項：活動能力、呼吸、循環（血壓）、意識、氧合（SpO₂）。疼痛評估不在原始 Aldrete score 中（疼痛評分屬於 PADSS 或其他出院標準）。",
+      "difficulty": "easy",
+      "source": "109_general_Q39",
+      "legacy_category": "general_nursing",
+      "topic": "ga_care",
+      "subtopic": "pacu"
+    },
+    {
+      "id": 40,
+      "question": "病人於3週前曾接受經皮冠狀動脈介入術，置放一個塗藥型支架(drug eluting stents, DES)，術後恢復良好。現因無發炎症狀的膽結石需進行腹腔鏡膽囊切除常規手術，下列處置建議何者最適當？",
+      "options": {
+        "A": "可立即安排全身麻醉進行手術",
+        "B": "手術延後至支架置放1個月後",
+        "C": "手術延後至支架置放1年後",
+        "D": "可立即安排區域性阻斷麻醉進行手術"
+      },
+      "answer": "C",
+      "explanation": "DES（塗藥型支架）需使用雙重抗血小板藥物（DAPT）至少 12 個月，此期間停藥進行手術支架血栓風險極高。非緊急手術應延後至 DES 置放後 12 個月（1年）再考慮。BMS 則延後 1 個月。",
+      "difficulty": "hard",
+      "source": "109_general_Q40",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 41,
+      "question": "以脊髓麻醉行剖腹產的孕婦，麻醉後通常會讓孕婦採取何種擺位，以減少子宮壓迫下腔靜脈？",
+      "options": {
+        "A": "平躺",
+        "B": "右側躺",
+        "C": "左側躺",
+        "D": "半坐臥"
+      },
+      "answer": "C",
+      "explanation": "仰臥位低血壓症候群（supine hypotensive syndrome）：妊娠子宮壓迫下腔靜脈，減少靜脈回流。處置：左側傾斜 15°（左側躺方向）使子宮移開下腔靜脈，改善靜脈回流。",
+      "difficulty": "easy",
+      "source": "109_general_Q41",
+      "legacy_category": "regional",
+      "topic": "special_patient",
+      "subtopic": "obstetric"
+    },
+    {
+      "id": 42,
+      "question": "下列關於顱內壓(intracranial pressure, ICP)之描述何者為非？",
+      "options": {
+        "A": "正常值介於5-15mmHg",
+        "B": "高血壓或PaCO2上升也會使其數值增加",
+        "C": "當數值過高，臨床表徵會有頭痛、噁心、嘔吐及視力模糊等症狀出現",
+        "D": "若將病人頭部降低，可有利於靜脈回流，並改善ICP過高情形"
+      },
+      "answer": "D",
+      "explanation": "降低頭部（頭低腳高）會增加腦靜脈壓，加重顱內壓升高。應將頭部抬高 30°，促進靜脈回流，有助降低 ICP。PaCO₂ 升高（腦血管擴張）確實增加 ICP。",
+      "difficulty": "medium",
+      "source": "109_general_Q42",
+      "legacy_category": "physiology",
+      "topic": "physiology",
+      "subtopic": "neuro"
+    },
+    {
+      "id": 43,
+      "question": "在置入動脈導管時，何項臨床考量是正確的？",
+      "options": {
+        "A": "尺動脈是手部血流的主要來源",
+        "B": "由足背動脈測得的收縮壓會較低",
+        "C": "尺動脈是最常選擇的部位",
+        "D": "足背動脈靠近正中神經"
+      },
+      "answer": "A",
+      "explanation": "手部血流：橈動脈和尺動脈各提供約50%（尺動脈通常為主要供應），兩者在掌弓相連。最常選擇橈動脈（非尺動脈）。足背動脈測得的收縮壓比橈動脈高（非低）。足背動脈靠近腓深神經（非正中神經）。",
+      "difficulty": "medium",
+      "source": "109_general_Q43",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "hemodynamic"
+    },
+    {
+      "id": 44,
+      "question": "針對封閉式麻醉呼吸系統優於半封閉式系統的敘述，何者正確？",
+      "options": {
+        "A": "麻醉氣體造成的大氣汙染較少",
+        "B": "可快速改變麻醉藥的濃度",
+        "C": "吸入的氣體無法提供保濕保溫的作用",
+        "D": "所需要的O2及麻醉氣體的量較多"
+      },
+      "answer": "A",
+      "explanation": "封閉式（closed system）：氣體完全再循環，環境污染最少、節省麻醉藥物、提供保濕保溫效果。缺點：難以快速改變濃度（需較長時間平衡）。所需新鮮氣體量最少。",
+      "difficulty": "medium",
+      "source": "109_general_Q44",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 45,
+      "question": "有關經由氣管內管吸入乾燥的醫療性氣體易造成的傷害，下列何者為非？",
+      "options": {
+        "A": "會造成支氣管黏膜的負擔",
+        "B": "造成病人水分及熱能的散失",
+        "C": "導致黏膜脫水，分泌物變黏稠及肺擴張不全",
+        "D": "肺泡-動脈氧分壓梯度下降"
+      },
+      "answer": "D",
+      "explanation": "吸入乾燥氣體會使黏膜脫水、分泌物黏稠、纖毛功能受損，導致肺擴張不全，肺泡-動脈氧分壓梯度（A-a gradient）應上升（氧合變差），而非下降。",
+      "difficulty": "easy",
+      "source": "109_general_Q45",
+      "legacy_category": "physiology",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 46,
+      "question": "以下何處為最佳的核心體溫監測部位？",
+      "options": {
+        "A": "鼓膜",
+        "B": "直腸",
+        "C": "腋下",
+        "D": "皮膚"
+      },
+      "answer": "A",
+      "explanation": "核心體溫最準確部位：肺動脈（黃金標準）> 食道遠端 ≈ 鼻咽 ≈ 鼓膜 > 膀胱 > 直腸。腋下和皮膚屬於周邊體溫，準確性較低。鼓膜接近下視丘（體溫調節中樞），是臨床實用的良好核心體溫替代部位。",
+      "difficulty": "easy",
+      "source": "109_general_Q46",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "temperature"
+    },
+    {
+      "id": 47,
+      "question": "以下關於手術前空腹指引之敘述，何者正確？",
+      "options": {
+        "A": "嬰兒手術前兩小時可以攝取配方奶",
+        "B": "嬰兒手術前兩小時可以攝取母奶",
+        "C": "成人手術前兩小時可以飲用清澈液體",
+        "D": "成人病態性肥胖，術前空腹時間可縮短"
+      },
+      "answer": "C",
+      "explanation": "ASA 術前禁食指引：清澈液體（水、黑咖啡）禁食 2 小時；母乳 4 小時；配方奶/非母乳 6 小時；固體食物 6–8 小時。病態肥胖屬反流高風險，空腹時間應延長（非縮短）。",
+      "difficulty": "easy",
+      "source": "109_general_Q47",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "fasting_premed"
+    },
+    {
+      "id": 48,
+      "question": "有關低血鉀症(hypokalemia)在麻醉評估及計畫時，下列敘述何者正確？",
+      "options": {
+        "A": "長期使用利尿劑病人，術前需停用口服鉀製劑",
+        "B": "即使是輕度低血鉀，常規手術也須延期",
+        "C": "術中低血鉀須快速靜脈補充，以避免心搏停止",
+        "D": "口服Digoxin伴隨嚴重低血鉀症者，須延遲常規手術"
+      },
+      "answer": "D",
+      "explanation": "Digoxin 毒性在低血鉀時顯著增加（低血鉀增加心肌對 Digoxin 敏感性），嚴重低血鉀 + Digoxin 使用者須先糾正電解質才能手術。輕度低血鉀（3.0–3.5 mEq/L）一般不需延期；術中補鉀應緩慢（≤ 10–20 mEq/hr）。",
+      "difficulty": "medium",
+      "source": "109_general_Q48",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 49,
+      "question": "血液透析的病人術前應進行透析，透析距離手術時間要足夠，才能維持身體水、電解質平衡，一般是在透析後多久可達成平衡？",
+      "options": {
+        "A": "2小時",
+        "B": "6小時",
+        "C": "12小時",
+        "D": "24小時"
+      },
+      "answer": "B",
+      "explanation": "透析後電解質（尤其鉀離子）需約 4–6 小時達到再分佈平衡，因此建議透析結束後 6 小時才安排手術，以確保電解質穩定。",
+      "difficulty": "medium",
+      "source": "109_general_Q49",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 50,
+      "question": "根據快速誘導麻醉(rapid-sequence induction of anesthesia, RSI)的麻醉照護準則，下列何者為非？",
+      "options": {
+        "A": "可給予鴉片類藥物以減緩插管造成的刺激",
+        "B": "快速誘導前建議要給予病人前氧合(preoxygenation)",
+        "C": "給予甲狀軟骨(thyroid cartilage)施壓",
+        "D": "以潮氣末二氧化碳(EtCO2)確認氣管插管位置"
+      },
+      "answer": "C",
+      "explanation": "RSI 中壓迫環狀軟骨（cricoid pressure，Sellick's maneuver），而非甲狀軟骨（thyroid cartilage）。目的是壓迫食道減少反流。甲狀軟骨壓迫無此效果。",
+      "difficulty": "medium",
+      "source": "109_general_Q50",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "ga_care",
+      "subtopic": "induction"
+    },
+    {
+      "id": 51,
+      "question": "以下關於鹼石灰(soda lime)的敘述，何者正確？",
+      "options": {
+        "A": "與Desflurane發生反應，可產生化合物A (compound A)",
+        "B": "與Sevoflurane發生反應，可能產生一氧化碳",
+        "C": "與笑氣(Nitrous Oxide)發生反應，易導致麻醉機的呼吸系統內著火",
+        "D": "吸收二氧化碳之後的主要終產物為碳酸鈣、熱量、水"
+      },
+      "answer": "D",
+      "explanation": "鹼石灰（NaOH + Ca(OH)₂）吸收 CO₂ 的反應：CO₂ + Ca(OH)₂ → CaCO₃（碳酸鈣）+ H₂O + 熱。Compound A 由 Sevoflurane 與鹼石灰反應產生；CO 由 Desflurane/Isoflurane 與乾燥的鹼石灰反應產生。",
+      "difficulty": "medium",
+      "source": "109_general_Q51",
+      "legacy_category": "pharmacology",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 52,
+      "question": "手術室是發生火災的高危險區域，辨識火災安全三角，以下敘述何者為非？",
+      "options": {
+        "A": "電燒是火源",
+        "B": "雷射不是火源",
+        "C": "紗布、敷料、氣管內管等都是易燃物",
+        "D": "麻醉機常用的氧氣、笑氣都是助燃劑"
+      },
+      "answer": "B",
+      "explanation": "手術室火災三要素：火源（電燒、雷射、光纖）、助燃劑（O₂、N₂O）、可燃物（氣管內管、紗布、毛髮、皮膚準備液含酒精）。雷射是重要的手術室火災火源。",
+      "difficulty": "medium",
+      "source": "109_general_Q52",
+      "legacy_category": "monitoring",
+      "topic": "crisis",
+      "subtopic": "or_fire"
+    },
+    {
+      "id": 53,
+      "question": "現有一名長期洗腎病人，請問造成其術前心電圖(如下圖)最可能原因為何？",
+      "options": {
+        "A": "急性心肌梗塞",
+        "B": "左心室肥大",
+        "C": "低血鈉",
+        "D": "高血鉀"
+      },
+      "answer": "D",
+      "explanation": "高血鉀（hyperkalemia）心電圖特徵：早期出現高峻T波（peaked T wave），進展可出現PR延長、QRS增寬、波形融合（sine wave）、最終心室顫動。長期洗腎病人因尿毒症常有高血鉀。",
+      "difficulty": "medium",
+      "source": "109_general_Q53",
+      "image": "109_general_Q53.png",
+      "image_caption": "心電圖：高峻 T 波（peaked T wave）",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "monitoring",
+      "subtopic": "ecg_reading"
+    },
+    {
+      "id": 54,
+      "question": "手術病人經麻醉後，於劃刀前由手術與麻醉團隊共同再次確認病人、術式、手術部位等項目，此階段屬於病人安全-手術查檢的哪一個階段？",
+      "options": {
+        "A": "Sign in",
+        "B": "Sign out",
+        "C": "Time in",
+        "D": "Time out"
+      },
+      "answer": "D",
+      "explanation": "WHO 手術安全查核表（Surgical Safety Checklist）三階段：Sign in（麻醉誘導前）、Time out（切皮前，全團隊暫停確認）、Sign out（離開手術室前）。劃刀前確認為 Time out。",
+      "difficulty": "easy",
+      "source": "109_general_Q54",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 55,
+      "question": "Opioids類止痛劑的副作用包括：",
+      "options": {
+        "A": "瞳孔放大",
+        "B": "腹瀉",
+        "C": "噁心嘔吐",
+        "D": "心搏過速"
+      },
+      "answer": "C",
+      "explanation": "Opioids 副作用：縮瞳（非放大）、便秘（非腹瀉）、噁心嘔吐、呼吸抑制、瘙癢、尿滯留、心搏過緩（非過速，Morphine 組織胺釋放可引起）。噁心嘔吐是最常見副作用之一。",
+      "difficulty": "easy",
+      "source": "109_general_Q55",
+      "legacy_category": "pharmacology",
+      "topic": "pharmacology",
+      "subtopic": "opioids"
+    },
+    {
+      "id": 56,
+      "question": "依Mallampati氣道分級，請病人盡可能張口，且最大限度伸出舌頭，此時可見硬顎、但看不到軟顎(如圖)，此分級為第幾級？",
+      "options": {
+        "A": "II級",
+        "B": "III級",
+        "C": "IV級",
+        "D": "V級"
+      },
+      "answer": "C",
+      "explanation": "Mallampati分級：I級=可見軟顎、懸雍垂、咽門柱；II級=可見軟顎、懸雍垂；III級=僅見軟顎；IV級=僅見硬顎（看不到軟顎）。題目描述可見硬顎但看不到軟顎=IV級。",
+      "difficulty": "medium",
+      "source": "109_general_Q56",
+      "image": "109_general_Q56.png",
+      "image_caption": "Mallampati 氣道分級評估圖",
+      "legacy_category": "airway",
+      "topic": "preop",
+      "subtopic": "airway_eval"
+    },
+    {
+      "id": 57,
+      "question": "52歲末期肝病病人欲接受換肝手術，前來訪視門診評估，下列何者為非？",
+      "options": {
+        "A": "Child-Pugh分期C級代表圍術期發生併發症和致死率會相當高",
+        "B": "常因血管收縮以致臨床表現為高血壓及心輸出量減少",
+        "C": "需注意有無門脈高壓、肝腎症候群、肝性腦病變及凝血功能異常",
+        "D": "Model for End-Stage Liver Disease (MELD score) >14代表圍術期發生併發症和致死率相當高"
+      },
+      "answer": "B",
+      "explanation": "末期肝病的心血管特點：高動力循環（high output）→ 心輸出量增加、全身血管阻力降低（血管擴張），而非血管收縮高血壓。常有低血壓和心動過速。",
+      "difficulty": "medium",
+      "source": "109_general_Q57",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 58,
+      "question": "關於慢性阻塞性肺病(COPD)術前評估的敘述，下列何者最不適當？",
+      "options": {
+        "A": "術前胸部X光顯示肺過度擴張和血管顯影減弱",
+        "B": "常見症狀：噘嘴呼吸、聳肩、呼氣費力",
+        "C": "聽診呼吸音可聽見喘鳴音(wheezing)",
+        "D": "肺功能測驗常見第一秒用力呼氣量(FEV1)大於80%預測值(predicted value)"
+      },
+      "answer": "D",
+      "explanation": "COPD 定義為 FEV₁/FVC < 70%，且 FEV₁ 通常 < 80% 預測值（依嚴重度分級）。FEV₁ > 80% 代表肺功能正常，與 COPD 診斷矛盾。其他選項均符合 COPD 特徵。",
+      "difficulty": "medium",
+      "source": "109_general_Q58",
+      "legacy_category": "clinical_assessment",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 59,
+      "question": "關於神經肌肉監測(neuromuscular monitor, NMT)中最常使用四串連刺激(train of four, TOF)，有關TOF的敘述，以下何者正確？",
+      "options": {
+        "A": "通常監測橈神經側",
+        "B": "在選擇監測的肌肉上，拇收肌(adductor pollicis muscle)最常使用",
+        "C": "TOF中第三根搐動高度(T3)和第一根搐動高度(T1)比值為TOF比例，作為神經肌肉阻斷程度的參考",
+        "D": "TOF中搐動反應應完全消失，才能達到足夠的肌肉鬆弛，以利手術進行"
+      },
+      "answer": "B",
+      "explanation": "TOF 監測：刺激尺神經（非橈神經），監測拇收肌（adductor pollicis）的拇指內收反應。TOF 比值為 T4/T1（非 T3/T1）。TOF 計數 = 0 或 1 代表深度阻斷；一般手術只需 T1 抑制 > 90% 即可。",
+      "difficulty": "medium",
+      "source": "109_general_Q59",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "nmt_depth"
+    },
+    {
+      "id": 60,
+      "question": "手術穩定進行中，外科醫師要求將手術台升高，隨即發現螢幕上侵入性測量的橈動脈壓由原先的110/65 mmHg上升到145/95 mmHg，心跳沒有變化，這時的血壓上升最可能的原因是？",
+      "options": {
+        "A": "麻醉深度不夠",
+        "B": "自發性高血壓",
+        "C": "壓力傳感器零點不正確",
+        "D": "外科手術刺激增加"
+      },
+      "answer": "C",
+      "explanation": "手術台升高時，若壓力傳感器固定在點滴架或床旁而「未」隨手術台一起升高，傳感器就相對低於病人心臟（腋中線）水平，這段高度差的靜水壓被加進讀值，造成假性高血壓；高度差每 1 cm 約 0.74 mmHg（1 cmH₂O ＝ 0.74 mmHg）。本例收縮壓 +35、舒張壓 +30 mmHg 近乎平行上升，脈壓（45→50 mmHg）與心跳皆無變化，等於整條波形被平移約 30 mmHg，換算相當於傳感器低於心臟約 40 cm——這正是零點（歸零基準）偏移的典型型態，故選 C。若是麻醉深度不足（A）或手術刺激增加（D），由交感興奮驅動，通常伴隨心跳上升與脈壓變化，且不會恰好與調整手術台同時發生；自發性高血壓（B）更無法解釋此一時間關聯。處置：將傳感器重新固定於腋中線高度、對大氣重新歸零後再判讀。",
+      "difficulty": "medium",
+      "source": "109_general_Q60",
+      "review_note": "2026-07-30 解析審查修訂：原解析寫「傳感器位置固定（隨台升高）」自相矛盾；正確為傳感器未隨手術台升高、相對低於心臟而造成假性高血壓，並補上 0.74 mmHg/cm 與脈壓、心跳不變的判準。",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "hemodynamic"
+    },
+    {
+      "id": 61,
+      "question": "患有心臟疾病的病人進行非心臟手術的術前評估，何者不適當？",
+      "options": {
+        "A": "病人有急性冠狀動脈症候群應延遲常規手術，建議做進一步心臟檢查及評估",
+        "B": "心導管檢查是評估冠狀動脈疾病的黃金標準，可了解心臟功能",
+        "C": "若病人長期服用β-阻斷劑，應持續使用至手術當日",
+        "D": "曾置放心臟支架的病人，若使用Aspirin須於手術前一週停藥"
+      },
+      "answer": "D",
+      "explanation": "心臟支架病人術前停用 Aspirin 有支架血栓的風險。目前指引建議：若出血風險可接受，裸金屬支架（BMS）置放後應繼續 Aspirin；一般手術 Aspirin 可繼續使用（除非出血風險極高）。不應常規術前一週停藥。",
+      "difficulty": "medium",
+      "source": "109_general_Q61",
+      "legacy_category": "general_nursing",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 62,
+      "question": "下列護理人員相關執業規定，何者為是？",
+      "options": {
+        "A": "護理人員登記執業之處所，以二處為限",
+        "B": "護理人員將證照租借予不具護理人員資格者使用，多以罰鍰為主，最重不會廢止其護理人員證書",
+        "C": "未取得護理人員資格，執行護理人員業務者，本人及雇主處新台幣15,000元以上150,000元以下罰鍰",
+        "D": "在護理人員指導下實習之護理職業學校學生，因尚未有執照，執行護理業務會受罰"
+      },
+      "answer": "C",
+      "explanation": "依護理人員法：未取得資格執業者處 15,000–150,000 元罰鍰；執業處所以一處為限（非二處）；出租證照最嚴重可廢止執照；在合格護理人員指導下實習的學生有法律保護不受罰。",
+      "difficulty": "easy",
+      "source": "109_general_Q62",
+      "legacy_category": "monitoring",
+      "topic": "professional_practice",
+      "subtopic": "medical_law"
+    },
+    {
+      "id": 63,
+      "question": "關於眼科手術中的眼心反射(oculocardiac reflex, OCR)下列何者為非？",
+      "options": {
+        "A": "為心跳變快後，使眼內壓上升之反射",
+        "B": "應先立即停止手術刺激",
+        "C": "有可能誘發心跳停止",
+        "D": "可能需要使用atropine改善"
+      },
+      "answer": "A",
+      "explanation": "眼心反射（OCR）是牽拉眼外肌（三叉神經→迷走神經）引起心跳減慢（心搏過緩），而非心跳加快。嚴重時可致心跳停止。處置：停止刺激、Atropine、必要時 CPR。",
+      "difficulty": "easy",
+      "source": "109_general_Q63",
+      "legacy_category": "general_nursing",
+      "topic": "specialty_surgery",
+      "subtopic": "ent_eye_dental"
+    },
+    {
+      "id": 64,
+      "question": "下列為肺動脈導管(PAC)從右內頸靜脈放置到嵌入肺小動脈過程中，可能出現的壓力波形圖，請選出由右心房→右心室→肺動脈→肺微血管楔壓的順序。",
+      "options": {
+        "A": "1 → 3 → 2 → 4",
+        "B": "3 → 1 → 4 → 2",
+        "C": "2 → 4 → 3 → 1",
+        "D": "4 → 2 → 1 → 3"
+      },
+      "answer": "B",
+      "explanation": "PAC 壓力波形特徵：右心房（低、a/c/v波）→ 右心室（高收縮壓/低舒張壓）→ 肺動脈（高收縮壓/高舒張壓，有明確切跡）→ PCWP（低、平滑波形）。圖三（低平波）=RA，圖一（寬幅高峰）=RV，圖四（高頻波）=PA，圖二（低平細波）=PCWP。",
+      "difficulty": "hard",
+      "source": "109_general_Q64",
+      "image": "109_general_Q64.png",
+      "image_caption": "PAC 放置過程之四種壓力波形（圖一～圖四）",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "hemodynamic"
+    },
+    {
+      "id": 65,
+      "question": "肺高壓病人的術前評估，下列何者為非？",
+      "options": {
+        "A": "肺高壓的定義為平均肺動脈壓高於25 mmHg，或運動狀態下高於30 mmHg",
+        "B": "大多為原因不明的原發性肺高壓",
+        "C": "肺高壓會造成右心室收縮壓增加、肥大、擴張進而衰竭",
+        "D": "右心室擴張會導致心室中膈偏左，進而減少心輸出量"
+      },
+      "answer": "B",
+      "explanation": "肺高壓大多為繼發性（secondary PH），最常見原因為左心疾病（Group 2）、肺部疾病（Group 3）、慢性血栓栓塞（Group 4）。特發性（原發性）PAH 僅佔少數。",
+      "difficulty": "medium",
+      "source": "109_general_Q65",
+      "legacy_category": "clinical_assessment",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 66,
+      "question": "關於阻塞性睡眠呼吸中止症(obstructive sleep apnea, OSA)，下列敘述何者為非？",
+      "options": {
+        "A": "STOP-bang問卷可用於麻醉門診術前評估",
+        "B": "這類病人發生糖尿病、高血壓、冠心症的機率較高",
+        "C": "女性、肥胖、打鼾、日間嗜睡等，為此類病人的危險因子",
+        "D": "若居家需使用正壓呼吸器裝置(CPAP)，手術麻醉當日應帶至醫院使用"
+      },
+      "answer": "C",
+      "explanation": "OSA 危險因子：男性（非女性）、肥胖、打鼾、日間嗜睡、頸圍大、老年。女性在停經後風險增加，但整體仍以男性為主要高危族群。",
+      "difficulty": "easy",
+      "source": "109_general_Q66",
+      "legacy_category": "clinical_assessment",
+      "topic": "preop",
+      "subtopic": "osa_obesity"
+    },
+    {
+      "id": 67,
+      "question": "在麻醉機上使用二氧化碳吸收劑(carbon dioxide absorbents)，下列何者為是？",
+      "options": {
+        "A": "鈣石灰(amsorb plus)的指示劑變紫色後，會還原為白色",
+        "B": "觸摸二氧化碳吸收劑盒時，如果沒有感受到熱度，應提高警覺監測二氧化碳濃度",
+        "C": "二氧化碳吸收劑的顆粒越小，吸收效率越低",
+        "D": "鹼石灰(soda lime)的指示劑變紫色後，不會還原為白色"
+      },
+      "answer": "B",
+      "explanation": "CO₂ 吸收是放熱反應，正常運作的吸收劑摸起來是溫熱的。若沒有熱度，代表吸收劑可能已耗盡或失效，應監測 EtCO₂。顆粒越小吸收效率越高；鹼石灰指示劑（通常乙基紫）從紫色可能還原為白色（已知缺點），鈣石灰（Amsorb）則不會還原。",
+      "difficulty": "medium",
+      "source": "109_general_Q67",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 68,
+      "question": "下列針對麻醉呼吸系統(breathing system)特性描述，何者為是？",
+      "options": {
+        "A": "半封閉式環狀不可使呼出氣體再吸入",
+        "B": "封閉式環狀可使呼出氣體全部再吸入",
+        "C": "半封閉式環狀的新鮮氣體流入速率為0.3至0.5公升/分鐘",
+        "D": "封閉式環狀的新鮮氣體流入速率為3至6公升/分鐘"
+      },
+      "answer": "B",
+      "explanation": "封閉式環狀（closed circuit）：呼出氣體全部再吸入，新鮮氣體量僅補充代謝耗用量（約 250 ml/min O₂）。半封閉式允許部分再吸入，新鮮氣體流量 1–6 L/min。完全無再吸入的半開放式（Mapleson）需高流量 > 6 L/min。",
+      "difficulty": "medium",
+      "source": "109_general_Q68",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 69,
+      "question": "關於二氧化碳監測儀的波形判讀，下列何者正確？",
+      "options": {
+        "A": "阻塞性肺部疾病",
+        "B": "心因性波動",
+        "C": "呼吸迴路漏氣",
+        "D": "二氧化碳再吸入"
+      },
+      "answer": "D",
+      "explanation": "EtCO₂ 波形判讀：阻塞性疾病=上升斜坡延長（鯊魚鰭型）；心因性波動=規則小切跡（心跳造成）；迴路漏氣=波形不完整或突然消失；CO₂ 再吸入=基線高於零（吸收劑耗盡）。題目選項D（基線 > 0 = CO₂ 再吸入）為正確。",
+      "difficulty": "medium",
+      "source": "109_general_Q69",
+      "image": "109_general_Q69.png",
+      "image_caption": "EtCO₂ 監測儀四種波形（A–D）",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "respiratory_mon"
+    },
+    {
+      "id": 70,
+      "question": "心電圖第II導程與下列何種導程合併監測可以涵蓋最大部分心肌，偵測到95%病人的心肌缺血事件？",
+      "options": {
+        "A": "V3",
+        "B": "V4",
+        "C": "V5",
+        "D": "V6"
+      },
+      "answer": "C",
+      "explanation": "II + V5 組合是術中心肌缺血監測的黃金標準：II 導程偵測下壁缺血及心律不整；V5 偵測前外側壁缺血（最常見的冠狀動脈灌流區域）。合併使用可偵測約 95% 的缺血事件。",
+      "difficulty": "easy",
+      "source": "109_general_Q70",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "ecg_reading"
+    },
+    {
+      "id": 71,
+      "question": "下列何者不會影響血氧飽和度(SpO2)量測的正確性？",
+      "options": {
+        "A": "一氧化碳中毒",
+        "B": "高鐵血紅素(methemoglobin)",
+        "C": "甲基藍(methylene blue)",
+        "D": "甲狀腺亢進"
+      },
+      "answer": "D",
+      "explanation": "影響 SpO₂ 準確性：COHb（CO 中毒，脈氧計讀偏高）、MetHb（讀數趨向 85%）、色素（指甲油、Methylene blue 使讀數偏低）、低灌流、色素沉著等。甲狀腺亢進不影響脈氧計的光學偵測原理。",
+      "difficulty": "easy",
+      "source": "109_general_Q71",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "respiratory_mon"
+    },
+    {
+      "id": 72,
+      "question": "60歲男性病人有高血壓病史，接受輸尿管鏡碎石術(URSL)後，在恢復室抱怨呼吸困難，心電圖監視器如下，請問下列何項處置最不適當？",
+      "options": {
+        "A": "做12導程心電圖",
+        "B": "給予Insulin + Glucose",
+        "C": "抽血檢驗心肌酵素",
+        "D": "給予Nitroglycerin"
+      },
+      "answer": "B",
+      "explanation": "心電圖顯示明顯的 ST 段抬高、T 波寬鈍（非高血鉀的窄基底高尖 T 波），加上 60 歲高血壓病史、術後恢復室出現呼吸困難，應高度懷疑急性冠心症／急性心肌梗塞。此時 (A) 做 12 導程心電圖確認缺血範圍、(C) 抽血檢驗心肌酵素、(D) 給予 Nitroglycerin 緩解心肌缺血，都是合理處置；(B) Insulin + Glucose 是治療高血鉀的方法，本例並無高血鉀證據，且會造成低血糖與低血鉀風險，故最不適當。【判讀重點】高血鉀的 T 波是「高、尖、基底窄」且常伴 QRS 增寬、P 波變小；本圖為 ST 段弓背向上抬高並與 T 波融合，屬缺血性變化。",
+      "difficulty": "medium",
+      "source": "109_general_Q72",
+      "image": "109_general_Q72.png",
+      "image_caption": "心電圖：高峻 T 波（peaked T wave）",
+      "review_note": "2026-07-30 依衛生福利部 109 年度標準答案卡（source/answer_keys/109_general_key.pdf）更正：原題庫答案 D 有誤，官方答案為 B；原解析誤將 ST 段抬高判讀為高血鉀高尖 T 波，已重寫。",
+      "legacy_category": "monitoring",
+      "topic": "clinical_medicine",
+      "subtopic": "cardiopulmonary_dz"
+    },
+    {
+      "id": 73,
+      "question": "麻醉機開機後都應按標準程序進行安全檢查，通常麻醉機完成安全檢查後的最終狀態，下列何項正確？",
+      "options": {
+        "A": "打開揮發器",
+        "B": "關閉APL valve",
+        "C": "打開氧氣流量計",
+        "D": "通氣選擇鈕轉到人工通氣模式"
+      },
+      "answer": "D",
+      "explanation": "麻醉機安全檢查完成後的預備狀態：揮發器應關閉（準備使用前再開）；APL valve 應打開（預防氣道壓過高）；氧氣流量計關閉；通氣選擇應設定在手動/人工通氣模式，讓醫師誘導時可控制呼吸。",
+      "difficulty": "easy",
+      "source": "109_general_Q73",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 74,
+      "question": "進行麻醉時，若有呼吸道問題無法適當通氣，可使用呼吸道輔助物，以下敘述何者最適當？",
+      "options": {
+        "A": "鼻腔人工氣道(nasal airway)長度選擇為口至下頷骨角距離",
+        "B": "清醒或輕度麻醉病人適合使用口腔人工氣道(oral airway)，較不會發生嘔吐反射",
+        "C": "凝血或血小板異常病人是使用鼻腔人工氣道(nasal airway)的相對禁忌",
+        "D": "顱底骨折病人建議使用鼻腔人工氣道(nasal airway)"
+      },
+      "answer": "C",
+      "explanation": "鼻腔氣道（nasal airway）插入時可能造成鼻黏膜出血，凝血異常者有大出血風險，屬相對禁忌。長度選擇為鼻尖至耳垂（非口至下頷）；清醒病人適合鼻腔（非口腔）氣道；顱底骨折禁用鼻腔氣道。",
+      "difficulty": "easy",
+      "source": "109_general_Q74",
+      "legacy_category": "airway",
+      "topic": "airway",
+      "subtopic": "devices"
+    },
+    {
+      "id": 75,
+      "question": "病人接受常規全身麻醉手術，術中使用雙譜指數(bispectral index，BIS)監測，其敘述何者正確？",
+      "options": {
+        "A": "BIS監測數值100，代表病人是在清醒的狀態",
+        "B": "給予Ketamine，BIS超過70，代表病人發生術中清醒",
+        "C": "當BIS低到20~35時，才代表病人已達到適當麻醉狀態",
+        "D": "當病人術中體溫34℃時，BIS數值仍然準確具有效力"
+      },
+      "answer": "A",
+      "explanation": "BIS 0-100：100=完全清醒，0=完全抑制。適當麻醉目標：BIS 40–60。Ketamine 可使 BIS 升高但不代表清醒（機制不同）；低體溫（< 33℃）可使 BIS 不準確（偏低）；爆發性抑制（burst suppression）在 20–35。",
+      "difficulty": "medium",
+      "source": "109_general_Q75",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "nmt_depth"
+    },
+    {
+      "id": 76,
+      "question": "使用壓脈帶(BP cuff)在病人上臂測量血壓，以下何者為非？",
+      "options": {
+        "A": "壓脈帶的最佳尺寸，寬度約是上臂圍的40%",
+        "B": "壓脈帶的最佳尺寸，寬度約是上臂長的2/3",
+        "C": "太大的壓脈帶測出的血壓數值會比實際偏低",
+        "D": "病人低血壓時測出的血壓數值會比實際偏低"
+      },
+      "answer": "D",
+      "explanation": "壓脈帶過大→測出血壓偏低（需較低充氣壓即可壓迫動脈）；壓脈帶過小→測出血壓偏高。低血壓時，NIBP 測出值可能比實際偏高（Korotkoff 音不易聽清，測量值誤差大且常高估實際動脈壓）。",
+      "difficulty": "easy",
+      "source": "109_general_Q76",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "hemodynamic"
+    },
+    {
+      "id": 77,
+      "question": "病人因輸尿管結石進行內視鏡取石術，採脊髓麻醉，手術半小時結束送至恢復室，一開始病人主訴吸不到氣，血壓70/30 mmHg、心跳45次/分，測麻醉阻斷高度在T4，下列處置何者不適當？",
+      "options": {
+        "A": "快速靜脈輸液",
+        "B": "Atropine 0.5 mg IV",
+        "C": "Ephedrine 8-12 mg IV",
+        "D": "Xylocaine 1.5 mg/kg IV"
+      },
+      "answer": "D",
+      "explanation": "脊髓麻醉高位阻斷（T4）：阻斷心臟加速神經（T1–T4）→ 心搏過緩 + 低血壓。處置：快速輸液（增加前負荷）、Atropine（治療心搏過緩）、Ephedrine（升壓+增加心率）。Xylocaine 靜脈注射無助於此情境，且有心臟毒性風險。",
+      "difficulty": "hard",
+      "source": "109_general_Q77",
+      "legacy_category": "regional",
+      "topic": "regional_pain",
+      "subtopic": "regional_complication"
+    },
+    {
+      "id": 78,
+      "question": "關於殘餘神經肌肉阻斷作用(residual neuromuscular blockade, RNB)的描述，下列何者為非？",
+      "options": {
+        "A": "在恢復室發生上呼吸道阻塞時，要考慮RNB的可能性",
+        "B": "Train-of-four(TOF) ratio常作為客觀的評估方法",
+        "C": "發燒或低血鎂常導致非去極化神經肌肉阻斷作用延長",
+        "D": "臨床評估RNB尚有抓握力、伸舌頭、抬腿和抬頭5秒"
+      },
+      "answer": "C",
+      "explanation": "使非去極化肌鬆效果延長的因素：低體溫（非發燒）、高血鎂（非低血鎂）、酸中毒、低鉀血症、使用吸入性麻醉藥、抗生素（aminoglycosides）。低血鎂反而可能使阻斷作用縮短。",
+      "difficulty": "medium",
+      "source": "109_general_Q78",
+      "legacy_category": "pharmacology",
+      "topic": "ga_care",
+      "subtopic": "emergence"
+    },
+    {
+      "id": 79,
+      "question": "關於重症肌無力(myasthenia gravis, MG)病人接受麻醉的評估與考量，下列敘述何者為非？",
+      "options": {
+        "A": "MG的發病常表現為漸進式的喉肌或眼球肌無力",
+        "B": "術前應停用anticholinesterase治療",
+        "C": "MG病人對去極化肌肉鬆弛劑不敏感",
+        "D": "MG病人對非去極化肌肉鬆弛劑非常敏感"
+      },
+      "answer": "B",
+      "explanation": "MG 病人術前一般應繼續使用抗膽鹼酯酶藥物（如 Pyridostigmine）至手術前，突然停用可能誘發肌無力危象。術中可能需要減少或避免肌肉鬆弛劑（對非去極化藥物極度敏感）。",
+      "difficulty": "medium",
+      "source": "109_general_Q79",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "special_patient",
+      "subtopic": "comorbid_patient"
+    },
+    {
+      "id": 80,
+      "question": "重症病人有糖尿病史，建議應將圍術期血糖維持在何範圍？",
+      "options": {
+        "A": "60-100 mg/dL",
+        "B": "80-120 mg/dL",
+        "C": "140-180 mg/dL",
+        "D": "200-240 mg/dL"
+      },
+      "answer": "C",
+      "explanation": "目前主流指引（包括 ADA、AACE）建議重症病人圍術期血糖控制在 140–180 mg/dL。過度嚴格控制（< 110 mg/dL）反而增加低血糖風險，與更差的預後相關（NICE-SUGAR 研究）。",
+      "difficulty": "medium",
+      "source": "109_general_Q80",
+      "legacy_category": "physiology",
+      "topic": "physiology",
+      "subtopic": "endocrine_metabolic"
+    }
+  ]
+}

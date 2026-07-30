@@ -1,0 +1,22 @@
+# ── 個人資料，絕對不要上傳到公開 repo ──
+# 使用者自己的 GoodNotes 手寫筆記與上傳的原始檔
+source/uploads/
+
+# ── 體積大且非網站運作所需 ──
+# 校對版 PDF（約 37 MB，只供列印核對用）
+proof/
+# 圖片重做前的原檔備份
+images_backup_20260730/
+
+# ── 系統與編輯器 ──
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ── 暫存 ──
+*.bak
+*.bak_*
+__pycache__/
+*.pyc

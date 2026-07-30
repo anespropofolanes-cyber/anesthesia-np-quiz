@@ -1,0 +1,1384 @@
+{
+  "meta": {
+    "year": 110,
+    "role": "nurse",
+    "subject": "general",
+    "subject_name": "專科護理通論",
+    "total": 80,
+    "score_per_question": 1.25
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "有關專科護理師設計有效的病人衛教方案，下列步驟順序何者正確？①指出病人的教育需要和病人或家屬的問題 ②給予病人教育問題診斷 ③評估病人的健康照護需求 ④發展教育計畫",
+      "options": {
+        "A": "①②③④",
+        "B": "②③④①",
+        "C": "③①②④",
+        "D": "③④①②"
+      },
+      "answer": "C",
+      "explanation": "衛教方案設計步驟遵循護理程序：③評估需求 → ①指出問題 → ②診斷 → ④發展計畫，再執行與評值。先評估才能確認問題，再診斷，最後規劃教育計畫。",
+      "difficulty": "medium",
+      "source": "110_general_Q1",
+      "legacy_category": "general_nursing",
+      "topic": "health_promotion",
+      "subtopic": "patient_education"
+    },
+    {
+      "id": 2,
+      "question": "依病人自主權利法，病人就診時，醫療機構或醫師應以其所判斷之適當時機及方式，將病人之病情、治療方針、處置、用藥、預後情形及可能之不良反應等相關事項告知本人。下列何者為亦得告知其關係人的要件？",
+      "options": {
+        "A": "關係人要求告知",
+        "B": "不會造成病人傷害",
+        "C": "病人未明示反對",
+        "D": "病情已進展至末期"
+      },
+      "answer": "C",
+      "explanation": "依病人自主權利法，病人就診時資訊應告知本人；若「病人未明示反對」，才得以同時告知關係人。病人明示反對或有特殊疑慮時，不得告知關係人，以保護病人自主及隱私。",
+      "difficulty": "medium",
+      "source": "110_general_Q2",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "ethics_autonomy"
+    },
+    {
+      "id": 3,
+      "question": "有關教育方案設計，下列敘述何者錯誤？",
+      "options": {
+        "A": "擬訂教學目標，宜包括知識、態度與行為領域",
+        "B": "講述教學策略與敘事性評值是最有效的教學方式",
+        "C": "反饋(debriefing)是以學生為主模擬情境教案的學習",
+        "D": "安置性評量(placement evaluation)是依個別差異安排教學活動"
+      },
+      "answer": "B",
+      "explanation": "單一教學策略（如講述）並非最有效的方式；多元教學法（示範、模擬、討論）結合敘事性評值才更全面有效。此外「敘事性評值」本身偏質性描述，並不代表最有效的教學策略。",
+      "difficulty": "medium",
+      "source": "110_general_Q3",
+      "legacy_category": "general_nursing",
+      "topic": "health_promotion",
+      "subtopic": "patient_education"
+    },
+    {
+      "id": 4,
+      "question": "有關專業人員執行臨床病人教育，下列敘述何者錯誤？",
+      "options": {
+        "A": "病人對放射治療照護知識不足，直接指導(guidance)是最好的衛教方式",
+        "B": "教育病人如何備餐攝取所需營養素是賦能方式，可讓病人承擔自我照護之責",
+        "C": "剛獲知罹患癌症者，立即提供各項治療副作用的自我照顧衛教可降低病人焦慮",
+        "D": "選用的教育方式與材料，需考量病人的教育背景、經驗與視聽覺感官功能"
+      },
+      "answer": "C",
+      "explanation": "剛獲知罹癌者通常處於震驚和否認期，此時立即提供大量治療副作用資訊反而會增加焦慮，且訊息接受度極低。應先提供情緒支持，評估病人準備度後，再逐步給予衛教。",
+      "difficulty": "medium",
+      "source": "110_general_Q4",
+      "legacy_category": "general_nursing",
+      "topic": "health_promotion",
+      "subtopic": "patient_education"
+    },
+    {
+      "id": 5,
+      "question": "促進持續品質提升，運用實證健康照護5A的五大步驟，下列順序何者正確？①找出最佳證據 ②評估證據，文獻評讀 ③提問 ④應用於臨床解決病人問題 ⑤評估或評值成效與結果",
+      "options": {
+        "A": "①②③④⑤",
+        "B": "③①②④⑤",
+        "C": "①③④②⑤",
+        "D": "③②①④⑤"
+      },
+      "answer": "B",
+      "explanation": "實證健康照護 5A 步驟：③Ask（提問）→ ①Acquire（找證據）→ ②Appraise（評讀）→ ④Apply（應用）→ ⑤Assess（評值）。先有臨床問題，才能尋找和評讀證據，再應用和評估。",
+      "difficulty": "medium",
+      "source": "110_general_Q5",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "evidence_based"
+    },
+    {
+      "id": 6,
+      "question": "根據衛生福利部民國106年05月08日專科護理師於醫師監督下執行醫療業務辦法，下列何者不是專科護理師及訓練專科護理師於醫師監督下得執行之醫療業務？",
+      "options": {
+        "A": "代為開立預立特定醫療流程所需表單",
+        "B": "檢驗、檢查之初步綜合判斷",
+        "C": "涉及侵入人體之傷口及管路處置",
+        "D": "擬定醫療方針及相關諮詢"
+      },
+      "answer": "D",
+      "explanation": "擬定醫療方針屬醫師的核心職權（醫師法），不在專科護理師執業範圍內。專科護理師可執行預立特定醫療流程表單、初步判斷、傷口管路處置等，但不得獨立擬定治療方針。",
+      "difficulty": "medium",
+      "source": "110_general_Q6",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "np_regulation"
+    },
+    {
+      "id": 7,
+      "question": "有關專科護理師想要發展跌倒的臨床照護指引，下列何者不包括在臨床照護指引的發展重要步驟當中？",
+      "options": {
+        "A": "做好利益衝突聲明",
+        "B": "進行系統文獻查證",
+        "C": "有證據等級及強度",
+        "D": "每年要更新一次"
+      },
+      "answer": "D",
+      "explanation": "臨床照護指引發展步驟包括：定義問題、系統文獻查證、評估證據強度等級、提出建議、利益衝突聲明、同儕審閱等。更新頻率依實際需要（新證據出現、實務改變）決定，無規定必須「每年」更新。",
+      "difficulty": "easy",
+      "source": "110_general_Q7",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "evidence_based"
+    },
+    {
+      "id": 8,
+      "question": "家屬反映：「病人開完刀病都沒好、醫師實在是庸醫，護理人員的照顧也實在很糟糕！」。專科護理師回應：「你的主治醫師是本院最好的醫師，也是這種手術的權威！而且，護理人員也都很優秀，有好幾位都曾當選過優良護理師。」前述專科護理師的回應是屬於何種溝通行為？",
+      "options": {
+        "A": "提供資訊(informing)",
+        "B": "提出所觀察到的(making observation)",
+        "C": "輕視忽略個案的感受(belittling feeling that is expressed)",
+        "D": "防衛辯護(defending)"
+      },
+      "answer": "D",
+      "explanation": "護理師的回應是在為醫師和護理人員辯護，而非傾聽家屬的情緒和擔憂，屬於「防衛辯護（defending）」的非治療性溝通。正確的回應應先承認家屬的感受，再了解情況。",
+      "difficulty": "easy",
+      "source": "110_general_Q8",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "communication"
+    },
+    {
+      "id": 9,
+      "question": "58歲停經婦女，平時規律服用抗高血壓藥，沒有吸菸、沒有嚼食檳榔習慣，一日到醫院門診就醫取藥時，癌症中心推廣癌症篩檢，可建議該婦女參與國民健康署規劃的哪些癌症篩檢？",
+      "options": {
+        "A": "乳癌、子宮內膜癌與子宮頸癌",
+        "B": "子宮內膜癌、口腔癌與大腸直腸癌",
+        "C": "乳癌、子宮頸癌與大腸直腸癌",
+        "D": "口腔癌、子宮頸癌與大腸直腸癌"
+      },
+      "answer": "C",
+      "explanation": "國健署四大癌症篩檢：①乳癌（45–69 歲女性、40–44 歲一等親有乳癌史）、②子宮頸癌（30 歲以上女性）、③大腸直腸癌（50–74 歲）、④口腔癌（30 歲以上有吸菸或嚼檳榔）。此婦女 58 歲、無吸菸嚼檳，符合乳癌、子宮頸癌、大腸直腸癌篩檢。",
+      "difficulty": "easy",
+      "source": "110_general_Q9",
+      "legacy_category": "clinical_assessment",
+      "topic": "health_promotion",
+      "subtopic": "prevention_screening"
+    },
+    {
+      "id": 10,
+      "question": "有關美國國家科學委員會醫學研究院(Institute of Medicine, IOM)提出21世紀醫療照護品質六大目標，下列何者錯誤？",
+      "options": {
+        "A": "醫療行為效率化",
+        "B": "醫療處置有效化",
+        "C": "醫療照護安全化",
+        "D": "醫療照護差異化"
+      },
+      "answer": "D",
+      "explanation": "IOM 六大品質目標（STEEEP）：Safety（安全）、Timely（及時）、Effective（有效）、Efficient（效率）、Equitable（公平）、Patient-centered（以病人為中心）。「差異化」不在其中，反而 Equitable（公平，消弭差異）是目標之一。",
+      "difficulty": "easy",
+      "source": "110_general_Q10",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 11,
+      "question": "良好溝通影響醫療品質極大，ISBAR是增進醫療人員間及醫病間有效溝通的工具，下列要素敘述何者錯誤？",
+      "options": {
+        "A": "S(self introduction)：介紹自己和病人",
+        "B": "B(background)：重要病史、目前用藥及治療情形",
+        "C": "A(assessment)：狀況評估，含vital signs數據、各類檢查檢驗結果",
+        "D": "R(recommendation)：後續處理措施或方向"
+      },
+      "answer": "A",
+      "explanation": "ISBAR 中的 I = Identify（身份確認，介紹自己及病人），S = Situation（目前情況/問題），不是 self introduction。選項 A 將 S 的定義誤植為「介紹自己和病人」，應為「病人問題與現況」。",
+      "difficulty": "easy",
+      "source": "110_general_Q11",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "communication"
+    },
+    {
+      "id": 12,
+      "question": "有關衛福部民國109～110年醫院醫療品質及病人安全工作目標，落實感染管制有關的執行策略，下列敘述何者錯誤？",
+      "options": {
+        "A": "定期環境清潔及監控清潔品質",
+        "B": "執行病人用藥整合與管理",
+        "C": "加強抗生素使用管理機制",
+        "D": "落實工作人員之健康管理"
+      },
+      "answer": "B",
+      "explanation": "「執行病人用藥整合與管理」屬於藥物安全目標，不是感染管制目標。感染管制策略包含環境清潔、手部衛生、抗生素管理、工作人員健康管理、隔離措施等。",
+      "difficulty": "easy",
+      "source": "110_general_Q12",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 13,
+      "question": "病人往生後，照護該病人的專科護理師想把病人與子女互動的故事寫成「敘事護理」發表。依據現行法律，該專科護理師發表病人的故事必須符合下列何項條件？",
+      "options": {
+        "A": "人體試驗委員會(IRB)審查通過",
+        "B": "病人的法定代理人書面同意",
+        "C": "專科護理師作業小組核准",
+        "D": "發表內容無法識別病人"
+      },
+      "answer": "B",
+      "explanation": "病人往生後，應由法定代理人（繼承人）代為行使病人隱私權。發表涉及具體可識別的個人資訊，需取得法定代理人書面同意。即使去識別化亦未必足夠（如故事細節仍可能識別）；IRB 適用於研究，非個案報告的必要條件。",
+      "difficulty": "medium",
+      "source": "110_general_Q13",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "ethics_autonomy"
+    },
+    {
+      "id": 14,
+      "question": "「安寧緩和醫療條例」第7條是針對末期病人不施行心肺復甦術或維生醫療之法律規定，下列敘述何者正確？",
+      "options": {
+        "A": "應由二位具有相關專科醫師資格之醫師診斷確為末期病人",
+        "B": "若病人無法清楚表達意願，須由所有最近親屬同意",
+        "C": "若病人無最近親屬者，照會倫理委員會依病人最大利益作出決定",
+        "D": "若病人已插管並使用呼吸器，須經安寧緩和醫療照會後方可撤除"
+      },
+      "answer": "A",
+      "explanation": "依安寧緩和醫療條例，末期病人需由二位具相關專科醫師資格醫師診斷確認，且不需全體最近親屬同意（最近親屬中有人同意且無反對即可）；無最近親屬時由醫療機構倫理委員會；已插管者得在家屬同意下撤除。",
+      "difficulty": "medium",
+      "source": "110_general_Q14",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "ethics_autonomy"
+    },
+    {
+      "id": 15,
+      "question": "下列臨床情境，何者不適合採用醫病共享決策(shared decision making, SDM)？",
+      "options": {
+        "A": "昏厥之健康年輕女性，心跳25次/分鐘擬置入心律調節器前",
+        "B": "擔心以後造成家人的負擔，思索是否應該簽署預立醫療決定",
+        "C": "擔心子宮肌瘤術後狀況，考慮應採局部切除還是全子宮切除方式",
+        "D": "肝癌末期病人，希望可以知道各種治療方式優缺點以及疾病預後"
+      },
+      "answer": "A",
+      "explanation": "心跳 25 次/分鐘（severe bradycardia）是立即危及生命的緊急情況，需要即時醫療介入（心律調節器），不適合延遲進行 SDM 討論。SDM 適用於有多種合理選擇的非急迫情境。",
+      "difficulty": "medium",
+      "source": "110_general_Q15",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "communication"
+    },
+    {
+      "id": 16,
+      "question": "台灣最近數年來，醫療糾紛事件層出不窮，其原因不包括下列何者？",
+      "options": {
+        "A": "病人權利意識提高",
+        "B": "病人的期待與現實間的落差",
+        "C": "醫療商業化，民眾將醫療行為視同為商業行為",
+        "D": "醫病關係維持類似父子關係，一切聽從醫師指示行事"
+      },
+      "answer": "D",
+      "explanation": "傳統父子型醫病關係（家長式）中病人服從醫師，反而不易產生糾紛；現代醫病糾紛增加的原因包括：病人自主意識增加、期待落差、媒體渲染、醫療商業化等。「聽從醫師」的傳統關係不是糾紛增加的原因。",
+      "difficulty": "easy",
+      "source": "110_general_Q16",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "communication"
+    },
+    {
+      "id": 17,
+      "question": "病人抱怨肚子脹氣的問題都不見好轉，而且已經跟醫師和護理師說過好幾次，都沒有被處理，下列何者為專科護理師最佳的回覆方式？",
+      "options": {
+        "A": "「好的，我等一下提醒主治醫師。」",
+        "B": "「怎麼會呢？我們都一直在處理。」",
+        "C": "「我會交班下去，盡快處理。」",
+        "D": "「可以讓我檢查一下你的肚子嗎？」"
+      },
+      "answer": "D",
+      "explanation": "最佳回應是立即進行臨床評估（腹部檢查），這展現了主動性、臨床能力和對病人問題的重視。口頭承諾「等一下」或「交班」缺乏即時性；否認病人的感受（選項 B）是非治療性溝通。",
+      "difficulty": "easy",
+      "source": "110_general_Q17",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "communication"
+    },
+    {
+      "id": 18,
+      "question": "根據史克勞德對於持續性品質改善(CQI)的詮釋，下列敘述何者正確？",
+      "options": {
+        "A": "以領導者及顧客為導向",
+        "B": "注重資料，應用科學性方法進行改善",
+        "C": "強調組織高層決策，避免政策方針錯誤",
+        "D": "重視組織內各階層獨立運作"
+      },
+      "answer": "B",
+      "explanation": "CQI 的核心理念：以資料（data）為基礎的客觀分析、科學性系統改善方法（PDCA）、全員參與（非獨立運作）、以顧客（病人）為導向、持續不斷的改善。",
+      "difficulty": "medium",
+      "source": "110_general_Q18",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 19,
+      "question": "有關專科護理師的角色功能，下列何者最不恰當？",
+      "options": {
+        "A": "問候病人及家屬，建立親善關係",
+        "B": "誠實告訴病人你知識上的侷限",
+        "C": "依據病人的檢查結果決定後續治療",
+        "D": "評值及追蹤病人照護過程及治療結果"
+      },
+      "answer": "C",
+      "explanation": "「決定後續治療」屬醫師職責（需醫師指示）。專科護理師可在醫師監督下執行部分醫療業務，但獨立依據檢查結果決定治療計畫超出其執業範圍。",
+      "difficulty": "easy",
+      "source": "110_general_Q19",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "professional_dev"
+    },
+    {
+      "id": 20,
+      "question": "預立醫療決定者，醫療機構或醫師得依其預立醫療決定終止、撤除或不施行維持生命治療或人工營養及流體餵養，下列臨床條件何者未符合病人自主權利法的規定？",
+      "options": {
+        "A": "肺癌末期病人",
+        "B": "永久植物人狀態",
+        "C": "不可逆轉之昏迷狀況",
+        "D": "罕見疾病病童"
+      },
+      "answer": "D",
+      "explanation": "病人自主權利法適用五大臨床條件：①末期病人、②不可逆昏迷、③永久植物人、④極重度失智、⑤其他不可治癒且具嚴重苦痛的疾病。「罕見疾病病童」不一定符合上述條件，且病童的法律能力（自主決定）也需特別考量。",
+      "difficulty": "medium",
+      "source": "110_general_Q20",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "ethics_autonomy"
+    },
+    {
+      "id": 21,
+      "question": "55歲病人，為貿易公司高階主管，工作忙碌且壓力大。主訴最近吃完飯後胸口常會有灼熱的感覺，感覺食道有酸酸的液體往上湧，有時候晚上睡著後會咳嗽醒來，喉嚨疼痛灼熱。以下建議何者較不適合？",
+      "options": {
+        "A": "吃完東西也不要立即躺平，睡前2～3小時儘量不要吃東西，不暴飲暴食",
+        "B": "不菸不酒，減少食用刺激性食物或飲品(例如：咖啡)",
+        "C": "多攝食高脂、高纖與奶類食品，有效延長胃排空時間",
+        "D": "症狀嚴重且無法調整生活型態得以改善時，可以藥物治療，如制酸劑等"
+      },
+      "answer": "C",
+      "explanation": "GERD 飲食建議：避免高脂食物（減慢胃排空、鬆弛賁門括約肌）、乳製品（刺激胃酸）。高脂和奶類食品會加重 GERD 症狀，而非改善。高纖維食物本身問題不大，但放在「高脂、奶類」的組合中，整個選項 C 的建議是不適合的。",
+      "difficulty": "easy",
+      "source": "110_general_Q21",
+      "legacy_category": "clinical_assessment",
+      "topic": "clinical_medicine",
+      "subtopic": "gi_hepatic"
+    },
+    {
+      "id": 22,
+      "question": "有關醫護基本倫理四大原則（自主原則、行善原則、不傷害原則與公平正義原則）之敘述，下列何者正確？",
+      "options": {
+        "A": "五倫之中長幼有序乃是公平正義原則",
+        "B": "尊重病人做決定的權利乃是自主原則",
+        "C": "禮義廉恥四維之中「禮」乃是行善原則",
+        "D": "考量病人醫療可負擔性乃是不傷害原則"
+      },
+      "answer": "B",
+      "explanation": "自主原則（Autonomy）的核心是尊重個人做決定的權利，知情同意是其具體體現。醫療可負擔性屬公平正義原則；長幼有序和禮義廉恥是中國倫理觀念，不對應四大醫學倫理原則。",
+      "difficulty": "easy",
+      "source": "110_general_Q22",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "ethics_autonomy"
+    },
+    {
+      "id": 23,
+      "question": "根據衛生福利部109年2月17日衛部醫字第1091660695號函，下列何者不是「109～110年度醫院醫療品質及病人安全工作目標」？",
+      "options": {
+        "A": "促進醫療人員間及醫病間之有效溝通",
+        "B": "營造病人安全文化及落實病人安全事件管理",
+        "C": "強化醫院火災預防與應變措施",
+        "D": "鼓勵病人及其家屬參與病人安全工作"
+      },
+      "answer": "C",
+      "explanation": "109–110 年病人安全工作目標包含：有效溝通、用藥安全、感染管制、手術安全、跌倒預防、病人安全文化、病人參與等。「強化醫院火災預防與應變」不是此年度的工作目標（屬於環境安全範疇）。",
+      "difficulty": "easy",
+      "source": "110_general_Q23",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 24,
+      "question": "下列何項業務已經超出專科護理師及訓練專科護理師之醫療業務範圍？",
+      "options": {
+        "A": "未及於肌肉及肌腱之表層傷口縫合",
+        "B": "周邊動脈導管置入及拔除",
+        "C": "自主開立常規使用之藥物處方醫囑",
+        "D": "石膏固定及拆除"
+      },
+      "answer": "C",
+      "explanation": "「自主開立」藥物處方屬醫師職權，專科護理師不得自主開立藥物醫囑（可代為開立預立特定醫療流程所需的處方，但非自主）。表層傷口縫合、周邊動脈導管、石膏固定均在授權範圍內。",
+      "difficulty": "medium",
+      "source": "110_general_Q24",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "np_regulation"
+    },
+    {
+      "id": 25,
+      "question": "下列何者為代謝症候群？",
+      "options": {
+        "A": "陳先生，BMI=30 kg/m2 腰圍87公分，空腹血糖值120mg/dL",
+        "B": "李小姐，腰圍81公分，空腹血糖值95mg/dL，膽固醇220mg/dL",
+        "C": "陳先生，腰圍89公分，空腹血糖值120mg/dL，高密度脂蛋白膽固醇42mg/dL",
+        "D": "李小姐，腰圍75公分，空腹血糖值110mg/dL，血壓136/80mmHg"
+      },
+      "answer": "D",
+      "explanation": "我國代謝症候群判定（衛福部國健署）為下列五項符合「三項以上」：①腰圍 男 ≥90／女 ≥80 cm ②血壓 ≥130/85 mmHg（收縮或舒張任一達標即計）③空腹血糖 ≥100 mg/dL ④三酸甘油酯 ≥150 mg/dL ⑤HDL-C 男 <40／女 <50 mg/dL。BMI 與總膽固醇皆不是判準。逐項計算：A 男性腰圍 87（未達 90，不計）＋空腹血糖 120 ✓ ＝ 1 項；B 女性腰圍 81 ✓＋血糖 95 ✗＋總膽固醇 220（非判準）＝ 1 項；C 男性腰圍 89（未達 90）＋血糖 120 ✓＋HDL 42（男性須 <40）✗ ＝ 1 項；D 女性腰圍 75 ✗＋血糖 110 ✓＋血壓 136/80（收縮壓 ≥130）✓ ＝ 2 項。D 符合的項數最多，為公告答案。【本題選項設計有瑕疵】四個選項均未提供完整五項數據，嚴格依判準無一達到三項；作答時應理解為選出「符合項數最多、最接近診斷」者，而不是真正確診的代謝症候群案例。",
+      "difficulty": "hard",
+      "source": "110_general_Q25",
+      "review_note": "2026-07-30 解析審查修訂：原解析僅寫「選項 D 最接近符合條件」而未給判準；已逐選項列出五項判準的計分（A/B/C 各 1 項、D 2 項），並註明本題選項無一達 3 項的設計瑕疵。",
+      "legacy_category": "clinical_assessment",
+      "topic": "clinical_medicine",
+      "subtopic": "endocrine_renal_dz"
+    },
+    {
+      "id": 26,
+      "question": "50歲停經婦女，BMI為22 kg/m2，健康檢查發現其HbA1C值為6.7%，醫師建議其先調整生活型態。病人想藉由運動改善其血糖控制，下列敘述何者較不合適？",
+      "options": {
+        "A": "運動過程中應控制心跳勿超過100次/分鐘，以免增加心臟負擔",
+        "B": "適度的重量訓練可以增進肌力與肌耐力，有助於血糖控制",
+        "C": "快走與慢跑等有氧運動是不錯的選擇，可改善心肺能力與身體組成",
+        "D": "這樣的運動策略屬於三段五級中的次級預防，旨在健康促進"
+      },
+      "answer": "A",
+      "explanation": "【先正確判讀數值】HbA1c 6.7% 已達糖尿病的診斷標準（≥6.5%，須再次檢驗確認），不是糖尿病前期（前期為 5.7–6.4%）。A 為最不合適：運動要達到中等強度才能改善胰島素敏感性與血糖控制——本例最大心率約 220−50 ＝ 170 bpm，中等強度目標心率約為其 50–70%，即 85–120 bpm，ADA 並建議每週至少 150 分鐘中等強度有氧運動；此病人 BMI 22、無心臟疾病史，並無把心跳限制在 100 bpm 以下的依據，如此設限會使運動強度不足、達不到血糖控制效果。B 正確：阻力訓練可增加肌肉量與 GLUT-4 轉運蛋白，建議每週 2–3 次，與有氧運動併行效果最佳。C 正確：快走、慢跑等有氧運動可改善心肺適能與身體組成。D 的分類敘述並不嚴謹（「健康促進」屬三段五級中的初段預防第一級，而本例已達糖尿病診斷，運動介入實屬早期治療的範疇），但相較之下 A 是明確錯誤、且病人會照著做的臨床建議，故為本題答案。",
+      "difficulty": "medium",
+      "source": "110_general_Q26",
+      "review_note": "2026-07-30 解析審查修訂：原解析把 HbA1c 6.7% 歸類為「糖尿病前期」，實際上 ≥6.5% 已達糖尿病診斷標準（前期為 5.7–6.4%）；並補上中等強度目標心率的計算依據。",
+      "legacy_category": "clinical_assessment",
+      "topic": "health_promotion",
+      "subtopic": "chronic_disease_mgmt"
+    },
+    {
+      "id": 27,
+      "question": "下列何者不屬於專科護理師工作之職責？",
+      "options": {
+        "A": "在醫師指示下開立藥物處方與管制口服藥方等用藥",
+        "B": "擬訂護理問題提供護理措施，病人及家屬之護理指導及諮詢",
+        "C": "協助執行緊急救護，可執行心臟整流術(cardioversion)",
+        "D": "代為開立預立特定醫療流程表單，如入院許可單等"
+      },
+      "answer": "AC",
+      "explanation": "疑義題，官方確認答案為 A 或 C 皆可。(A) 開立藥物處方與管制藥品不屬於職責；(C) 心臟整流術（cardioversion）雖屬職責，但在「協助緊急救護」情境下的界定有爭議，故 A 或 C 皆為正確答案。",
+      "note": "本題為疑義題，官方確認答案為 A 或 C 皆可",
+      "difficulty": "medium",
+      "source": "110_general_Q27",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "np_regulation"
+    },
+    {
+      "id": 28,
+      "question": "孫先生罹癌多年，最近一次因為腫瘤轉移入院，家屬偷偷告訴專科護理師病人希望放棄治療，下列何者為專科護理師較恰當之回應？",
+      "options": {
+        "A": "「生病這麼多年，一定要堅持下去。」",
+        "B": "「現在醫藥這麼發達，一定可以找到方法。」",
+        "C": "「你是不是很擔心？你的看法是什麼？」",
+        "D": "「我會跟主治醫師說，再和你們討論。」"
+      },
+      "answer": "C",
+      "explanation": "治療性溝通應先探索家屬感受和想法（開放性問題），而非給予保證（A、B）或立即轉介（D）。選項C先確認家屬情緒（同理），再了解其想法，是最符合治療性溝通原則的回應。",
+      "difficulty": "easy",
+      "source": "110_general_Q28",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "communication"
+    },
+    {
+      "id": 29,
+      "question": "專科護理師及訓練期間專科護理師除可執行護理人員之業務，並得於醫師監督下執行醫療業務，下列何者不屬於其範圍及項目？",
+      "options": {
+        "A": "鼻胃管置入",
+        "B": "Nelaton導管更換與灌洗",
+        "C": "中央靜脈導管置入",
+        "D": "陰道擴張器(鴨嘴器)置入"
+      },
+      "answer": "C",
+      "explanation": "中央靜脈導管置入（含 PICC 除外）通常屬醫師執行的高風險侵入性操作，不在麻醉科專科護理師的標準業務範圍。鼻胃管、Nelaton 導管、陰道擴張器均為護理或 NP 可執行的業務。",
+      "difficulty": "medium",
+      "source": "110_general_Q29",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "np_regulation"
+    },
+    {
+      "id": 30,
+      "question": "某醫院因COVID-19疫情之故，要求住院與陪病家屬皆須以PCR檢測確認無染疫方可住院。陳太太因陣痛至該院就診待產，接受診療後在等待PCR過程中胎心音下降而緊急剖腹生產。下列敘述何者錯誤？",
+      "options": {
+        "A": "醫院如此規定枉顧病人權益，應處以罰鍰",
+        "B": "等待過程中有醫療人員予以診治，醫院處置得宜",
+        "C": "陳先生不得拒絕PCR檢測，應主動配合採檢",
+        "D": "此案例無違反護理師法，並無拖延救治之事實"
+      },
+      "answer": "A",
+      "explanation": "醫院在疫情期間制定防疫措施（PCR 篩檢）有其法律依據，且過程中有醫療人員持續監測胎兒狀況，出現緊急狀況立即手術，符合緊急醫療處置規範，不構成違法或應處罰的情況。",
+      "difficulty": "medium",
+      "source": "110_general_Q30",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "medical_law"
+    },
+    {
+      "id": 31,
+      "question": "陳先生，55歲，為貿易公司高階主管，工作忙碌且壓力大。健康檢查發現其BMI高達34 kg/m2，總膽固醇395 mg/dL，還有嚴重的脂肪肝。主訴爬樓梯容易喘不過氣來，無法做激烈運動。針對陳先生狀況，下列何者建議較為合適？",
+      "options": {
+        "A": "採用生酮飲食，改善脂肪肝、降低膽固醇",
+        "B": "以高強度有氧運動，如拳擊有氧，快速降低體重與高血脂",
+        "C": "減少熱量，每日熱量攝取控制於1,000大卡，快速達到減重目標",
+        "D": "增加日常生活中的活動量，如每日1萬步、快走"
+      },
+      "answer": "D",
+      "explanation": "有心肺功能限制（爬樓梯喘）的肥胖病人應從低強度、日常性活動開始（每日步行），循序漸進。高強度運動（拳擊有氧）有心血管風險；過度限制熱量（1000 kcal）可能造成肌肉流失和營養不足；生酮飲食對脂肪肝效果有爭議且高脂肪，不適合高膽固醇者。",
+      "difficulty": "easy",
+      "source": "110_general_Q31",
+      "legacy_category": "clinical_assessment",
+      "topic": "health_promotion",
+      "subtopic": "chronic_disease_mgmt"
+    },
+    {
+      "id": 32,
+      "question": "有關丹佛發展測驗-丹佛II(Denver II)針對0～6歲兒童作評量內容之敘述，下列何者不包含在內？",
+      "options": {
+        "A": "語言",
+        "B": "智商",
+        "C": "粗動作",
+        "D": "精細動作"
+      },
+      "answer": "B",
+      "explanation": "Denver II 評估四大領域：①個人-社會（Personal-Social）、②精細動作-適應（Fine Motor-Adaptive）、③語言（Language）、④粗動作（Gross Motor）。智商（IQ）評估不在 Denver II 範疇，需使用韋氏智力測驗等工具。",
+      "difficulty": "easy",
+      "source": "110_general_Q32",
+      "legacy_category": "clinical_assessment",
+      "topic": "health_promotion",
+      "subtopic": "growth_development"
+    },
+    {
+      "id": 33,
+      "question": "醫療品質可從結構、過程與結果指標做評量，下列何者不是病人結果面品質指標？",
+      "options": {
+        "A": "臨床照護指引遵從率",
+        "B": "術後噁心嘔吐發生率",
+        "C": "中心靜脈導管感染率",
+        "D": "出院3日內再入急診率"
+      },
+      "answer": "A",
+      "explanation": "臨床照護指引遵從率是「過程面」指標（評估醫療行為是否符合標準）。結果面指標反映病人健康狀態的改變：PONV 發生率、CLABSI 感染率、再入急診率均屬結果面。",
+      "difficulty": "medium",
+      "source": "110_general_Q33",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 34,
+      "question": "有關採用醫療決策共享的臨床情境，下列何者最不適當？",
+      "options": {
+        "A": "目前還未有明確實證結果的處置與用藥",
+        "B": "唯一具有實證基礎的臨床常規照護",
+        "C": "需要長期服用多種藥物",
+        "D": "醫療不確定性高"
+      },
+      "answer": "B",
+      "explanation": "當只有「唯一」具實證基礎的最佳治療時（如某感染症的標準抗生素），SDM 的意義較低，因為醫學上只有一個正確選擇。SDM 最適用於：有多種合理選項、醫療不確定性高、需長期治療、影響生活品質的決策。",
+      "difficulty": "medium",
+      "source": "110_general_Q34",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "communication"
+    },
+    {
+      "id": 35,
+      "question": "以健康信念模式為依據，評估婦女對於乳房攝影檢查之意願，下列何者評估結果屬於個人信念？",
+      "options": {
+        "A": "「我不知道飲食型態跟乳癌有關係。」",
+        "B": "60歲女性，白人，有家族乳癌病史",
+        "C": "「我媽媽就是死於乳癌，我很擔心自己會跟她一樣。」",
+        "D": "教育程度為大學畢業，且為執業中之臨床護理師"
+      },
+      "answer": "C",
+      "explanation": "健康信念模式（HBM）個人信念包含：知覺易感性（「我很擔心自己也會得乳癌」）、知覺嚴重性、知覺利益、知覺障礙。選項C表達了個人的「知覺易感性」（擔心自己會得乳癌），是個人主觀信念。B和D是人口學特徵，A是知識不足。",
+      "difficulty": "medium",
+      "source": "110_general_Q35",
+      "legacy_category": "general_nursing",
+      "topic": "health_promotion",
+      "subtopic": "patient_education"
+    },
+    {
+      "id": 36,
+      "question": "醫療品質監測指標包括結構、過程與結果三個面向，下列敘述何者錯誤？",
+      "options": {
+        "A": "醫療照護所需之資材資源，為結構面指標之一",
+        "B": "醫療診斷與處置適當性，為過程面指標之一",
+        "C": "結構面的評估與過程有關，但與結果面不一定直接相關",
+        "D": "相較於過程面，結果面被視為比較具敏感性的品質評估方法"
+      },
+      "answer": "D",
+      "explanation": "結果面指標雖直觀（可見病人健康改變），但受多種因素影響（病人基礎病況、社會因素），敏感性並不一定優於過程面。過程面指標（如洗手遵從率）往往更敏感、更易測量和改善。",
+      "difficulty": "medium",
+      "source": "110_general_Q36",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 37,
+      "question": "當醫院發生不良事件，採用「根本原因分析(RCA)」來進行調查時，下列何者屬於釐清事件發生的階段？",
+      "options": {
+        "A": "組織根本原因分析的團隊",
+        "B": "找出近端原因",
+        "C": "確認根本原因",
+        "D": "設計改善的行動方案"
+      },
+      "answer": "B",
+      "explanation": "RCA 步驟：①組成團隊（準備）→ ②釐清事件（描述事件、找出近端原因/直接原因）→ ③確認根本原因（系統性分析）→ ④設計改善方案 → ⑤執行與評值。「找出近端原因」屬於釐清事件的階段。",
+      "difficulty": "medium",
+      "source": "110_general_Q37",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 38,
+      "question": "「安寧緩和醫療條例」是為尊重末期病人之醫療意願及保障其權益而制定，患有下列情況的病人都有可能是該條例所稱的末期病人，但何者最能確定為末期狀況？",
+      "options": {
+        "A": "急性心肌梗塞合併心因性休克(cardiogenic shock)",
+        "B": "敗血症合併急性腎衰竭(acute renal failure)",
+        "C": "肝硬化合併自發性細菌性腹膜炎(spontaneous bacterial peritonitis)",
+        "D": "癌症合併難治型惡病質(refractory cachexia)"
+      },
+      "answer": "D",
+      "explanation": "「末期病人」指經積極治療後，仍無法治癒的疾病末期。癌症合併難治型惡病質（refractory cachexia）表示疾病進入不可治療的終末期，最符合末期病人定義。A、B、C 均可能在積極治療下恢復，不一定是末期。",
+      "difficulty": "medium",
+      "source": "110_general_Q38",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "ethics_autonomy"
+    },
+    {
+      "id": 39,
+      "question": "專科護理師進行嚴格的評讀臨床照護指引，過程中發現新的骨折超音波檢查偽陰性很高，此為下列何項實證評讀結果？",
+      "options": {
+        "A": "可信度",
+        "B": "可應用性",
+        "C": "臨床重要性",
+        "D": "病人的期望"
+      },
+      "answer": "A",
+      "explanation": "偽陰性率高代表該診斷工具的敏感性低、可靠性不足，屬於評讀研究「可信度（validity/reliability）」的問題——即研究結果是否真實可靠、工具是否能準確測量它應測的事物。",
+      "difficulty": "medium",
+      "source": "110_general_Q39",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "evidence_based"
+    },
+    {
+      "id": 40,
+      "question": "AGREE（The Appraisal of Guidelines, Research and Evaluation）是目前國際上公認可有效評價臨床照護指引品質的工具，包括六大領域的評量面向，下列敘述何者正確？",
+      "options": {
+        "A": "評估指引發展所需的經濟效益",
+        "B": "評估指引發展過程的公開透明程度",
+        "C": "評估指引的臨床照護內容適當性",
+        "D": "評估指引推薦內容所使用證據的品質"
+      },
+      "answer": "BCD",
+      "explanation": "疑義題，官方確認答案為 B、C、D 皆可。AGREE II 六大領域：①範圍與目的、②利害關係人參與、③發展嚴謹性、④呈現清晰性、⑤適用性、⑥編輯獨立性。(B)發展過程透明度、(C)臨床內容適當性、(D)證據品質均屬其評量範疇；(A)「經濟效益」不是 AGREE 評量面向。",
+      "note": "本題為疑義題，官方確認答案為 B、C、D 皆可",
+      "difficulty": "medium",
+      "source": "110_general_Q40",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "evidence_based"
+    },
+    {
+      "id": 41,
+      "question": "營造病人安全文化及落實病人安全事件管理，衛福部列入109～110年醫院醫療品質及病人安全工作目標之一，對醫療機構病人安全文化的評量構面，下列何者錯誤？",
+      "options": {
+        "A": "評量工作人員對機構的認同",
+        "B": "評量工作人員對工作的滿意",
+        "C": "評量工作人員對壓力的認知",
+        "D": "評量工作人員對管理的感受"
+      },
+      "answer": "A",
+      "explanation": "病人安全文化評量構面（如 AHRQ Hospital Survey on Patient Safety Culture）包含：管理支持、溝通開放性、失誤回報、工作壓力認知、整體安全認知等。「對機構的認同」（組織承諾）不是病人安全文化的核心評量面向。",
+      "difficulty": "medium",
+      "source": "110_general_Q41",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 42,
+      "question": "有關根本原因分析(root cause analysis, RCA)的敘述，下列何者正確？",
+      "options": {
+        "A": "為前瞻性分析，針對流程或步驟進行風險評量，找出適當改進方案",
+        "B": "為回溯性分析，焦點在為事件，針對人員教育加以評估分析",
+        "C": "為回溯性分析，焦點在事件，分析過程，避免未來類似事件再發生",
+        "D": "為前瞻性分析，針對系統與過程進行分析，而非歸咎業務執行者"
+      },
+      "answer": "C",
+      "explanation": "RCA 是回溯性（retrospective）分析，針對已發生的不良事件，從系統和流程（而非個人過失）角度找出根本原因，目的是防止類似事件再發生。前瞻性分析是 FMEA（失效模式與效應分析）。",
+      "difficulty": "easy",
+      "source": "110_general_Q42",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "patient_safety"
+    },
+    {
+      "id": 43,
+      "question": "下列何者不建議接種人類乳突病毒(Human Papillomavirus, HPV)疫苗？",
+      "options": {
+        "A": "男性高三學生",
+        "B": "懷孕6週女性",
+        "C": "48歲停經婦女",
+        "D": "女性高三學生"
+      },
+      "answer": "BC",
+      "explanation": "疑義題，官方確認答案為 B 或 C 皆可。HPV 疫苗禁忌：懷孕婦女（B）。台灣建議接種年齡至 45 歲，故 48 歲停經婦女（C）超出建議年齡範圍，也是正確答案。男性和女性高中生均在建議接種年齡範圍內。",
+      "note": "本題為疑義題，官方確認答案為 B 或 C 皆可",
+      "difficulty": "medium",
+      "source": "110_general_Q43",
+      "legacy_category": "general_nursing",
+      "topic": "health_promotion",
+      "subtopic": "prevention_screening"
+    },
+    {
+      "id": 44,
+      "question": "針對低健康識能的病人，專科護理師在溝通時可透過下列何項最適當的措施，以協助個案理解衛教的內容？",
+      "options": {
+        "A": "考量資訊落差，應儘量避免使用多媒體",
+        "B": "避免衛教時間太長無法專心，可省去回覆示教",
+        "C": "會談時使用白話文，避免醫療術語",
+        "D": "主要的衛教對象以家屬為主，確保照顧者學會"
+      },
+      "answer": "C",
+      "explanation": "低健康識能溝通原則：使用簡單白話語言（避免術語）、限制每次傳遞訊息量、確認理解（teach-back）、使用視覺輔助（圖示、多媒體有助理解，非應避免）、回覆示教是確認理解的重要方法（不可省略）。",
+      "difficulty": "easy",
+      "source": "110_general_Q44",
+      "legacy_category": "general_nursing",
+      "topic": "health_promotion",
+      "subtopic": "patient_education"
+    },
+    {
+      "id": 45,
+      "question": "應用臨床實證照護，正確解讀與使用實證證據是專科護理師重要的核心能力之一，下列敘述何者不適宜？",
+      "options": {
+        "A": "擬訂病人個別化之臨床照護決策",
+        "B": "建立照護的政策、程序與標準化",
+        "C": "隨時修訂或推翻臨床照護指引",
+        "D": "客觀評值臨床實務的照護成效"
+      },
+      "answer": "C",
+      "explanation": "臨床照護指引的修訂需要嚴謹的證據評讀過程和系統性更新，不能「隨時」修訂或推翻。指引的修訂需要新的強力證據支持、專家共識和嚴格程序，而非個人主觀判斷隨時更改。",
+      "difficulty": "medium",
+      "source": "110_general_Q45",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "evidence_based"
+    },
+    {
+      "id": 46,
+      "question": "在新冠肺炎疫情期間，陳先生回南部與家人聚餐，當回到北部工作時身體不適就醫，診斷為新冠肺炎住院治療，疫情調查人員將其個人診斷告知家人、餐廳與公司，該情況是否有不當洩漏病人隱私？而此原因為何？",
+      "options": {
+        "A": "有，陳先生可能因病受他人異樣眼光",
+        "B": "有，餐廳因停業消毒，損失嚴重",
+        "C": "沒有，得了新冠肺炎的病人沒有隱私權",
+        "D": "沒有，對社會負有更高責任，疫情調查以阻斷傳播鏈"
+      },
+      "answer": "D",
+      "explanation": "傳染病防治法賦予衛生主管機關調查、通報接觸者的法定權力，以防止傳播。在法定傳染病疫情調查中，告知接觸者（家人、餐廳、公司）是阻斷傳播鏈的必要措施，有法律依據，不構成不當洩漏隱私。",
+      "difficulty": "medium",
+      "source": "110_general_Q46",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "medical_law"
+    },
+    {
+      "id": 47,
+      "question": "如圖(一)所示，以Mallampati氣道分級，屬於第幾級？",
+      "options": {
+        "A": "class Ⅰ",
+        "B": "class Ⅱ",
+        "C": "class Ⅲ",
+        "D": "class Ⅳ"
+      },
+      "answer": "C",
+      "explanation": "Mallampati 分級：Ⅰ=可見軟顎、懸雍垂、咽門柱；Ⅱ=可見軟顎、懸雍垂；Ⅲ=僅見軟顎基部（看不到懸雍垂）；Ⅳ=僅見硬顎。本題描述可見硬顎和軟顎基部但看不到懸雍垂 = Mallampati Ⅲ。",
+      "difficulty": "easy",
+      "source": "110_general_Q47",
+      "image": "110_general_Q47.png",
+      "legacy_category": "airway",
+      "topic": "preop",
+      "subtopic": "airway_eval"
+    },
+    {
+      "id": 48,
+      "question": "有關「護理人員法」護理人員執業之敘述，下列何者錯誤？",
+      "options": {
+        "A": "護理人員執業，其登記執業之處所，以一處為限",
+        "B": "護理人員受有關機關詢問時，為保護病人隱私，得為虛偽之陳述或報告",
+        "C": "護理人員執行業務時，遇有病人危急，應立即聯絡醫師，但必要時得先行給予緊急救護處理",
+        "D": "護理人員執行醫療輔助行為，應在醫師之指示下行之"
+      },
+      "answer": "B",
+      "explanation": "護理人員法明定護理人員受有關機關詢問時，不得為虛偽之陳述或報告（應如實陳述）。隱私保護不能成為虛偽陳述的理由，違反者依法處罰。",
+      "difficulty": "easy",
+      "source": "110_general_Q48",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "medical_law"
+    },
+    {
+      "id": 49,
+      "question": "腎上腺分泌多種荷爾蒙在壓力狀態下協助維持生理恆定，分泌過多時，臨床麻醉常須有特殊考量，下列哪一種除外？",
+      "options": {
+        "A": "雄性素(androgen)",
+        "B": "鹽皮質素(mineralocorticoid)",
+        "C": "兒茶酚胺(catecholamine)",
+        "D": "糖皮質素(glucocorticoid)"
+      },
+      "answer": "A",
+      "explanation": "腎上腺皮質素（醛固酮/鹽皮質素、皮質醇/糖皮質素）和腎上腺髓質素（兒茶酚胺：腎上腺素、正腎上腺素）分泌過多均有重要的麻醉考量。雄性素（DHEA）過多主要影響內分泌系統，對麻醉的直接影響相對較小，是「除外」的選項。",
+      "difficulty": "medium",
+      "source": "110_general_Q49",
+      "legacy_category": "physiology",
+      "topic": "physiology",
+      "subtopic": "endocrine_metabolic"
+    },
+    {
+      "id": 50,
+      "question": "下列敘述何者錯誤？",
+      "options": {
+        "A": "所有需要麻醉專科護理師協助執行的醫療行為，各院皆須成立麻醉專科護理師作業小組，依其屬性訂立之",
+        "B": "侵入性人體之醫療業務，必須由各院的「麻醉專科護理師作業小組」，訂立標準作業流程，且報備醫院通過後，麻醉專科護理師方可執行",
+        "C": "非侵入人體之醫療業務，例如代為預立醫囑則由各院之「麻醉專科護理師作業小組」訂立「預立特定醫療程序」，且報備醫院通過後，麻醉專科護理師方可執行",
+        "D": "各院自訂的標準作業流程，可依各院需求另立超出現行公告「麻醉專科護理師於麻醉專科醫師監督下執行醫療業務範圍」的業務範疇"
+      },
+      "answer": "D",
+      "explanation": "各院不得自行擴充超出衛福部公告的麻醉科專科護理師執業範圍。醫療業務範圍由主管機關（衛福部）法定，院內規範只能在法定範圍內制定，不能超出公告範疇。",
+      "difficulty": "hard",
+      "source": "110_general_Q50",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "np_regulation"
+    },
+    {
+      "id": 51,
+      "question": "有關術中心電圖(ECG)，下列敘述何者正確？",
+      "options": {
+        "A": "透過節律監測，診斷心律不整，I導程觀察P波最清楚",
+        "B": "應將電極放置於清潔且乾燥皮膚及固定位置持續的監測",
+        "C": "II導程和V6導程可監測到95%病人的心肌缺血",
+        "D": "有ECG訊號代表心肌收縮功能和心輸出量皆正常"
+      },
+      "answer": "B",
+      "explanation": "ECG 電極應置於清潔乾燥皮膚上，且位置固定以確保一致性和監測準確性。觀察 P 波最清楚是 II 導程（非 I）；II+V5（非 V6）可監測 95% 心肌缺血；ECG 訊號存在不代表心輸出量正常（PEA：有電氣活動但無脈搏）。",
+      "difficulty": "medium",
+      "source": "110_general_Q51",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "ecg_reading"
+    },
+    {
+      "id": 52,
+      "question": "以下何者非護理人員可單獨執行之業務？",
+      "options": {
+        "A": "醫療輔助行為",
+        "B": "預防保健的護理措施",
+        "C": "護理指導及諮詢",
+        "D": "健康問題之護理評估"
+      },
+      "answer": "A",
+      "explanation": "依護理人員法，護理人員可單獨執行：護理評估、護理措施、護理指導及諮詢、預防保健。「醫療輔助行為」需在醫師指示下執行，不得單獨執行。",
+      "difficulty": "easy",
+      "source": "110_general_Q52",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "medical_law"
+    },
+    {
+      "id": 53,
+      "question": "神經內分泌腫瘤所產生的類癌症候群(carcinoid syndrome)可能造成術中的血壓不穩，術中持續輸注何種藥劑可改善症狀？",
+      "options": {
+        "A": "血清素(serotonin)",
+        "B": "色胺酸(tryptophan)",
+        "C": "體抑素胜肽(octreotide)",
+        "D": "菸鹼酸(niacin)"
+      },
+      "answer": "C",
+      "explanation": "類癌症候群由腫瘤分泌血清素等介質引起（潮紅、腹瀉、支氣管痙攣、血壓不穩）。Octreotide（體抑素類似物）可抑制這些介質的分泌，是術中血壓不穩的首選治療。",
+      "difficulty": "medium",
+      "source": "110_general_Q53",
+      "legacy_category": "pharmacology",
+      "topic": "specialty_surgery",
+      "subtopic": "endocrine_surgery"
+    },
+    {
+      "id": 54,
+      "question": "常規手術前的空腹時間指引(NPO)，下列敘述何者錯誤？①清水：2小時 ②運動飲料：3小時 ③固態食物：8小時 ④牛奶：6小時 ⑤母奶：5小時",
+      "options": {
+        "A": "①③",
+        "B": "①④",
+        "C": "②⑤",
+        "D": "③④"
+      },
+      "answer": "C",
+      "explanation": "ASA NPO 指引：清水 ≥2 小時（①正確）；運動飲料視為清澈液體 ≥2 小時（②錯誤，應為 2 小時非 3 小時）；固體食物 ≥6–8 小時（③偏嚴但可接受）；牛奶 ≥6 小時（④正確）；母奶 ≥4 小時（⑤錯誤，應為 4 小時非 5 小時）。故②和⑤錯誤，選 C。",
+      "difficulty": "medium",
+      "source": "110_general_Q54",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "fasting_premed"
+    },
+    {
+      "id": 55,
+      "question": "潮氣末二氧化碳濃度(EtCO2)數值下降的原因，不包括下列何者？",
+      "options": {
+        "A": "過度換氣",
+        "B": "敗血症",
+        "C": "低體溫",
+        "D": "肺栓塞"
+      },
+      "answer": "B",
+      "explanation": "EtCO₂ 下降的原因：過度換氣（CO₂ 排出增加）、低心輸出量（肺灌流減少）、肺栓塞（死腔增加）、低體溫（代謝率降低）、食道插管（無肺通氣）。敗血症初期代謝率增加，CO₂ 產生增多，EtCO₂ 反而升高（非下降）。",
+      "difficulty": "medium",
+      "source": "110_general_Q55",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "respiratory_mon"
+    },
+    {
+      "id": 56,
+      "question": "關於手術前麻醉評估，下列敘述何者錯誤？",
+      "options": {
+        "A": "為避免麻醉時與麻醉藥劑交互作用，手術前3天所有用藥都應停止",
+        "B": "安裝節律器病人若術前決定暫停使用，可藉由放置磁鐵使裝置失去活性",
+        "C": "確認病人術前空腹時間是否足夠，心電圖、X-ray、實驗室檢查是否完成",
+        "D": "詢問病人的過去病史、過敏史；了解此次疾病診斷及手術方式"
+      },
+      "answer": "A",
+      "explanation": "「所有用藥術前 3 天停用」是錯誤的概念。許多藥物（β-blocker、降壓藥等）應持續使用至術前；部分藥物需要較長時間停用（如抗凝血藥 Warfarin 5 天、Clopidogrel 5–7 天）。停藥時機因藥物種類而異，無法一概而論。",
+      "difficulty": "medium",
+      "source": "110_general_Q56",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "fasting_premed"
+    },
+    {
+      "id": 57,
+      "question": "患者全身麻醉後出現高血壓、心搏過速、二氧化碳過高及體溫增加之情況，懷疑發生惡性高熱(malignant hyperthermia)，檢視可能引發之用藥為何？",
+      "options": {
+        "A": "atropine",
+        "B": "propofol",
+        "C": "succinylcholine",
+        "D": "cisatracurium"
+      },
+      "answer": "C",
+      "explanation": "惡性高熱的誘發藥物：去極化肌鬆劑 Succinylcholine 和揮發性吸入性麻醉藥（Halothane、Isoflurane、Sevoflurane、Desflurane）。Propofol、Cisatracurium、Atropine 均不會誘發 MH，是 MH 易感病人手術的安全用藥。",
+      "difficulty": "medium",
+      "source": "110_general_Q57",
+      "legacy_category": "crisis",
+      "topic": "crisis",
+      "subtopic": "malignant_hyperthermia"
+    },
+    {
+      "id": 58,
+      "question": "一位訓練期間的麻醉專科護理師，在麻醉專科醫師監督下可執行以下何項業務？",
+      "options": {
+        "A": "為一位常規疝氣修補手術病人執行氣管內管插管",
+        "B": "告知病人及家屬麻醉相關風險、知情同意，麻醉同意書的書寫",
+        "C": "為一位脊椎手術病人，術前放置中央靜脈導管及周邊動脈導管",
+        "D": "為一位第三胎經產婦，在生產後移除減痛分娩用的硬脊膜外導管"
+      },
+      "answer": "D",
+      "explanation": "移除硬脊膜外導管屬於護理業務範圍，訓練期 NP 可在監督下執行。氣管插管、知情同意說明（需醫師執行）、中央靜脈導管置入超出一般訓練 NP 的授權範圍。",
+      "difficulty": "medium",
+      "source": "110_general_Q58",
+      "legacy_category": "general_nursing",
+      "topic": "professional_practice",
+      "subtopic": "np_regulation"
+    },
+    {
+      "id": 59,
+      "question": "以下何者為快速誘導(rapid sequence induction, RSI)的適應症？①孕婦 ②腸阻塞 ③支氣管胸瘻管(bronchopleural fistula) ④頸椎外傷 ⑤食道重建",
+      "options": {
+        "A": "①②③",
+        "B": "①②⑤",
+        "C": "①③④",
+        "D": "③④⑤"
+      },
+      "answer": "B",
+      "explanation": "RSI 適應症：飽胃/誤吸高風險病人，包括①孕婦（胃排空延遲）、②腸阻塞（胃腸積液）、⑤食道重建（賁門功能異常）、GERD、肥胖、腸胃道出血等。支氣管胸瘻管（③）需謹慎插管但可能不適合正壓誘導；頸椎外傷（④）需頸椎保護，不一定用 RSI。",
+      "difficulty": "medium",
+      "source": "110_general_Q59",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "ga_care",
+      "subtopic": "induction"
+    },
+    {
+      "id": 60,
+      "question": "使用下列何者會使眼壓(IOP)下降？",
+      "options": {
+        "A": "succinylcholine",
+        "B": "ketamine",
+        "C": "endotracheal intubation",
+        "D": "sevoflurane"
+      },
+      "answer": "D",
+      "explanation": "吸入性麻醉藥（Sevoflurane 等）可降低眼壓（通過降低眼房水生成及增加流出）。Succinylcholine 使眼壓升高（眼外肌收縮）；Ketamine 使眼壓升高（交感興奮）；氣管插管刺激使眼壓一過性升高。",
+      "difficulty": "medium",
+      "source": "110_general_Q60",
+      "legacy_category": "pharmacology",
+      "topic": "specialty_surgery",
+      "subtopic": "ent_eye_dental"
+    },
+    {
+      "id": 61,
+      "question": "58歲女性進行子宮切除手術，術前曾接受顯影劑放射檢查，手術後病患發生尿量減少的鑑別診斷和處置，下列敘述何者正確？",
+      "options": {
+        "A": "如果病患排出的少量濃縮尿液中鈉含量高，就代表腎小管功能是正常的",
+        "B": "如果是腎絲球腎炎，多半是缺血或毒素（例如顯影劑或抗生素）造成，尿液中鈉含量是偏低的",
+        "C": "血塊堵塞到輸尿管、膀胱或是手術過程綁到輸尿管，也可能造成寡尿，只要原因去除寡尿多為可逆",
+        "D": "急性間質性腎炎常併有不同程度蛋白尿，但發燒、皮膚疹等發炎反應並不常見"
+      },
+      "answer": "C",
+      "explanation": "術後輸尿管損傷（結紮、扭折）或膀胱血塊堵塞造成的腎後性寡尿，若能及時解除梗阻，腎功能多可恢復（可逆）。腎小管功能正常時尿鈉低（腎小管保鈉）；ATN（腎小管壞死）時尿鈉高；急性間質性腎炎發燒/皮疹是常見表現（非不常見）。",
+      "difficulty": "hard",
+      "source": "110_general_Q61",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "physiology",
+      "subtopic": "renal_fluid"
+    },
+    {
+      "id": 62,
+      "question": "嗜鉻細胞瘤切除手術的術前評估，下列敘述何者正確？",
+      "options": {
+        "A": "術前的主要目標在控制血壓到正常值和減少catecholamine對終末器官的損害",
+        "B": "高血壓是最常見症狀，但並非診斷上的必要項目，確定診斷仍需實驗室檢查",
+        "C": "術前術中最理想的第一線降血壓用藥是β腎上腺素受體阻斷劑或利尿劑",
+        "D": "術中可考慮合併使用硬脊膜外麻醉來有效降低副交感神經反應"
+      },
+      "answer": "B",
+      "explanation": "B 正確：高血壓見於約 90% 的嗜鉻細胞瘤病人（陣發性或持續性），但約 10% 病人血壓正常，故高血壓並非診斷的必要項目；確診須靠生化證據——血漿游離 metanephrines 或 24 小時尿液分餾 metanephrines／VMA，再以 CT／MRI 或 MIBG 定位。A 錯：術前準備的目標不是「把血壓控制到正常值」，而是依 Roizen 判準達到可手術狀態——術前 24 小時血壓 ≤160/90 mmHg、容許姿勢性低血壓但站立收縮壓不低於 80 mmHg（出現姿勢性低血壓與鼻塞正是 α 阻斷足夠的指標）、術前一週心電圖無新的 ST-T 變化、每 5 分鐘心室早期收縮不超過 1 次；同時以 α 阻斷 10–14 天並積極擴充血容量，才能避免腫瘤血流阻斷後的頑固性低血壓。C 錯：第一線為 α 阻斷劑（phenoxybenzamine 或 doxazosin／prazosin），β 阻斷劑必須在 α 阻斷完成後才可加用（否則未被拮抗的 α 效應會引發高血壓危象與肺水腫），利尿劑則會加重原已收縮的血容量，兩者皆不可作第一線。D 錯：硬脊膜外麻醉阻斷的是「交感」神經而非副交感，且無法阻斷腫瘤受擠壓時直接釋放入循環的兒茶酚胺，術中仍須以短效血管擴張劑（nitroprusside、phentolamine、nicardipine）控制血壓。",
+      "difficulty": "hard",
+      "source": "110_general_Q62",
+      "review_note": "2026-07-30 解析審查修訂：原解析完全未交代選項 A 為何錯，已補上 Roizen criteria（BP ≤160/90、容許姿勢性低血壓、擴充血容量）並說明目標不是把血壓降到正常值，另補選項 D 的錯誤點（阻斷交感非副交感）。",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "specialty_surgery",
+      "subtopic": "endocrine_surgery"
+    },
+    {
+      "id": 63,
+      "question": "檢視胃食道逆流患者的用藥時，要注意的事項包括下列何者？①有服用metoclopramide可能有運動失調(錐體外症狀)的副作用 ②服用omeprazole不會與midazolam有藥物交互作用 ③有服用組織胺拮抗劑，可能會有混亂、精神異常等中樞神經症狀 ④制酸劑和胃乳等黏膜保護劑的使用會造成吸入性麻醉藥吸收變慢",
+      "options": {
+        "A": "④",
+        "B": "②④",
+        "C": "①③",
+        "D": "①②③"
+      },
+      "answer": "C",
+      "explanation": "①正確：Metoclopramide 阻斷中樞多巴胺 D2 受體，可能引起錐體外症狀（急性肌張力不全、靜坐不能、類巴金森氏症），年輕人與高劑量時風險較高，可用 diphenhydramine 處理。③正確：H2 受體拮抗劑（尤以 cimetidine 為著）可通過血腦障壁，在老年人或肝腎功能不全者引起混亂、譫妄、幻覺等中樞神經症狀。②錯誤：Midazolam 主要由「CYP3A4」代謝（受 CYP2C19 影響的是 diazepam）；omeprazole 是 CYP2C19 的強抑制劑，對 CYP3A4 亦有弱抑制作用，文獻報告可使 midazolam 清除率下降、鎮靜作用延長，因此「不會有藥物交互作用」這種絕對敘述並不成立。④錯誤：制酸劑與黏膜保護劑影響的是「口服」藥物的溶離與吸收（並可能與其他口服藥螯合），吸入性麻醉藥經肺泡吸收，與胃腸道無關。故正確組合為①③，選 C。",
+      "difficulty": "hard",
+      "source": "110_general_Q63",
+      "review_note": "2026-07-30 解析審查修訂：原解析寫「Omeprazole 抑制 CYP2C19 會升高 Midazolam 濃度」，代謝酵素錯誤——midazolam 主要由 CYP3A4 代謝，CYP2C19 影響的是 diazepam；已改為以 omeprazole 對 CYP3A4 的弱抑制與絕對敘述不成立來說明②為錯。",
+      "legacy_category": "pharmacology",
+      "topic": "pharmacology",
+      "subtopic": "adjuncts"
+    },
+    {
+      "id": 64,
+      "question": "當孕婦有外科適應症，下列何者為麻醉評估時正確的處理方式？",
+      "options": {
+        "A": "任何常規性手術可以在懷孕第二孕期進行",
+        "B": "救命的緊急手術，如重大外傷，手術時機的選擇和一般民眾相同",
+        "C": "產科醫師會診認可後即可進行，圍術期也不用特別監測胎兒狀況",
+        "D": "手術應該儘量延後，以減少致畸胎的可能，越接近預產期越好"
+      },
+      "answer": "B",
+      "explanation": "危及生命的緊急手術（如大量出血外傷），不論懷孕週數，應立即手術，時機選擇同一般病人。非緊急手術最好延至產後或第二孕期；圍術期需監測胎兒狀況；越接近預產期反而有早產風險。",
+      "difficulty": "medium",
+      "source": "110_general_Q64",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "special_patient",
+      "subtopic": "obstetric"
+    },
+    {
+      "id": 65,
+      "question": "關於二氧化碳吸收劑(carbon dioxide absorbents)的敘述，下列何者錯誤？",
+      "options": {
+        "A": "吸收劑的吸收能力是有上限的",
+        "B": "sevoflurane與吸收劑反應，可產生compound A",
+        "C": "呼吸管路中呼出的二氧化碳，藉由吸收劑吸附後排出",
+        "D": "吸收劑的顆粒越大，對氣體的流動產生的阻力越大"
+      },
+      "answer": "D",
+      "explanation": "吸收劑顆粒越大，氣體流動阻力越小（顆粒間空隙大）；越小則阻力越大但吸收效率越高（表面積大）。CO₂ 吸收是與吸收劑化學結合（非「吸附後排出」，吸收後留在吸收劑中）；選項 C 的描述也略有誤，但選項 D 更明確錯誤。",
+      "difficulty": "medium",
+      "source": "110_general_Q65",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "equipment"
+    },
+    {
+      "id": 66,
+      "question": "重症肌無力(myasthenia gravis, MG)的病人接受全身麻醉時，下列敘述何者錯誤？",
+      "options": {
+        "A": "術前應停用anticholinesterase治療",
+        "B": "此類病人對去極化神經肌肉阻斷劑不敏感，但對非去極化神經肌肉阻斷劑非常敏感",
+        "C": "train-of-four(TOF)雖然無法保證上呼吸道肌肉的恢復及足夠的自主通氣，仍強烈建議使用神經肌肉阻斷監測",
+        "D": "手術和麻醉可能加重潛在疾病，即使小手術，仍有可能術後需使用呼吸器"
+      },
+      "answer": "A",
+      "explanation": "MG 病人術前應繼續使用抗膽鹼酯酶藥物（如 Pyridostigmine）至手術當天，突然停藥可能誘發肌無力危象。術中可能因抗膽鹼酯酶和非去極化肌鬆劑的相互作用需調整劑量，但不應術前停藥。",
+      "difficulty": "medium",
+      "source": "110_general_Q66",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "special_patient",
+      "subtopic": "comorbid_patient"
+    },
+    {
+      "id": 67,
+      "question": "關於睡眠呼吸中止症(obstructive sleep apnea, OSA)，下列敘述何者正確？①有OSA的病患常合併有心血管相關的疾病 ②OSA不是困難插管的危險因子 ③術後給予嗎啡類藥物較易出現呼吸抑制 ④OSA發生機率女性＞男性",
+      "options": {
+        "A": "①②③",
+        "B": "②③④",
+        "C": "①③",
+        "D": "①④"
+      },
+      "answer": "C",
+      "explanation": "①正確：OSA 與高血壓、冠心症、心律不整高度相關。③正確：OSA 病人上呼吸道肌肉張力差，鴉片類藥物進一步抑制呼吸中樞，術後呼吸抑制風險高。②錯誤：OSA 是困難插管危險因子（頸圍大、肥胖）。④錯誤：OSA 男性發生率 > 女性（約 2–3 倍）。",
+      "difficulty": "medium",
+      "source": "110_general_Q67",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "osa_obesity"
+    },
+    {
+      "id": 68,
+      "question": "接受完血液透析的病人需要一段時間以利身體水分和電解質平衡，因此透析結束距離常規手術的時間至少要多久為宜？",
+      "options": {
+        "A": "24小時",
+        "B": "12小時",
+        "C": "6小時",
+        "D": "4小時"
+      },
+      "answer": "C",
+      "explanation": "透析後電解質（尤其鉀離子）再分佈需約 4–6 小時達到平衡，建議透析結束後至少 6 小時再進行手術，確保電解質穩定。",
+      "difficulty": "easy",
+      "source": "110_general_Q68",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 69,
+      "question": "有關bispectral index(BIS)，下列敘述何者錯誤？",
+      "options": {
+        "A": "BIS數值從0（表示深度昏迷或無意識狀態）到100（表示清醒）",
+        "B": "BIS數值低於60則病患處於無法對聲音指令做反應的狀態",
+        "C": "當全身麻醉時，一般將BIS數值維持在40～60的範圍",
+        "D": "BIS的量測與判讀不會受病人低體溫或神經系統生理狀況的影響"
+      },
+      "answer": "D",
+      "explanation": "BIS 的準確性會受多種因素影響：低體溫（使 BIS 假性降低）、神經系統疾病（癲癇、腦損傷）、肌電干擾、電刀使用、某些藥物（Ketamine 使 BIS 升高）等。BIS 並非在任何情況下都準確可靠。",
+      "difficulty": "medium",
+      "source": "110_general_Q69",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "nmt_depth"
+    },
+    {
+      "id": 70,
+      "question": "關於區域麻醉的敘述，下列何者正確？",
+      "options": {
+        "A": "接受脊髓麻醉的病人發生低血壓，給予輸液即可改善",
+        "B": "硬膜外麻醉相較於脊髓麻醉血壓變化較小，且可以做為術後疼痛控制之用",
+        "C": "施打脊髓麻醉時最重要的標記(landmark)是兩邊髂骨棘的連線，此連線通過的位置為第二腰椎",
+        "D": "脊髓麻醉所施打的局部麻醉劑可分為低、中、高比重，高比重流向CSF最高位、低比重流向CSF最低位"
+      },
+      "answer": "B",
+      "explanation": "硬膜外麻醉起效慢（約 15–20 分鐘）、血壓下降較緩和（可預防和處理），且可留置導管用於術後止痛，是其相較脊髓麻醉的優點。兩側髂骨棘連線（Tuffier's line）對應的是 L4（非 L2）；高比重溶液沉降，流向 CSF 最低位（非最高位）；低血壓需輸液加升壓藥合併處理。",
+      "difficulty": "medium",
+      "source": "110_general_Q70",
+      "legacy_category": "regional",
+      "topic": "regional_pain",
+      "subtopic": "neuraxial"
+    },
+    {
+      "id": 71,
+      "question": "具有心血管風險的患者欲接受非心臟手術時，手術週期中所應採取的流程及步驟，下列敘述何者錯誤？",
+      "options": {
+        "A": "首先考慮手術風險",
+        "B": "急診手術的焦點放在手術週期的監測與降低風險",
+        "C": "病患沒有活動性心臟異常時，欲進行低風險手術，不須進一步心臟測試",
+        "D": "無症狀患者，代謝當量(METs)達一般平均心臟功能時，可進行手術"
+      },
+      "answer": "A",
+      "explanation": "依 AHA/ACC 術前評估流程，首先應評估的是「手術是否緊急」（急診手術直接進行），其次才是手術風險分層。選項 A 說「首先考慮手術風險」，正確的第一步應是確認手術的緊迫性，故 A 描述有誤。",
+      "difficulty": "medium",
+      "source": "110_general_Q71",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "risk_assessment"
+    },
+    {
+      "id": 72,
+      "question": "下列哪一位病患應該延遲常規性手術？",
+      "options": {
+        "A": "甲狀腺腫，明顯超過五公分大，有氣道壓迫，但甲狀腺功能抽血正常",
+        "B": "三年前有甲狀腺亢進病史，服藥治療後恢復正常，目前未服藥、無症狀也未繼續內科追蹤",
+        "C": "入院前體檢甲狀腺素triiodothyronine(T3)、tetraiodothyronine(T4)均稍偏低，但身體無症狀",
+        "D": "橋本氏病(Hashimoto's thyroiditis)患者，甲狀腺素治療剛開始三天，病患仍有疲累及非凹陷性脛前水腫"
+      },
+      "answer": "D",
+      "explanation": "橋本氏甲狀腺炎（甲狀腺功能低下）剛開始治療三天，甲狀腺素尚未達到穩定狀態（通常需 4–6 週），仍有甲狀腺功能低下的症狀（疲勞、黏液性水腫），應延遲常規手術至甲狀腺功能穩定。",
+      "difficulty": "hard",
+      "source": "110_general_Q72",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 73,
+      "question": "胸腔外科手術，放置左管雙腔氣管內管時，經內視鏡確認位置，下圖何者正確？",
+      "options": {
+        "A": "圖A",
+        "B": "圖B",
+        "C": "圖C",
+        "D": "圖D"
+      },
+      "answer": "D",
+      "explanation": "左管雙腔氣管內管（left-sided DLT）正確的纖維支氣管鏡確認：從氣管腔（tracheal lumen）端，可看到氣管隆突（carina）和藍色氣囊充於左主支氣管開口，右主支氣管開口清晰可見且通暢。這是標準確認位置的內視鏡影像。",
+      "difficulty": "hard",
+      "source": "110_general_Q73",
+      "image": "110_general_Q73.png",
+      "legacy_category": "monitoring",
+      "topic": "airway",
+      "subtopic": "devices"
+    },
+    {
+      "id": 74,
+      "question": "潮氣末端二氧化碳(EtCO2)監測儀顯示如圖(二)，可能原因為何？",
+      "options": {
+        "A": "慢性阻塞性肺疾",
+        "B": "二氧化碳再吸入",
+        "C": "管子滑脫至食道",
+        "D": "肌肉鬆弛劑恢復"
+      },
+      "answer": "A",
+      "explanation": "正常二氧化碳波形分期：Phase I 為呼氣初的解剖死腔氣（基線為 0）、Phase II 為快速上升相（死腔氣與肺泡氣混合）、Phase III 為「肺泡平台期」（近乎水平，末端讀值即 EtCO₂），其後為吸氣時的下降相。COPD 或支氣管痙攣時，各肺區時間常數不一致、阻塞區排氣延遲，使 Phase II 上升變緩、Phase III 斜率明顯上升，Phase II 與 III 交界的 α 角變鈍，整體呈「鯊魚鰭」形，即圖示波形，故選 A。B 二氧化碳再吸入的特徵是「基線（Phase I）無法回到零」而波形形狀正常；C 食道插管僅見數個逐漸縮小的小波後迅速消失或完全無波形；D 肌肉鬆弛劑開始恢復時，是在肺泡平台期出現凹陷切跡（curare cleft），波形整體輪廓不變。",
+      "difficulty": "medium",
+      "source": "110_general_Q74",
+      "image": "110_general_Q74.png",
+      "review_note": "2026-07-30 解析審查修訂：原解析將「上升相」誤標為 Phase III，實際上 Phase II 才是上升相、Phase III 為肺泡平台期；COPD 是 Phase II 變緩且 Phase III 斜率上升。",
+      "legacy_category": "monitoring",
+      "topic": "monitoring",
+      "subtopic": "respiratory_mon"
+    },
+    {
+      "id": 75,
+      "question": "麻醉科被通知兒科病房有一位5公斤大的胃部狹窄男嬰，持續性噴射狀嘔吐，要求安排緊急手術，下列何者為正確麻醉前評估？",
+      "options": {
+        "A": "此疾病起因於胃部幽門肥大導致胃部出口狹窄無法進食，需要盡快手術才能重建營養",
+        "B": "病患會因嘔吐產生體重減輕、脫水，因為低鈉、低鉀，而會有高氯的現象",
+        "C": "術前仍應輸液補充到正常的血管內容積和電解質濃度，再進行手術",
+        "D": "因為脫水造成的組織灌流不足，此類病童抽血多呈代謝性酸中毒，需要補充碳酸氫鈉"
+      },
+      "answer": "C",
+      "explanation": "幽門狹窄手術雖緊急，但不是立即威脅生命的情況；正確做法是先補充輸液、糾正電解質和酸鹼異常後再手術。持續嘔吐導致的代謝失調：低氯性代謝性鹼中毒（非酸中毒）、低鉀、低鈉、低氯（非高氯）。",
+      "difficulty": "hard",
+      "source": "110_general_Q75",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "special_patient",
+      "subtopic": "pediatric"
+    },
+    {
+      "id": 76,
+      "question": "肺高壓患者，手術麻醉應注意事項，下列敘述何者正確？",
+      "options": {
+        "A": "心跳維持不宜太慢，應大於每分鐘100下",
+        "B": "避免低血氧及二氧化碳過高",
+        "C": "左心導管檢查，是黃金診斷標準",
+        "D": "嚴重低血氧發生時，可調高PEEP減少胸內壓"
+      },
+      "answer": "B",
+      "explanation": "肺高壓麻醉原則：避免低血氧和高碳酸血症（均使肺血管收縮，加重右心負擔）、維持竇性心律（心跳 60–90 bpm 為宜，過快縮短充填時間）。肺高壓診斷黃金標準是右心導管（非左心）；PEEP 過高反而增加胸內壓和右心後負荷，加重肺高壓。",
+      "difficulty": "hard",
+      "source": "110_general_Q76",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "special_patient",
+      "subtopic": "comorbid_patient"
+    },
+    {
+      "id": 77,
+      "question": "Model for end-stage liver disease(MELD)score被認為是用來評估術前肝臟功能的重要指標，其計算公式中不包含病患血液中的哪一項臨床數值？",
+      "options": {
+        "A": "白蛋白(albumin)",
+        "B": "肌肝酸值(creatinine)",
+        "C": "總膽紅素(total bilirubin)",
+        "D": "凝血酶原時間國際調校比值(prothrombin time INR)"
+      },
+      "answer": "A",
+      "explanation": "MELD score 計算公式包含：INR（凝血功能）、Bilirubin（膽紅素）、Creatinine（腎功能），並含 Sodium（Na⁺，MELD-Na 版本）。白蛋白（Albumin）是 Child-Pugh score 的評估項目，不在 MELD 公式中。",
+      "difficulty": "medium",
+      "source": "110_general_Q77",
+      "legacy_category": "anesthetic_mgmt",
+      "topic": "preop",
+      "subtopic": "comorbidity"
+    },
+    {
+      "id": 78,
+      "question": "62歲男性 162 cm 45 kg，無糖尿病史，十年前得過肺結核，預備接受口腔癌切除手術，於術前麻醉評估門診時突然失去意識，收縮壓僅剩60 mmHg，急救過程心電圖呈現竇性心搏過速（sinus tachycardia），抽血結果血糖60 mg/dL、血清鈉濃度118 mEq/L，給予dextrose 5%點滴輸注1,000 mL後意識逐漸恢復，但仍主訴全身乏力，檢視病患手腳發現有多處色素沉著(hyperpigmentation)，麻醉科後續應提出下列何種建議？",
+      "options": {
+        "A": "病患既已甦醒，明天仍可進行常規手術",
+        "B": "血壓過低多半是心血管因素，會診心臟科急做心導管檢查",
+        "C": "會診新陳代謝科，抽血檢查，考慮補充類固醇製劑後再行安排手術",
+        "D": "病患顯然有營養不良，建議讓病患出院，補足營養即可再入院手術"
+      },
+      "answer": "C",
+      "explanation": "低血壓 + 低血糖 + 低血鈉 + 色素沉著（皮膚黑色素增加）= 典型腎上腺皮質功能不足（Addison's disease）的表現。確診需抽血檢查皮質醇和 ACTH，補充類固醇（氫化可體松）後血流動力學穩定再安排手術。",
+      "difficulty": "hard",
+      "source": "110_general_Q78",
+      "legacy_category": "clinical_assessment",
+      "topic": "clinical_medicine",
+      "subtopic": "endocrine_renal_dz"
+    },
+    {
+      "id": 79,
+      "question": "有關喉痙攣(laryngospasm)，下列敘述何者錯誤？",
+      "options": {
+        "A": "主要是因為喉返神經(recurrent laryngeal nerve)受刺激造成",
+        "B": "可使用100%純氧並且扣面罩持續正壓呼吸(continuous positive airway pressure)",
+        "C": "使用靜脈麻醉藥加深麻醉",
+        "D": "可考慮給予小劑量succinylcholine(0.1～0.5mg/kg)以減緩喉痙攣"
+      },
+      "answer": "A",
+      "explanation": "A 為錯誤敘述。喉痙攣的反射弧：傳入為喉上神經內枝（internal branch of superior laryngeal nerve），傳出為喉返神經（recurrent laryngeal nerve），兩者「都是迷走神經（CN X）」的分支，與三叉神經無關（三叉神經只負責鼻腔與口腔前部感覺）。分泌物、血液或淺麻醉下的氣道操作，是刺激喉上神經內枝所支配的會厭至聲帶區黏膜而誘發聲帶內收肌痙攣；喉返神經在此反射中是效應端而非受刺激端，故 A 錯。B、C、D 皆為正確處置：先給 100% 氧氣、抬下頜並以面罩持續正壓（可合併按壓 Larson 點）→ 以靜脈麻醉藥加深麻醉（propofol 0.25–0.8 mg/kg）→ 仍無法緩解且出現去飽和時，給小劑量 succinylcholine 0.1–0.5 mg/kg 靜脈注射（無靜脈通路時可肌肉注射 4 mg/kg），並準備插管。",
+      "difficulty": "medium",
+      "source": "110_general_Q79",
+      "review_note": "2026-07-30 解析審查修訂：原解析誤寫喉上神經為三叉神經分支，實為迷走神經（CN X）分支。",
+      "legacy_category": "airway",
+      "topic": "airway",
+      "subtopic": "extubation"
+    },
+    {
+      "id": 80,
+      "question": "下列何種狀況會同時降低冠狀循環血流並增加心肌耗氧量？",
+      "options": {
+        "A": "心跳過慢",
+        "B": "心跳過快",
+        "C": "高血壓",
+        "D": "低血壓"
+      },
+      "answer": "B",
+      "explanation": "心跳過快（tachycardia）：①縮短舒張期時間，冠狀動脈灌流（主要在舒張期）減少 → 冠狀循環血流降低；②增加心肌做功次數 → 心肌耗氧量增加。這是心跳過快對心臟最危險的雙重影響。",
+      "difficulty": "medium",
+      "source": "110_general_Q80",
+      "legacy_category": "physiology",
+      "topic": "physiology",
+      "subtopic": "cardiovascular"
+    }
+  ]
+}
