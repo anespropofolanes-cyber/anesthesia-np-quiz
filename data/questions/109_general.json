@@ -908,10 +908,11 @@
       "difficulty": "medium",
       "source": "109_general_Q53",
       "image": "109_general_Q53.png",
-      "image_caption": "心電圖：高峻 T 波（peaked T wave）",
+      "image_caption": "心電圖：術前 12 導程之單一導程節律帶（注意 T 波型態與 QRS 寬度）",
       "legacy_category": "anesthetic_mgmt",
       "topic": "monitoring",
-      "subtopic": "ecg_reading"
+      "subtopic": "ecg_reading",
+      "review_note": "2026-07-31 圖說修正：原圖說已完成判讀步驟，等於提示答案（本題問造成此心電圖的最可能原因）"
     },
     {
       "id": 54,
@@ -1240,8 +1241,8 @@
       "difficulty": "medium",
       "source": "109_general_Q72",
       "image": "109_general_Q72.png",
-      "image_caption": "心電圖：高峻 T 波（peaked T wave）",
-      "review_note": "2026-07-30 依衛生福利部 109 年度標準答案卡（source/answer_keys/109_general_key.pdf）更正：原題庫答案 D 有誤，官方答案為 B；原解析誤將 ST 段抬高判讀為高血鉀高尖 T 波，已重寫。",
+      "image_caption": "心電圖：單一導程節律帶，ST 段抬高並與寬鈍 T 波融合",
+      "review_note": "2026-07-30 依衛生福利部 109 年度標準答案卡（source/answer_keys/109_general_key.pdf）更正：原題庫答案 D 有誤，官方答案為 B；原解析誤將 ST 段抬高判讀為高血鉀高尖 T 波，已重寫。；2026-07-31 圖說修正：原圖說「高峻 T 波」與更正後的答案 B（急性冠心症）矛盾，且與圖上實際波形不符",
       "legacy_category": "monitoring",
       "topic": "clinical_medicine",
       "subtopic": "cardiopulmonary_dz"

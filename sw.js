@@ -5,8 +5,8 @@
    VERSION 一改，activate 時舊快取整個清掉，不會留下上一版的殘骸。
    app.js 的 CACHE_NAME 也必須與這裡的 CACHE 一致。 */
 
-const VERSION = 'v6';
-const ASSET_V = '20260731e';   // 與 index.html 的 ?v= 一致
+const VERSION = 'v7';
+const ASSET_V = '20260731f';   // 與 index.html 的 ?v= 一致
 const CACHE = `anes-np-${VERSION}`;
 
 const YEARS = [109, 110, 111, 112, 113, 114];

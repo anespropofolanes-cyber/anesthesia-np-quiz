@@ -283,10 +283,11 @@
       "difficulty": "medium",
       "source": "113_advanced_Q16",
       "image": "113_advanced_Q16.png",
-      "image_caption": "圖（三）：完全房室傳導阻滯（complete AV block）心電圖",
+      "image_caption": "圖（三）：心電圖節律帶（觀察 P 波與 QRS 的關係及 PR 間期是否固定）",
       "legacy_category": "monitoring",
       "topic": "monitoring",
-      "subtopic": "ecg_reading"
+      "subtopic": "ecg_reading",
+      "review_note": "2026-07-31 圖說修正：原圖說直接寫出答案（本題問的正是「是何種心律不整」）"
     },
     {
       "id": 17,
