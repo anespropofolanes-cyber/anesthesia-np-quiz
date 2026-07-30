@@ -36,7 +36,8 @@ jobs:
       - name: 打包網站（排除非網站檔案）
         run: |
           mkdir -p _site
-          cp -r index.html manifest.webmanifest sw.js css js data images icons assets _site/
+          cp -r index.html manifest.webmanifest sw.js robots.txt _headers css js data images icons assets _site/
+          rm -f _site/assets/logo-infinity-ecg.jpeg
           cp README.md _site/ 2>/dev/null || true
 
       - uses: actions/upload-pages-artifact@v3
