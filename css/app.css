@@ -118,7 +118,8 @@ html.dark .brand .logo, html.auto .brand .logo { filter: invert(1); }
 @media (prefers-color-scheme: light) {
   html.auto .brand .logo { filter: none; }
 }
-.brand span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.brand span { white-space: nowrap; }
+.brand .short { display: none; }
 
 .iconbtn {
   display: inline-grid; place-items: center;
@@ -141,6 +142,18 @@ html.dark .brand .logo, html.auto .brand .logo { filter: invert(1); }
   font-family: var(--sans);
 }
 @media (max-width: 420px) { .fontlv { display: none; } }
+
+/* 窄螢幕：縮一點才塞得下完整標題，不要出現「麻醉專科護⋯」這種截字 */
+@media (max-width: 480px) {
+  .topbar-in { padding-left: 12px; padding-right: 12px; gap: 6px; }
+  .brand { font-size: .94rem; gap: 6px; }
+  .brand .logo { height: 24px; }
+  .fontctl .iconbtn { width: 28px; height: 28px; }
+  .iconbtn { width: 32px; height: 32px; }
+  /* 塞不下完整名稱就改用短名，不要截字 */
+  .brand .full { display: none; }
+  .brand .short { display: inline; }
+}
 
 main { padding: 20px 0 96px; }
 .screen { display: none; }
@@ -437,5 +450,14 @@ mark { background: var(--cream); color: inherit; border-radius: 3px; padding: 0 
   text-align: center; color: var(--ink-3); font-size: .78rem;
   padding: 30px 16px calc(20px + env(safe-area-inset-bottom)); line-height: 1.9;
 }
-.foot p { margin: 0 auto; max-width: 34em; }
+.foot p {
+  margin: 0 auto; max-width: 34em;
+  /* balance 讓每行長度平均，避免最後一行只剩一兩個字落單。
+     不支援的瀏覽器會忽略這行，退回一般換行，不影響閱讀。 */
+  text-wrap: balance;
+}
 .foot p + p { margin-top: 4px; }
+@media (max-width: 560px) {
+  .foot { padding-left: 24px; padding-right: 24px; }
+  .foot p { max-width: 22em; line-height: 2; }
+}
