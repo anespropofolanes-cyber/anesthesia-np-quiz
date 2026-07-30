@@ -20,3 +20,7 @@ Thumbs.db
 *.bak_*
 __pycache__/
 *.pyc
+
+# 打包產物（由 publish/ 自動產生，不需要進版控）
+publish/
+麻醉題庫網站.zip
