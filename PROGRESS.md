@@ -20,7 +20,7 @@
 | 2 | 重新分類（taxonomy） | ✅ 2026-07-30 完成 |
 | 3 | 重點觀念教材初稿 | 12/13 主題完成（health_promotion 進行中） |
 | 4 | PWA 建置 | ✅ 完成並實測通過 |
-| 5 | GitHub Pages 部署 | 待辦 |
+| 5 | GitHub Pages 部署 | ✅ 2026-07-31 上線 |
 
 ## Phase 0 記錄（2026-07-30）
 
@@ -118,6 +118,15 @@
 3. `114_advanced_Q68` 正解考 cefazolin 抗菌譜 → `clinical_medicine/infectious_dz`
    （手部衛生等純感控才歸 patient_safety）
 4. RSI 選藥與誘導技術不可分，三題統一 → `ga_care/induction`
+
+## 已上線（2026-07-31）
+
+- 網址：<https://anespropofolanes-cyber.github.io/anesthesia-np-quiz/>
+- 倉庫：<https://github.com/anespropofolanes-cyber/anesthesia-np-quiz>（public）
+- 推送到 main 即自動部署（`.github/workflows/deploy.yml`），
+  **部署前會先跑 validate_questions.py 與 verify_answer_keys.py，答案對不上官方答案卡就不會上線**
+- `gh` 裝在 `~/.local/bin/gh`（使用者無 Homebrew，直接取官方發行檔）
+- 個人資料（GoodNotes 手寫筆記、校對版 PDF、圖片備份）由 .gitignore 排除，未上傳
 
 ## Phase 4 記錄（2026-07-30）
 
