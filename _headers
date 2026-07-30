@@ -1,5 +1,5 @@
-# Netlify 會讀這個檔。對所有頁面送出不索引的標頭，
-# 比只靠 robots.txt 更可靠（robots.txt 只是「請求」，X-Robots-Tag 是明確指示）。
+# 這個檔案只有 Netlify 會讀。若部署在 GitHub Pages 上不會生效，
+# 但留著不影響任何事——之後若改用 Netlify 就會自動套用。
 /*
   X-Robots-Tag: noindex, nofollow, noarchive, nosnippet
   Referrer-Policy: no-referrer
