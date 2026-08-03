@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "anticoagulants",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd '/private/tmp/claude-501/-Users-huangxinyi-Documents---------Fable5/b2b8e91c-3876-4a55-ada4-a4d99e17d750/scratchpad/anticoagulants' && python3 -m http.server 8642"],
+      "port": 8642
+    }
+  ]
+}

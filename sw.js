@@ -23,7 +23,8 @@ const CORE = [
   ...['store', 'data', 'quiz', 'views', 'app'].map(f => `./js/${f}.js?v=${ASSET_V}`),
   './manifest.webmanifest',
   './assets/logo.png',
-  './icons/icon-192.png', './icons/icon-512.png', './icons/icon-180.png',
+  ...[152, 167, 180, 192, 256, 512].map(n => `./icons/icon-${n}.png?v=${ASSET_V}`),
+  `./icons/icon-maskable-512.png?v=${ASSET_V}`,
   './data/taxonomy.json',
   ...YEARS.flatMap(y => SUBJECTS.map(s => `./data/questions/${y}_${s}.json`))
 ];

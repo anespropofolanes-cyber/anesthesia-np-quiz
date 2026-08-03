@@ -246,7 +246,8 @@ function coreUrls() {
     './', './index.html', `./css/app.css${q}`,
     ...['store', 'data', 'quiz', 'views', 'app'].map(f => `./js/${f}.js${q}`),
     './manifest.webmanifest', './assets/logo.png',
-    './icons/icon-192.png', './icons/icon-512.png', './icons/icon-180.png',
+    ...[152, 167, 180, 192, 256, 512].map(n => `./icons/icon-${n}.png${q}`),
+    `./icons/icon-maskable-512.png${q}`,
     './data/taxonomy.json',
     ...YEARS.flatMap(y => SUBJECTS.map(s => `./data/questions/${y}_${s.id}.json`)),
     ...DB.taxonomy.topics.map(t => `./data/concepts/${t.id}.json`)
